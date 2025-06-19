@@ -1,0 +1,65 @@
+:root {
+  /* Define your custom blue from the logo for light scheme */
+  --md-sys-color-primary: #336699; /* Example: A muted blue (adjust based on actual logo color) */
+  --md-sys-color-primary-light: #4c82b2;
+  --md-sys-color-primary-dark: #264d73;
+
+  /* For dark mode, if you want a specific red or yellow */
+  --md-sys-color-accent: #e53935; /* Example: A strong red (adjust based on actual logo color) */
+  --md-sys-color-accent-light: #ef5350;
+  --md-sys-color-accent-dark: #b71c1c;
+
+  /* Ensure the accent color for light mode is also derived from the logo red */
+  /* Default scheme uses --md-sys-color-accent for accent */
+}
+
+[data-md-color-scheme="default"] {
+    --md-sys-color-primary: #336699; /* Blue from logo */
+    --md-sys-color-primary-light: #4c82b2;
+    --md-sys-color-primary-dark: #264d73;
+    --md-sys-color-accent: #e53935; /* Red from logo */
+}
+
+[data-md-color-scheme="slate"] {
+    --md-sys-color-primary: #e53935; /* Red from logo for dark mode primary */
+    --md-sys-color-primary-light: #ef5350;
+    --md-sys-color-primary-dark: #b71c1c;
+    --md-sys-color-accent: #FFC107; /* Yellow from logo */
+}
+
+
+/* Example for banner images in a specific section */
+.md-content img[alt$="banner"] { /* Targets images where alt text ends with "banner" */
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px; /* Slightly rounded corners */
+    margin-bottom: 24px;
+}
+
+/* General image styling for responsiveness */
+.md-content img {
+    max-width: 100%; /* Ensures images don't overflow their container */
+    height: auto;    /* Maintains aspect ratio */
+    display: block;  /* Prevents extra space below image */
+    margin: 0 auto;  /* Centers images if smaller than container */
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1rem;
+  padding: 1rem 0;
+}
+
+.image-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+  display: block;
+}
+
+.image-item img:hover {
+  transform: scale(1.05);
+}

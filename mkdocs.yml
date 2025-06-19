@@ -1,19 +1,101 @@
 site_name: ICPC Menofia
+
+copyright: Copyright &copy; 2025 ICPC Menofia Community
+
 theme:
   name: material
-  palette:
-    # Dark Mode
-    - scheme: slate
-      toggle:
-        icon: material/weather-sunny
-        name: Dark mode
-      primary: green
-      accent: deep purple
+  logo: assets/images/logo.png
+  favicon: assets/images/logo.png
 
-    # Light Mode
+  features:
+    - navigation.top
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.expand
+    - navigation.path
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.prune
+    - toc.integrate
+    - search.highlight
+    - search.share
+    - content.tabs.link
+    - content.code.copy
+    - navigation.indexes
+
+  palette:
     - scheme: default
       toggle:
         icon: material/weather-night
-        name: Light mode
-      primary: blue
-      accent: deep orange
+        name: Switch to dark mode
+      primary: custom
+      accent: red
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+      primary: red
+      accent: yellow
+
+  font:
+    text: Roboto
+    code: Roboto Mono
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/ICPC-Menofia
+      name: GitHub
+    - icon: fontawesome/brands/facebook
+      link: https://www.facebook.com/ICPCMNF
+      name: Facebook Page
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/bdKQ3RSSxK
+      name: Discord Community
+    - icon: fontawesome/brands/x-twitter
+      link: https://x.com/icpcmenofia
+      name: X (Twitter)
+    - icon: fontawesome/solid/code
+      link: https://codeforces.com/profile/ICPC_Menofia
+      name: Codeforces Profile
+
+extra_css:
+  - assets/css/custom.css
+
+nav:
+  - Home: index.md
+  - Community:
+    - Overview: community/index.md
+    - About Us: community/about_us.md
+    - Members: community/members.md
+    - Join Our Community: community/join_us.md
+    - Code of Conduct: community/code_of_conduct.md
+  - Contests:
+    - Overview: contests/index.md
+    - Upcoming Contests: contests/upcoming_contests.md
+    - Local Contests:
+      - All Local Contests: contests/local_contests/index.md
+      - 2024 Contest: contests/local_contests/2024/index.md
+    - Regional Contests:
+      - All Regional Contests: contests/regional_contests/index.md
+  - Training:
+    - Overview: training/index.md
+    - Beginner Track: training/beginner_track/index.md
+    - Intermediate Track: training/intermediate_track/index.md
+    - Advanced Track: training/advanced_track/index.md
+    - Training Resources: training/resources.md
+  - Resources:
+    - Overview: resources/index.md
+    - Important Links: resources/important_links.md
+    - Past Problems: resources/past_problems.md
+    - Software & Tools: resources/software_tools.md
+    - FAQ: resources/faq.md
+  - News:
+    - 2025 Events: news/2025_events.md
+    - 2024 Events: news/2024_events.md
+    - 2023 Events: news/2023_events.md
+
+
+plugins:
+  - search:
+      lang: en
