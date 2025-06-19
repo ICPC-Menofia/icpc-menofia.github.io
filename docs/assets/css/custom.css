@@ -63,3 +63,128 @@
 .image-item img:hover {
   transform: scale(1.05);
 }
+
+.intro {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 1.5rem;
+  padding: 1rem 0;
+}
+
+.card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+}
+
+.card h2 {
+  color: #2c3e50;
+  font-size: 1.3rem;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+.card h3 {
+  margin: 0.8rem 0 0.5rem;
+  color: #2980b9;
+  font-size: 1rem;
+}
+
+.card ul {
+  padding-left: 1.2rem;
+  margin: 0;
+}
+
+.card li {
+  margin-bottom: 0.4rem;
+  list-style-type: disc;
+}
+
+.card li:last-child {
+  margin-bottom: 0;
+}
+
+.card a {
+  color: #007acc;
+  text-decoration: none;
+}
+
+.card a:hover {
+  text-decoration: underline;
+}
+
+.sessions-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  background-color: white;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 40px;
+}
+
+.sessions-table th,
+.sessions-table td {
+  padding: 15px 20px;
+  text-align: left;
+}
+
+.sessions-table th {
+  background-color: #f0f4f8;
+  color: #2c3e50;
+  font-weight: 600;
+  border-bottom: 2px solid #e0e6ed;
+}
+
+.sessions-table tr:not(:last-child) {
+  border-bottom: 1px solid #eaecef;
+}
+
+.sessions-table tr:hover {
+  background-color: #f8faff;
+}
+
+.sessions-table a,
+.coach-section a {
+  color: #0077cc;
+  text-decoration: none;
+}
+
+.sessions-table a:hover,
+.coach-section a:hover {
+  text-decoration: underline;
+}
+
+.coach-section {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+.coach-section ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.coach-section li {
+  margin-bottom: 15px;
+}
+
+.coach-section strong {
+  display: block;
+  margin-bottom: 5px;
+}

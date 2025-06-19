@@ -65,36 +65,24 @@ extra_css:
 nav:
   - Home: index.md
   - Community:
-    - Overview: community/index.md
-    - About Us: community/about_us.md
-    - Members: community/members.md
-    - Join Our Community: community/join_us.md
-    - Code of Conduct: community/code_of_conduct.md
-  - Contests:
-    - Overview: contests/index.md
-    - Upcoming Contests: contests/upcoming_contests.md
-    - Local Contests:
-      - All Local Contests: contests/local_contests/index.md
-      - 2024 Contest: contests/local_contests/2024/index.md
-    - Regional Contests:
-      - All Regional Contests: contests/regional_contests/index.md
+      - Overview: community/index.md
+      - About Us: community/about_us.md
+      - Join Our Community: community/join_us.md
   - Training:
-    - Overview: training/index.md
-    - Beginner Track: training/beginner_track/index.md
-    - Intermediate Track: training/intermediate_track/index.md
-    - Advanced Track: training/advanced_track/index.md
-    - Training Resources: training/resources.md
+      - Overview: training/index.md
+      - Newcomer Training: training/plan/Newcommer_training.md
+      - Level 1 Training: training/plan/Level1_training.md
+      - Level 2 Training: training/plan/Level2_training.md
+      - Senior Training: training/plan/Senior_training.md
+      - 2024 Training:
+        - Level 2 Training: training/2024/level2_training.md
   - Resources:
-    - Overview: resources/index.md
-    - Important Links: resources/important_links.md
-    - Past Problems: resources/past_problems.md
-    - Software & Tools: resources/software_tools.md
-    - FAQ: resources/faq.md
+      - All Community Sessions: resources/all-community-sessions.md
+      - FAQ: resources/faq.md
   - News:
-    - 2025 Events: news/2025_events.md
-    - 2024 Events: news/2024_events.md
-    - 2023 Events: news/2023_events.md
-
+      - 2025 Events: news/2025_events.md
+      - 2024 Events: news/2024_events.md
+      - 2023 Events: news/2023_events.md
 
 plugins:
   - search:
