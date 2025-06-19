@@ -25,6 +25,11 @@
     --md-sys-color-primary-light: #ef5350;
     --md-sys-color-primary-dark: #b71c1c;
     --md-sys-color-accent: #FFC107; /* Yellow from logo */
+
+    --md-card-bg-color: hsla(0, 0%, 100%, 0.12);
+    --md-table-bg-color: hsla(0, 0%, 100%, 0.07);
+    --md-table-hover-bg-color: hsla(0, 0%, 100%, 0.1);
+    --md-table-header-bg-color: hsla(0, 0%, 100%, 0.15);
 }
 
 
@@ -43,6 +48,7 @@
     display: block;  /* Prevents extra space below image */
     margin: 0 auto;  /* Centers images if smaller than container */
 }
+
 
 .image-grid {
   display: grid;
@@ -77,20 +83,24 @@
 }
 
 .card {
-  background-color: #ffffff;
+  background-color: var(--md-default-bg-color);
   border-radius: 12px;
   padding: 1.5rem;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  box-shadow: var(--md-shadow-z1);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+[data-md-color-scheme="slate"] .card {
+  background-color: var(--md-card-bg-color);
 }
 
 .card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+  box-shadow: var(--md-shadow-z2);
 }
 
 .card h2 {
-  color: #2c3e50;
+  color: var(--md-default-fg-color);
   font-size: 1.3rem;
   margin-top: 0;
   margin-bottom: 0.5rem;
@@ -98,7 +108,7 @@
 
 .card h3 {
   margin: 0.8rem 0 0.5rem;
-  color: #2980b9;
+  color: var(--md-primary-fg-color);
   font-size: 1rem;
 }
 
@@ -129,11 +139,15 @@
   width: 100%;
   border-collapse: separate;
   border-spacing: 0;
-  background-color: white;
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+  background-color: var(--md-default-bg-color);
+  box-shadow: var(--md-shadow-z1);
   border-radius: 10px;
   overflow: hidden;
   margin-bottom: 40px;
+}
+
+[data-md-color-scheme="slate"] .sessions-table {
+  background-color: var(--md-table-bg-color);
 }
 
 .sessions-table th,
@@ -143,10 +157,14 @@
 }
 
 .sessions-table th {
-  background-color: #f0f4f8;
+  background-color: var(--md-default-bg-color);
   color: #2c3e50;
   font-weight: 600;
   border-bottom: 2px solid #e0e6ed;
+}
+
+[data-md-color-scheme="slate"] .sessions-table th {
+  background-color: var(--md-table-header-bg-color);
 }
 
 .sessions-table tr:not(:last-child) {
@@ -154,7 +172,11 @@
 }
 
 .sessions-table tr:hover {
-  background-color: #f8faff;
+  background-color: var(--md-default-bg-color--light);
+}
+
+[data-md-color-scheme="slate"] .sessions-table tr:hover {
+  background-color: var(--md-table-hover-bg-color);
 }
 
 .sessions-table a,
@@ -169,10 +191,14 @@
 }
 
 .coach-section {
-  background-color: #fff;
+  background-color: var(--md-default-bg-color);
   padding: 20px;
   border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  box-shadow: var(--md-shadow-z1);
+}
+
+[data-md-color-scheme="slate"] .coach-section {
+  background-color: var(--md-card-bg-color);
 }
 
 .coach-section ul {
@@ -187,4 +213,57 @@
 .coach-section strong {
   display: block;
   margin-bottom: 5px;
+}
+
+.hero-section {
+  text-align: center;
+  padding: 3rem 1rem;
+  background-color: var(--md-default-bg-color--light);
+}
+
+.hero-section h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--md-default-fg-color);
+}
+
+.hero-section .hero-subtitle {
+  font-size: 1.25rem;
+  color: var(--md-default-fg-color--medium);
+  margin-top: 1rem;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero-section img {
+  max-width: 900px;
+  width: 100%;
+  border-radius: 16px;
+  margin-top: 2.5rem;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.15);
+}
+
+.hero-buttons {
+  margin-top: 2.5rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.about-image {
+  display: block;
+  max-width: 800px;
+  width: 100%;
+  margin: 2rem auto;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+}
+
+.final-cta {
+  text-align: center;
+  padding: 3rem 1rem;
+  background-color: var(--md-default-bg-color--light);
+  margin-top: 3rem;
+  border-radius: 12px;
 }

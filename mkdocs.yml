@@ -5,7 +5,7 @@ copyright: Copyright &copy; 2025 ICPC Menofia Community
 theme:
   name: material
   logo: assets/images/logo.png
-  favicon: assets/images/logo.png
+  favicon: assets/images/logo-white.jpg
 
   features:
     - navigation.top
@@ -77,9 +77,11 @@ nav:
       - 2024 Training:
         - Level 2 Training: training/2024/level2_training.md
   - Resources:
-      - All Community Sessions: resources/all-community-sessions.md
+      - Overview: resources/index.md
       - FAQ: resources/faq.md
+      - All Community Sessions: resources/all-community-sessions.md
   - News:
+      - Overview: news/index.md
       - 2025 Events: news/2025_events.md
       - 2024 Events: news/2024_events.md
       - 2023 Events: news/2023_events.md
