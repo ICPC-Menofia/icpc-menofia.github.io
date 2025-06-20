@@ -21,6 +21,7 @@
     </li>
     <li id="mostafa-mounir-shehab">
         <strong>Mostafa Mounir Shehab</strong>
+        <small>Community Co-Founder</small>
         <small>Senior Software Engineer at Sahl | ECPC Bronze Medialist | 3x ACPC finalist</small>
         <a href="https://www.linkedin.com/in/mari000/" target="_blank">LinkedIn</a> |
         <a href="https://github.com/SuperMari000" target="_blank">GitHub</a> |
