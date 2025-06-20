@@ -14,7 +14,7 @@
   <div class="card">
     <h3>Frequently Asked Questions</h3>
     <p>Find answers to common questions about our community, training, and events. A great place to start if you're new here.</p>
-    <a href="./faq/" class="md-button">View FAQ</a>
+    <a href="./FAQ/" class="md-button">View FAQ</a>
   </div>
   <div class="card">
     <h3>Community Session Archive</h3>
