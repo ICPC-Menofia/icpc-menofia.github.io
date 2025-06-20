@@ -11,29 +11,111 @@ This page archives all recorded sessions for our Level 2 Training program.
 <div class="level-section">
   <h2>Level 2 Training<em>Advanced topics including DP, graphs, and more complex data structures.</em></h2>
 
-  <h3>Topics Sessions</h3>
+  <<h3>Topics Sessions</h3>
   <table class="sessions-table">
     <thead>
         <tr>
             <th>Session Topic</th>
             <th>Coach</th>
             <th>Recording / Material</th>
-        </tr>
+            </tr>
     </thead>
     <tbody>
         <tr>
-            <td>Binary Search</td>
-            <td><a href="../../../community/coaches/#abdelrhman-emad">Abdelrhman Emad</a></td>
+            <td>Recursion</td>
             <td>
-                <a href="https://drive.google.com/drive/folders/15OT2xYUDD_g4iSU2v4oiyr482j2d2uM9?usp=sharing" target="_blank">View</a>
+                <a href="../../community/coaches/#muhammad-eid">Muhammad Eid</a>
+            </td>
+            <td><a href="https://www.youtube.com/watch?v=muYpyTbmeOA&list=PL3otEsYiklFG3jsD1_sJJ99XEoXDzZ9i_" target="_blank">View</a></td>
+        </tr>
+        <tr>
+            <td>Recursion</td>
+            <td><a href="../../community/coaches/#abdelrhman-emad">Abdelrhman Emad</a></td>
+            <td>
+                <a href="https://drive.google.com/drive/folders/1ayQLbyLYaPQQLAmsU2R--_mMBEXYGEf7" target="_blank">View</a>
             </td>
         </tr>
         <tr>
-            <td>DSU</td>
-            <td><a href="../../../community/coaches/#abdelrhman-emad">Abdelrhman Emad</a></td>
+            <td>Complete Search (Backtracking, masking, All permutations)</td>
+            <td><a href="../../community/coaches/#abdelrhman-sersawy">Abdelrhman Sersawy</a></td>
             <td>
-                <a href="https://drive.google.com/drive/folders/1uHGrA92Vb08WnUu2z-lZ-wZ-wZ-wZ-wZ?usp=sharing" target="_blank">View</a>
+                <a href="https://www.youtube.com/watch?v=8T5wb1AQhrk" target="_blank">View</a>
             </td>
+        </tr>
+        <tr>
+            <td>Graph Theory Introduction</td>
+            <td><a href="../../community/coaches/#abdelrhman-emad">Abdelrhman Emad</a></td>
+            <td>
+                <a href="https://drive.google.com/drive/folders/1iXpTYyWuTozBSAEv-kjIh6OTptcx2EKA" target="_blank">View</a>
+            </td>
+        </tr>
+        <tr>
+            <td>Graph Theory Fundamental </td>
+            <td><a href="../../community/coaches/#abdelrhman-sersawy">Abdelrhman Sersawy</a></td>
+            <td>
+                <a href="https://www.youtube.com/watch?v=7cQQTjNz5Uw&t=949s" target="_blank">View (Part1)</a>
+                <br>
+                <a href="https://www.youtube.com/watch?v=BF_-owzQ7wU" target="_blank">View (Part2)</a>
+            </td>
+        </tr>
+        <tr>
+            <td>Graph theory (Bipartite Graphs, Topological Sorting, Grid Graphs)</td>
+            <td><a href="../../community/coaches/#abdelrhman-sersawy">Abdelrhman Sersawy</a></td>
+            <td>
+                <a href="https://www.youtube.com/watch?v=UrDl9efWaFw" target="_blank">View</a>
+            </td>
+        </tr>
+        <tr>
+            <td>Breath first search algorithm (BFS)</td>
+            <td><a href="../../community/coaches/#abdelrhman-sersawy">Abdelrhman Sersawy</a></td>
+            <td>
+                <a href="https://www.youtube.com/watch?v=tvh47wMjeEA" target="_blank">View (Part1)</a>
+            </td>
+        </tr>
+        <tr>
+            <td>Trees</td>
+            <td><a href="../../community/coaches/#abdelrhman-emad">Abdelrhman Emad</a></td>
+            <td>
+                <a href="https://www.youtube.com/playlist?list=PLxebyRLe0PFLmZZocq4_2jBaOcXuXQZYd" target="_blank">View</a>
+            </td>
+        </tr>
+        <tr>
+            <td>Introduction to Dynamic programming (recursive, iterative approaches)</td>
+            <td><a href="../../community/coaches/#abdelrhman-sersawy">Abdelrhman Sersawy</a></td>
+            <td>
+                <a href="https://www.youtube.com/watch?v=ls_QVRjquaI&t=1989s">View</a>
+            </td>
+        </tr>
+        <tr>
+            <td>Sum Series: Sigma & Pi Notation, Arithmetic & Geometric Progressions </td>
+            <td><a href="../../community/coaches/#abdelrhman-sersawy">Abdelrhman Sersawy</a></td>
+            <td>
+                <a href="https://www.youtube.com/watch?v=K8pzuDmE_b4">View</a>
+            </td>
+        </tr>
+        <tr>
+            <td>Combinatorics - Rule of Sum, Rule of Product, Permutations and Combinations </td>
+            <td><a href="../../community/coaches/#abdelrhman-sersawy">Abdelrhman Sersawy</a></td>
+            <td>
+                <a href="https://www.youtube.com/watch?v=nNW9TGZWfI4">View</a>
+            </td>
+        </tr>
+        <tr>
+            <td>Dijkstra's Algorithm - Single source shortest path</td>
+            <td>
+                <a href="../../community/coaches/#muhammad-eid">Muhammad Eid</a>
+            </td>
+            <td><a href="https://www.youtube.com/watch?v=IIpQhqALkqw&list=PL3otEsYiklFG3jsD1_sJJ99XEoXDzZ9i_&index=2" target="_blank">View</a></td>
+        </tr>
+        <tr>
+            <td>Bellman-Ford algorithm + Solving system of difference constraints</td>
+            <td><a href="../../community/coaches/#khaled-labeb">Khaled Labeb</a></td>
+            <td><a href="https://www.youtube.com/watch?v=SarHKmf3H10" target="_blank">View</a></td>
+        </tr>
+        <tr>
+            <td>Floyd Warshall - All Pairs Shortest Paths</td>
+            <td><a href="../../community/coaches/#khaled-labeb">Khaled Labeb</a></td>
+            <td><a href="https://www.youtube.com/watch?v=uMMiXoAeBLU&t=2066s" target="_blank">View</a></td>
         </tr>
     </tbody>
   </table>
@@ -49,11 +131,19 @@ This page archives all recorded sessions for our Level 2 Training program.
     </thead>
     <tbody>
         <tr>
-            <td>Binary Search Practice</td>
-            <td><a href="../../../community/coaches/#abdelrhman-emad">Abdelrhman Emad</a></td>
-            <td>
-                <a href="https://drive.google.com/drive/folders/1wJ4Z7Y2v1v1zX8X5Zz7X7y8wZqZz8yXw?usp=sharing" target="_blank">View</a>
-            </td>
+            <td>Dfs Practice session</td>
+            <td><a href="../../community/coaches/#khaled-labeb">Khaled Labeb</a></td>
+            <td><a href="https://www.youtube.com/watch?v=i0r4ZWakghY" target="_blank">View</a></td>
+        </tr>
+        <tr>
+            <td>BFS practice session</td>
+            <td><a href="../../community/coaches/#khaled-labeb">Khaled Labeb</a></td>
+            <td><a href="https://www.youtube.com/watch?v=GUc4x6VT8Ec" target="_blank">View</a></td>
+        </tr>
+        <tr>
+            <td>Trees Practice session</td>
+            <td><a href="../../community/coaches/#khaled-labeb">Khaled Labeb</a></td>
+            <td><a href="https://www.youtube.com/watch?v=S5DQZf52tVs" target="_blank">View</a></td>
         </tr>
     </tbody>
   </table>
