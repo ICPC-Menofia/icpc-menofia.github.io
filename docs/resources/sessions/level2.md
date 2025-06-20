@@ -122,6 +122,13 @@ This page archives all recorded sessions for our Level 2 Training program.
             </td>
         </tr>
         <tr>
+            <td>Dynamic Programming [Counting, Building Output]</td>
+            <td><a href="../../community/coaches/#abdallah-ahmed">Abdallah Ahmed</a></td>
+            <td>
+                <a href="https://youtu.be/4lyUzjxFpL0?si=iQEh6AH7LB-skQ0Y" target="_blank">View</a>
+            </td>
+        </tr>
+        <tr>
             <td>Sum Series: Sigma & Pi Notation, Arithmetic & Geometric Progressions </td>
             <td><a href="../../community/coaches/#abdelrhman-sersawy">Abdelrhman Sersawy</a></td>
             <td>
@@ -166,9 +173,21 @@ This page archives all recorded sessions for our Level 2 Training program.
     </thead>
     <tbody>
         <tr>
+            <td>Recursion Practise Session</td>
+            <td><a href="../../community/coaches/#ahmed-wageh">Ahmed Wageh</a></td>
+            <td><a href="https://www.youtube.com/watch?v=if_xsQi8nag" target="_blank">View</a></td>
+        </tr>
+        <tr>
             <td>Dfs Practice session</td>
             <td><a href="../../community/coaches/#khaled-labeb">Khaled Labeb</a></td>
             <td><a href="https://www.youtube.com/watch?v=i0r4ZWakghY" target="_blank">View</a></td>
+        </tr>
+        <tr>
+            <td>Graph Theory 2 - Practice Session - BFS</td>
+            <td><a href="../../community/coaches/#abdallah-ahmed">Abdallah Ahmed</a></td>
+            <td>
+                <a href="https://www.youtube.com/watch?v=Exvhq27YYsE" target="_blank">View</a>
+            </td>
         </tr>
         <tr>
             <td>BFS practice session</td>

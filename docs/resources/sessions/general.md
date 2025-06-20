@@ -31,6 +31,13 @@ This page archives all general sessions, tips, and strategies to help you in you
             <td><a href="https://www.youtube.com/watch?v=DPVeeVq9jWk" target="_blank">View</a></td>
         </tr>
         <tr>
+            <td>Guide to Vjudge</td>
+            <td><a href="../../community/coaches/#abdallah-ahmed">Abdallah Ahmed</a></td>
+            <td>
+                <a href="https://www.youtube.com/watch?v=rlP_ONf1bo8" target="_blank">View</a>
+            </td>
+        </tr>
+        <tr>
             <td>How to create codeforces team and join contest</td>
             <td>
                <a href="../../../community/coaches/#muhammad-eid">Muhammad Eid</a>

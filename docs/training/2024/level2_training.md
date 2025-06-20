@@ -1,55 +1,71 @@
-# Level 2 – 2024 Patch
+---
+hide:
+  - navigation
+  - toc
+---
 
-<div class="intro">
-  <p><strong>Practice Sheet:</strong> <a href="https://vjudge.net/group/mnf-l2g24" target="_blank">https://vjudge.net/group/mnf-l2g24</a></p>
-  <p>Each topic includes short videos for concept review and full sessions with code walkthroughs and problem solving.</p>
+<div class="hero-section">
+  <h1>Level 2 Training (2024)</h1>
+  <p class="hero-subtitle">This plan covers core Level 2 topics like recursion, dynamic programming, and graphs, with curated videos and problem-solving sessions to deepen your understanding.</p>
+  <div class="hero-buttons">
+    <a href="https://vjudge.net/group/mnf-l2g24" target="_blank" class="md-button md-button--primary">Go to Practice Sheet</a>
+  </div>
 </div>
 
-<div class="cards-grid">
-  <div class="card">
-    <h2>Recursion and Backtracking</h2>
-    <h3>Short Videos</h3>
-    <ul>
-      <li><a href="https://www.youtube.com/watch?v=hyk46UmJPS4" target="_blank">Mostafa Saad</a></li>
-      <li><a href="https://www.youtube.com/watch?v=muYpyTbmeOA&t=9s" target="_blank">Mohamed Eid</a></li>
-      <li><a href="https://www.youtube.com/playlist?list=PLgUwDviBIf0rGlzIn_7rsaR2FQ5e6ZOL9" target="_blank">Indian Instructor</a></li>
-    </ul>
-    <h3>Main Session</h3>
-    <ul>
-      <li><a href="https://www.youtube.com/watch?v=eRZwLq68BKU" target="_blank">Backtracking</a></li>
-      <li><a href="https://drive.google.com/drive/folders/1ayQLbyLYaPQQLAmsU2R--_mMBEXYGEf7" target="_blank">Folder</a></li>
-      <li><a href="https://youtu.be/if_xsQi8nag" target="_blank">Upsolving (1)</a></li>
-      <li>Upsolving (2)</li>
-    </ul>
-  </div>
+<h2>Week 1: Recursion and Backtracking</h2>
+<h3>Topic Resources:</h3>
+<table class="sessions-table">
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Coach / Instructor</th>
+            <th>Recording / Material</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+          <td>Gold Community Sessions</td>
+          <td>Community</td>
+          <td><a href="../../resources/sessions/level2/" target="_blank">View</a></td>
+        </tr>
+        <tr>
+            <td>Dr. Mostafa Saad (Concept Review)</td>
+            <td>Dr. Mostafa Saad</td>
+            <td><a href="https://www.youtube.com/watch?v=hyk46UmJPS4" target="_blank">View</a></td>
+        </tr>
+        <tr>
+            <td>Backtracking Session</td>
+            <td>Hazem Adel</td>
+            <td><a href="https://www.youtube.com/watch?v=eRZwLq68BKU" target="_blank">View</a></td>
+        </tr>
+        <tr>
+            <td>Recursion Practise Session</td>
+            <td>Community (Ahmed Wageh)</td>
+            <td><a href="https://www.youtube.com/watch?v=if_xsQi8nag" target="_blank">View Folder</a></td>
+        </tr>
+    </tbody>
+</table>
 
-  <div class="card">
-    <h2>Introduction to Dynamic Programming</h2>
-    <h3>Short Video</h3>
-    <ul>
-      <li><a href="https://www.youtube.com/watch?v=vYquumk4nWw" target="_blank">DP Basics (14 mins)</a></li>
-    </ul>
-    <h3>Main Session</h3>
-    <ul>
-      <li><a href="https://drive.google.com/file/d/1p6ST5PaJ-rUzf_T2zQ1jp8Hl5Er0obAm/view?usp=sharing" target="_blank">DP Guide</a></li>
-    </ul>
-  </div>
-
-  <div class="card">
-    <h2>Graph Representation – DFS</h2>
-    <h3>Short Videos</h3>
-    <ul>
-      <li><a href="https://youtu.be/DgXR2OWQnLc" target="_blank">Graph Algos (3 mins)</a></li>
-      <li><a href="https://youtu.be/eQA-m22wjTQ" target="_blank">Graph Theory (14 mins)</a></li>
-      <li><a href="https://youtu.be/87X57ldq1ok" target="_blank">Graph Problems (9 mins)</a></li>
-      <li><a href="https://youtu.be/7fujbpJ0LB4" target="_blank">DFS (10 mins)</a></li>
-    </ul>
-    <h3>Main Session</h3>
-    <ul>
-      <li><a href="https://drive.google.com/drive/folders/1tJMUHd5EoNBVVjMk8135e5Qy2HlNzxyR" target="_blank">DFS Part 1</a></li>
-      <li><a href="https://www.youtube.com/watch?v=BF_-owzQ7wU" target="_blank">DFS Part 2</a></li>
-      <li><a href="https://drive.google.com/drive/folders/1o3v1t7o23vMISYlRn-7BJk_X6Dy2XCNo" target="_blank">DFS Sheet</a></li>
-    </ul>
-  </div>
-
-</div>
+<h2>Week 2: Introduction to DP</h2>
+<h3>Topic Resources:</h3>
+<table class="sessions-table">
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Coach / Instructor</th>
+            <th>Recording / Material</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+          <td>Gold Community Sessions</td>
+          <td>Community</td>
+          <td><a href="../../../resources/sessions/level2/" target="_blank">View</a></td>
+        </tr>
+        <tr>
+            <td>Your Guide to DP</td>
+            <td>Community</td>
+            <td><a href="https://drive.google.com/file/d/1p6ST5PaJ-rUzf_T2zQ1jp8Hl5Er0obAm/view" target="_blank">View</a></td>
+        </tr>
+    </tbody>
+</table>

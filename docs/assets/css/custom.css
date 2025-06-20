@@ -272,7 +272,7 @@
 }
 
 .hero-buttons {
-  margin-top: 2.5rem;
+  margin-top: 1.5rem;
   display: flex;
   justify-content: center;
   gap: 1rem;
@@ -280,7 +280,7 @@
 
 .about-image {
   display: block;
-  max-width: 800px;
+  max-width: 450px;
   width: 100%;
   margin: 2rem auto;
   border-radius: 12px;
@@ -289,7 +289,7 @@
 
 .final-cta {
   text-align: center;
-  padding: 3rem 1rem;
+  padding: 1.5rem 1rem;
   background-color: var(--md-default-bg-color--light);
   margin-top: 3rem;
   border-radius: 12px;
@@ -350,4 +350,9 @@
   color: var(--md-primary-fg-color);
   font-size: 1.2rem;
   line-height: 1;
+}
+
+.md-button--small {
+  padding: 0.3em 1em;
+  font-size: 0.65rem;
 }
