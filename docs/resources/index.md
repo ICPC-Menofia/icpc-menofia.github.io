@@ -3,6 +3,9 @@
   <p class="md-typeset hero-subtitle">
     Your central hub for training materials, session recordings, and helpful guides to accelerate your competitive programming journey.
   </p>
+  <div class="hero-buttons">
+    <a href="sessions/" class="md-button">Browse Sessions</a>
+  </div>
 </div>
 
 ## Explore Our Resources
@@ -16,7 +19,7 @@
   <div class="card">
     <h3>Community Session Archive</h3>
     <p>Missed a session? Access our full archive of recorded training sessions and workshops, led by experienced community members.</p>
-    <a href="./all-community-sessions/" class="md-button">Browse Sessions</a>
+    <a href="./sessions/" class="md-button">Browse Sessions</a>
   </div>
   <div class="card">
     <h3>Comprehensive Training Plans</h3>

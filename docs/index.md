@@ -23,13 +23,18 @@ hide:
     <a href="/training/" class="md-button">Explore Training</a>
   </div>
   <div class="card">
+    <h3>Community Resources</h3>
+    <p>Access session recordings, helpful guides, and FAQs to support your competitive programming journey.</p>
+    <a href="/resources/" class="md-button">Explore Resources</a>
+  </div>
+  <div class="card">
     <h3>News & Events</h3>
     <p>  Follow our journey through events, contests, and regional participation over the years. Discover how our community has grown and competed!</p>
     <a href="/news/" class="md-button">See Latest Events</a>
   </div>
   <div class="card">
     <h3>Join Our Community</h3>
-    <p>You’re not alone. Be part of our active Discord group with hundreds of students. Solve problems together, get help from mentors, and make new friends.</p>
+    <p>You're not alone. Be part of our active Discord group with hundreds of students. Solve problems together, get help from mentors, and make new friends.</p>
     <a href="/community/join_us/" class="md-button">Meet the Community</a>
   </div>
 </div>

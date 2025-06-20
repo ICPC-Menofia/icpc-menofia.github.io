@@ -87,7 +87,7 @@
         <a href="https://www.linkedin.com/in/mosmos/" target="_blank">LinkedIn</a> |
         <a href="https://codeforces.com/profile/Mousa" target="_blank">Codeforces</a>
     </li>
-    <li id="ahmed-elsyaed">
+    <li id="ahmed-elsayed">
         <strong>Ahmed Elsayed</strong>
         <small>2x ACPC finslist</small>
         <a href="https://www.linkedin.com/in/ahmedelsayedmousa/" target="_blank">LinkedIn</a> |
@@ -100,6 +100,13 @@
         <a href="https://www.linkedin.com/in/khaled-mohamed-98700a246/" target="_blank">LinkedIn</a> |
         <a href="https://github.com/khalwsh/" target="_blank">GitHub</a> |
         <a href="https://codeforces.com/profile/Khalwsh" target="_blank">Codeforces</a>
+    </li>
+    <li id="abdelrhman-emad">
+        <strong>Abdelrhman Emad</strong>
+        <small>ECPC finslist | Expert @Codeforces</small>
+        <a href="https://www.linkedin.com/in/abdurrahman-emad/" target="_blank">LinkedIn</a> |
+        <a href="https://github.com/abdoemad552" target="_blank">GitHub</a> |
+        <a href="https://codeforces.com/profile/_ABDOEMAD_" target="_blank">Codeforces</a>
     </li>
   </ul>
 </div> 
