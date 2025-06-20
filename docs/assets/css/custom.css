@@ -295,6 +295,118 @@
   border-radius: 12px;
 }
 
+/* Training Path Diagram */
+.training-path {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin: 3rem auto;
+  padding: 1rem;
+  max-width: 800px;
+}
+
+.path-step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  width: 80px;
+}
+
+.path-step-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: var(--md-default-bg-color--light);
+  border: 2px solid var(--md-primary-fg-color--light);
+  color: var(--md-primary-fg-color--light);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 1.2rem;
+  transition: all 0.3s ease;
+}
+
+.path-step-title {
+  margin-top: 0.75rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--md-default-fg-color--medium);
+  line-height: 1.2;
+}
+
+.path-connector {
+  flex-grow: 1;
+  height: 2px;
+  background-color: var(--md-primary-fg-color--light);
+  margin: 0 0.5rem;
+  position: relative;
+  top: 25px; /* Align with middle of the icon */
+}
+
+/* Active step styling */
+.path-step.active .path-step-icon {
+  background-color: var(--md-primary-fg-color);
+  color: var(--md-primary-bg-color);
+  border-color: var(--md-primary-fg-color);
+  transform: scale(1.1);
+}
+
+.path-step.active .path-step-title {
+  color: var(--md-primary-fg-color);
+  font-weight: bold;
+}
+/* End Training Path Diagram */
+
+/* Curriculum Flowchart */
+.curriculum-flowchart {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin-top: 3rem;
+  padding: 1.5rem;
+  background-color: var(--md-default-bg-color--light);
+  border-radius: 12px;
+}
+
+.flowchart-level {
+  display: flex;
+  flex-direction: column;
+}
+
+.flowchart-level h3 {
+  margin-top: 0;
+  font-size: 1.4rem;
+  color: var(--md-primary-fg-color);
+  border-bottom: 2px solid var(--md-primary-fg-color--light);
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.flowchart-topics {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0;
+  flex-grow: 1;
+}
+
+.flowchart-topics li {
+  padding: 0.5rem 0;
+  font-size: 0.95rem;
+  border-bottom: 1px solid var(--md-default-bg-color);
+}
+
+[data-md-color-scheme="slate"] .curriculum-flowchart {
+    background-color: var(--md-card-bg-color);
+}
+
+[data-md-color-scheme="slate"] .flowchart-topics li {
+    border-bottom: 1px solid var(--md-default-bg-color--dark);
+}
+/* End Curriculum Flowchart */
+
 /* Container for each training level section */
 .level-section {
   padding: 1.5rem;

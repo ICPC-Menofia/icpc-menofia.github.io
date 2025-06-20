@@ -2,8 +2,30 @@
   <h1>Newcomer Training Plan</h1>
   <p class="md-typeset hero-subtitle">
     Welcome! This program is designed to introduce you to the fundamentals of Competitive Programming and help you build a strong foundation.
-</p>
+  </p>
+</div>
+
+<div class="training-path">
+  <div class="path-step active">
+    <div class="path-step-icon">1</div>
+    <div class="path-step-title">Newcomer</div>
   </div>
+  <div class="path-connector"></div>
+  <a href="../Level1_training.md" class="path-step">
+    <div class="path-step-icon">2</div>
+    <div class="path-step-title">Level 1</div>
+  </a>
+  <div class="path-connector"></div>
+  <a href="../Level2_training.md" class="path-step">
+    <div class="path-step-icon">3</div>
+    <div class="path-step-title">Level 2</div>
+  </a>
+  <div class="path-connector"></div>
+  <a href="../Senior_training.md" class="path-step">
+    <div class="path-step-icon">4</div>
+    <div class="path-step-title">Senior</div>
+  </a>
+</div>
 
 <div class="level-section">
   <h2>Week 1 <em>Introduction to CP & C++ Basics</em></h2>

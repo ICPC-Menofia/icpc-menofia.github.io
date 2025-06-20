@@ -5,6 +5,28 @@
   </p>
 </div>
 
+<div class="training-path">
+  <a href="../Newcommer_training.md" class="path-step">
+    <div class="path-step-icon">1</div>
+    <div class="path-step-title">Newcomer</div>
+  </a>
+  <div class="path-connector"></div>
+  <a href="../Level1_training.md" class="path-step">
+    <div class="path-step-icon">2</div>
+    <div class="path-step-title">Level 1</div>
+  </a>
+  <div class="path-connector"></div>
+  <a href="../Level2_training.md" class="path-step">
+    <div class="path-step-icon">3</div>
+    <div class="path-step-title">Level 2</div>
+  </a>
+  <div class="path-connector"></div>
+  <div class="path-step active">
+    <div class="path-step-icon">4</div>
+    <div class="path-step-title">Senior</div>
+  </div>
+</div>
+
 <div class="level-section">
   <h2>Data Structures <em>Advanced query and tree-based structures</em></h2>
   <ul class="topic-list">
