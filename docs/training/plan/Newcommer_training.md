@@ -52,7 +52,7 @@
     <li>Functions: Writing modular and reusable code.</li>
     <li>End-of-week 2-hour contest to apply your new skills.</li>
     </ul>
-  </div>
+</div>
 
 <div class="level-section">
   <h2>Week 4 <em>Strings</em></h2>
