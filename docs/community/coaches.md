@@ -25,7 +25,7 @@
         <small>Senior Software Engineer at Sahl | ECPC Bronze Medialist | 3x ACPC finalist</small>
         <a href="https://www.linkedin.com/in/mari000/" target="_blank">LinkedIn</a> |
         <a href="https://github.com/SuperMari000" target="_blank">GitHub</a> |
-        <a href="https://codeforces.com/profile/SuperMari0" target="_blank">Codeforces</a>
+        <a href="https://codeforces.com/profile/Mari000" target="_blank">Codeforces</a>
     </li>
     <li id="moamen-zakaria">
         <strong>Moamen Zakaria</strong>
