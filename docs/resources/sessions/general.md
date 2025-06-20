@@ -58,6 +58,20 @@ This page archives all general sessions, tips, and strategies to help you in you
             </td>
             <td><a href="https://drive.google.com/file/d/1XpIaVCu0RNf7kjWHxYqapXcAs6-qbCb6/view?usp=sharing" target="_blank">View</a></td>
         </tr>
+        <tr>
+            <td>How To Make Live Templates in Clion</td>
+            <td>
+               <a href="../../../community/coaches/#ebrahim-mordy">Ebrahim Mordy</a>
+            </td>
+            <td><a href="https://www.youtube.com/watch?v=7_3pWlfU1Qo&list=PL7GFWD3CwxpZTCtOGnZbDZpMBDipXwAjo&index=6" target="_blank">View</a></td>
+        </tr>
+        <tr>
+            <td>Forward And Backward Thinking</td>
+            <td>
+               <a href="../../../community/coaches/#ebrahim-mordy">Ebrahim Mordy</a>
+            </td>
+            <td><a href="https://www.youtube.com/watch?v=6oozIFjhcQI&list=PL7GFWD3CwxpZTCtOGnZbDZpMBDipXwAjo&index=1" target="_blank">View</a></td>
+        </tr>
     </tbody>
   </table>
 

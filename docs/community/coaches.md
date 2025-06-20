@@ -68,45 +68,76 @@
         <a href="https://github.com/xUser5000" target="_blank">GitHub</a> |
         <a href="https://codeforces.com/profile/xUser5000" target="_blank">Codeforces</a>
     </li>
+    <li id="mohamed-khaled-saeed">
+        <strong>Mohamed khaled Saeed</strong>
+        <small>EX-BLD.ai | Software Engineer Intern @ Fawry  | ACPC Finalist</small>
+        <a href="https://www.linkedin.com/in/mohamed-khaled-08229b207/" target="_blank">LinkedIn</a>
+    </li>
     <li id="youssef-amer">
         <strong>Youssef Amer</strong>
         <small>Software Engineer at Noon | ECPC Bronze Medialist</small>
         <a href="https://www.linkedin.com/in/youssef3ahmed/" target="_blank">LinkedIn</a> |
         <a href="https://codeforces.com/profile/uamer" target="_blank">Codeforces</a>
     </li>
-     <li id="abdelrhman-sersawy">
+    <li id="abdelrhman-sersawy">
         <strong>Abdelrhman Sersawy</strong>
-        <small>2x ACPC finslist | Candidate Master @Codeforces | Ex-Fawry Intern</small>
+        <small>2x ACPC finalist | Candidate Master @Codeforces | Ex-Fawry Intern</small>
         <a href="https://www.linkedin.com/in/sersawy/" target="_blank">LinkedIn</a> |
         <a href="https://github.com/Abdelrhmansersawy/" target="_blank">GitHub</a> |
         <a href="https://codeforces.com/profile/Sersawy" target="_blank">Codeforces</a>
     </li>
     <li id="ahmed-mousa">
         <strong>Ahmed Mousa</strong>
-        <small>ACPC finslist</small>
+        <small>ACPC finalist</small>
         <a href="https://www.linkedin.com/in/mosmos/" target="_blank">LinkedIn</a> |
         <a href="https://codeforces.com/profile/Mousa" target="_blank">Codeforces</a>
     </li>
     <li id="ahmed-elsayed">
         <strong>Ahmed Elsayed</strong>
-        <small>2x ACPC finslist</small>
+        <small>2x ACPC finalist</small>
         <a href="https://www.linkedin.com/in/ahmedelsayedmousa/" target="_blank">LinkedIn</a> |
         <a href="https://github.com/aalsayed70" target="_blank">GitHub</a> |
         <a href="https://codeforces.com/profile/-Ahmed_-_Elsayed-" target="_blank">Codeforces</a>
     </li>
     <li id="khaled-labeb">
         <strong>Khaled Labeb</strong>
-        <small>ACPC finslist | Candidate Master @Codeforces</small>
+        <small>ACPC finalist | Candidate Master @Codeforces</small>
         <a href="https://www.linkedin.com/in/khaled-mohamed-98700a246/" target="_blank">LinkedIn</a> |
         <a href="https://github.com/khalwsh/" target="_blank">GitHub</a> |
         <a href="https://codeforces.com/profile/Khalwsh" target="_blank">Codeforces</a>
     </li>
     <li id="abdelrhman-emad">
         <strong>Abdelrhman Emad</strong>
-        <small>ECPC finslist | Expert @Codeforces</small>
+        <small>ECPC finalist | Expert @Codeforces</small>
         <a href="https://www.linkedin.com/in/abdurrahman-emad/" target="_blank">LinkedIn</a> |
         <a href="https://github.com/abdoemad552" target="_blank">GitHub</a> |
         <a href="https://codeforces.com/profile/_ABDOEMAD_" target="_blank">Codeforces</a>
+    </li>
+    <li id="mahmoud-reda">
+        <strong>Mahmoud Reda</strong>
+        <small>.Net Developer | 3x ECPC FINALIST</small>
+        <a href="https://www.linkedin.com/in/mahmoud-abouelazm" target="_blank">LinkedIn</a> 
+    </li>
+    <li id="ebrahim-mordy">
+        <strong>Ebrahem Mordy</strong>
+        <small>ACPC Finalist | Expert @Codeforces | Ex-SWE @Fawry</small>
+        <a href="https://www.linkedin.com/in/ebrahemmordy" target="_blank">LinkedIn</a> |
+        <a href="https://codeforces.com/profile/M0rdy" target="_blank">GitHub</a> |
+        <a href="https://github.com/EbrahemMordy" target="_blank">Codeforces</a>
+    </li>
+    <li id="ibrahme-elhdad">
+        <strong>Ibrahem Elhdad</strong>
+        <small>ACPC finalist</small>
+        <a href="https://www.linkedin.com/in/ibrahem-elhdad-21216226b/" target="_blank">LinkedIn</a> |
+        <a href="https://github.com/I-Elhadad" target="_blank">GitHub</a> |
+        <a href="https://codeforces.com/profile/hadad" target="_blank">Codeforces</a>
+    </li>
+    <li id="hossam-saber">
+        <strong>Hossam Saber</strong>
+        <small>Expert @Codeforces </small>
+        <a href="https://www.linkedin.com/in/hossam-saberr?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">LinkedIn</a> |
+        <a href="https://github.com/HossamSaberr" target="_blank">GitHub</a> |
+        <a href="https://codeforces.com/profile/Homz" target="_blank">Codeforces</a>
     </li>
   </ul>
 </div> 

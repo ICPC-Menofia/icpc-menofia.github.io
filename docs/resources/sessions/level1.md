@@ -37,11 +37,32 @@ This page archives all recorded sessions for our Level 1 Training program.
             </td>
         </tr>
         <tr>
+            <td>Constructive Algorithms</td>
+            <td>
+                <a href="../../../community/coaches/#ebrahim-mordy">Ebrahim Mordy</a>
+            </td>
+            <td><a href="https://www.youtube.com/watch?v=FEABVLyuVKI&list=PL7GFWD3CwxpZTCtOGnZbDZpMBDipXwAjo&index=3" target="_blank">View</a></td>
+        </tr>
+        <tr>
             <td>Binary Search</td>
             <td><a href="../../community/coaches/#abdelrhman-emad">Abdelrhman Emad</a></td>
             <td>
                 <a href="https://drive.google.com/drive/folders/1wwuHi_HA7h2DKx3VkihspDHBszHpnDOk?usp=drive_link">View</a>
             </td>
+        </tr>
+        <tr>
+            <td>Binary Search</td>
+            <td>
+                <a href="../../../community/coaches/#ebrahim-mordy">Ebrahim Mordy</a>
+            </td>
+            <td><a href="https://www.youtube.com/watch?v=TVk4wDjI-mw&list=PL7GFWD3CwxpZTCtOGnZbDZpMBDipXwAjo&index=4" target="_blank">View</a></td>
+        </tr>
+        <tr>
+            <td>Sieve of Eratosthenes</td>
+            <td>
+                <a href="../../../community/coaches/#ebrahim-mordy">Ebrahim Mordy</a>
+            </td>
+            <td><a href="https://www.youtube.com/watch?v=2Rc7c3Bf3hE&list=PL7GFWD3CwxpZTCtOGnZbDZpMBDipXwAjo&index=2" target="_blank">View</a></td>
         </tr>
         <tr>
             <td>GCD & LCM</td>
