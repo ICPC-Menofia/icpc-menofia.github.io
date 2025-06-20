@@ -15,11 +15,11 @@ This page archives all recorded sessions delivered by our community coaches. Ses
         </tr>
     </thead>
     <tbody>
-        <tr>
+        <!-- <tr>
             <td>Math for CP</td>
             <td><a href="../../community/coaches/#coach-amira">Amira Yehia</a></td>
             <td><a href="https://example.com/math-cp" target="_blank">View</a></td>
-        </tr>
+        </tr> -->
         <!-- Add more Newcomer topic sessions here -->
     </tbody>
   </table>
@@ -34,11 +34,11 @@ This page archives all recorded sessions delivered by our community coaches. Ses
         </tr>
     </thead>
     <tbody>
-        <tr>
+        <!-- <tr>
             <td>Getting Started Contest #1</td>
             <td><a href="../../community/coaches/#coach-amira">Amira Yehia</a></td>
             <td><a href="https://example.com/newcomer-upsolve-1" target="_blank">View</a></td>
-        </tr>
+        </tr> -->
         <!-- Add more Newcomer upsolve sessions here -->
     </tbody>
   </table>
@@ -50,18 +50,17 @@ This page archives all recorded sessions delivered by our community coaches. Ses
   <h3>Topics Sessions</h3>
   <table class="sessions-table">
         <thead>
-            <tr>
                 <th>Session Topic</th>
                 <th>Coach</th>
                 <th>Recording / Material</th>
             </tr>
         </thead>
         <tbody>
-            <tr>
+        <!-- <tr>
                 <td>Binary Search</td>
             <td><a href="../../community/coaches/#coach-ahmed">Ahmed Samir</a></td>
             <td><a href="https://example.com/binary-search" target="_blank">View</a></td>
-        </tr>
+        </tr> -->
         <!-- Add more Level 1 topic sessions here -->
     </tbody>
   </table>
@@ -76,11 +75,11 @@ This page archives all recorded sessions delivered by our community coaches. Ses
         </tr>
     </thead>
     <tbody>
-        <tr>
+        <!-- <tr>
             <td>Div2 Contest #800</td>
                 <td><a href="../../community/coaches/#coach-ahmed">Ahmed Samir</a></td>
             <td><a href="https://example.com/level1-upsolve-1" target="_blank">View</a></td>
-        </tr>
+        </tr> -->
         <!-- Add more Level 1 upsolve sessions here -->
     </tbody>
   </table>
@@ -99,11 +98,11 @@ This page archives all recorded sessions delivered by our community coaches. Ses
             </tr>
     </thead>
     <tbody>
-            <tr>
-                <td>DFS & BFS</td>
+        <!-- <tr>
+            <td>DFS & BFS</td>
             <td><a href="../../community/coaches/#coach-khaled">Mohamed Khaled</a></td>
             <td><a href="https://example.com/dfs-bfs" target="_blank">View</a></td>
-        </tr>
+        </tr> -->
         <!-- Add more Level 2 topic sessions here -->
     </tbody>
   </table>
@@ -118,11 +117,11 @@ This page archives all recorded sessions delivered by our community coaches. Ses
         </tr>
     </thead>
     <tbody>
-        <tr>
+        <!-- <tr>
             <td>Div2 Contest #850</td>
                 <td><a href="../../community/coaches/#coach-khaled">Mohamed Khaled</a></td>
             <td><a href="https://example.com/level2-upsolve-1" target="_blank">View</a></td>
-        </tr>
+        </tr> -->
         <!-- Add more Level 2 upsolve sessions here -->
     </tbody>
   </table>
@@ -154,7 +153,7 @@ This page archives all recorded sessions delivered by our community coaches. Ses
             <td>Strings algorithms (Hashing)</td>
             <td><a href="../../community/coaches/#khaled-labeb">Khaled Labeb</a></td>
             <td>
-                <a href="https://example.com/advanced-dp" target="_blank">View</a>
+                <a href="https://www.youtube.com/watch?v=ykmnopLoxUs" target="_blank">View</a>
             </td>
         </tr>
         <tr>
