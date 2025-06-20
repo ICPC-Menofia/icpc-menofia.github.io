@@ -8,231 +8,128 @@
 </head>
 <body>
 
-  <h1>💪 Level 1 Competitive Programming Training</h1>
-  <p style="text-align: center;">
-    Welcome to the <strong>Menofia ICPC Community</strong> Level 1 Training!<br>
-    This program builds on your CP foundation by introducing core algorithms, data structures, and number theory.<br>
-    By the end, you’re expected to confidently solve Div2 ABC problems.
-  </p>
+  <div class="hero-section">
+    <h1>Level 1 Training Plan</h1>
+    <p class="md-typeset hero-subtitle">
+      This program builds on your foundation with core algorithms, data structures, and number theory. By the end, you'll be ready to confidently solve Div2 A, B, and C problems.
+    </p>
+  </div>
 
-  <h2>📆 Timeline / Plan</h2>
-
-  <div class="cards-grid">
-
-  <div class="card">
-    <h3>Week 0: General Prep</h3>
-    <ul>
-      <li><strong>Topics:</strong>
-        <ul><li>General Sheet</li></ul>
-      </li>
-      <li><strong>Preparing:</strong> Mordy, Eslam</li>
-      <li><strong>Upsolving:</strong> Ameen Osama</li>
+  <div class="level-section">
+    <h2>Week 0 <em>General Prep & Revision</em></h2>
+    <ul class="topic-list">
+      <li>Solving a general problem sheet to warm up and identify strengths.</li>
+      <li>Coaches: Mordy, Eslam, Ameen Osama.</li>
     </ul>
   </div>
 
-  <div class="card">
-    <h3>Week 1: Linear STL + Sorting</h3>
-    <ul>
-      <li><strong>Topics:</strong>
-        <ul>
-          <li>STL: vector, pair, queue, deque, stack, struct</li>
-          <li>Library Sorting</li>
-          <li>Custom comparator with linear containers</li>
-        </ul>
-      </li>
-      <li><strong>Session:</strong> Ahmed Mohamed</li>
-      <li><strong>Upsolving:</strong> Esraa Mabrouk</li>
-      <li><strong>Sheet:</strong> Ameen, Mousa</li>
+  <div class="level-section">
+    <h2>Week 1 <em>Linear STL & Sorting</em></h2>
+    <ul class="topic-list">
+      <li>STL Containers: vector, pair, queue, deque, stack.</li>
+      <li>Library Sorting & Custom Comparators.</li>
+      <li>Coaches: Ahmed Mohamed, Esraa Mabrouk, Ameen, Mousa.</li>
     </ul>
   </div>
 
-  <div class="card">
-    <h3>Week 2: Nonlinear STL + Contest</h3>
-    <ul>
-      <li><strong>Topics:</strong>
-        <ul>
-          <li>STL: map, set, priority_queue, multiset, unordered_map</li>
-          <li>Sorting with lower/upper bound</li>
-          <li>Custom comparator with nonlinear containers</li>
-        </ul>
-      </li>
-      <li><strong>Session:</strong> Yomna Magdy</li>
-      <li><strong>Upsolving:</strong> Eslam</li>
-      <li><strong>Sheet:</strong> Ahmed Mohamed, Eslam</li>
-      <li><strong>Contest:</strong> 3-hour STL contest</li>
-      <li><strong>Prepared by:</strong> Mordy</li>
+  <div class="level-section">
+    <h2>Week 2 <em>Nonlinear STL</em></h2>
+    <ul class="topic-list">
+      <li>STL Containers: map, set, priority_queue, multiset.</li>
+      <li>Sorting with lower/upper bound.</li>
+      <li>3-hour STL contest.</li>
+      <li>Coaches: Yomna Magdy, Eslam, Ahmed Mohamed, Mordy.</li>
     </ul>
   </div>
 
-  <div class="card">
-    <h3>Week 3: Greedy + Adhoc</h3>
-    <ul>
-      <li><strong>Topics:</strong>
-        <ul>
-          <li>What are Adhoc problems?</li>
-          <li>What is Greedy?</li>
-          <li>Greedy with sorting:
-            <ul>
-              <li>Sweep Line Algorithms</li>
-              <li>Scheduling Events</li>
-              <li>Tasks and Deadlines</li>
-              <li>Postman Problem</li>
-            </ul>
-          </li>
-        </ul>
-      </li>
-      <li><strong>Session:</strong> Mousa</li>
-      <li><strong>Upsolving:</strong> aalsayed</li>
-      <li><strong>Sheet:</strong> Mousa, aalsayed</li>
-      <li><strong>Contest:</strong> 3-hour contest</li>
+  <div class="level-section">
+    <h2>Week 3 <em>Greedy & Ad-hoc Problems</em></h2>
+    <ul class="topic-list">
+      <li>Introduction to Greedy algorithms and Ad-hoc problem-solving techniques.</li>
+      <li>Applications: Sweep Line, Scheduling, Tasks and Deadlines.</li>
+      <li>3-hour contest.</li>
+      <li>Coaches: Mousa, aalsayed.</li>
     </ul>
   </div>
 
-  <div class="card">
-    <h3>Week 4: Prefix Sum + Frequency</h3>
-    <ul>
-      <li><strong>Topics:</strong>
-        <ul>
-          <li>Frequency Array</li>
-          <li>Prefix Sum (1D, 2D)</li>
-          <li>Prefix/Suffix min, max, gcd, lcm</li>
-          <li>Partial Sum</li>
-        </ul>
-      </li>
-      <li><strong>Contest:</strong> 3-hour contest</li>
+  <div class="level-section">
+    <h2>Week 4 <em>Prefix Sum & Frequency Techniques</em></h2>
+    <ul class="topic-list">
+      <li>1D & 2D Prefix Sums, Partial Sums.</li>
+      <li>Frequency Arrays.</li>
+      <li>Prefix/Suffix with min, max, gcd, lcm.</li>
+      <li>3-hour contest.</li>
     </ul>
   </div>
 
-  <div class="card">
-    <h3>Week 5: Number Theory Basics</h3>
-    <ul>
-      <li><strong>Topics:</strong>
-        <ul>
-          <li>Prime and composite numbers</li>
-          <li>Prime testing</li>
-          <li>Fundamental theorem of arithmetic</li>
-          <li>Prime Factorization</li>
-          <li>Sieve of Eratosthenes</li>
-          <li>Smallest prime divisor</li>
-          <li>All prime factors</li>
-          <li>All divisors</li>
-          <li>Sum & count of divisors</li>
-        </ul>
-      </li>
-      <li><strong>Contest:</strong> 3-hour contest</li>
+  <div class="level-section">
+    <h2>Week 5 <em>Number Theory Basics</em></h2>
+    <ul class="topic-list">
+      <li>Prime Numbers, Prime Factorization, and Sieve of Eratosthenes.</li>
+      <li>Calculating divisors and their properties.</li>
+      <li>3-hour contest.</li>
     </ul>
   </div>
 
-  <div class="card">
-    <h3>Week 6: Bitwise Operations</h3>
-    <ul>
-      <li><strong>Topics:</strong>
-        <ul>
-          <li>Bitwise: AND, OR, XOR, NOT</li>
-          <li>Commutative, Associative</li>
-          <li>Order of operation</li>
-          <li>Parity checks using bits</li>
-          <li>Left and right shifting</li>
-          <li>Applications:
-            <ul>
-              <li>Count 1's in N</li>
-              <li>Check/set/flip kth bit</li>
-              <li>Remove last bit</li>
-              <li>Trailing/leading zero count</li>
-              <li>Index of last bit</li>
-              <li>Prefix masks (AND/OR) in range</li>
-            </ul>
-          </li>
-        </ul>
-      </li>
-      <li><strong>Contest:</strong> 3-hour contest</li>
+  <div class="level-section">
+    <h2>Week 6 <em>Bitwise Operations</em></h2>
+    <ul class="topic-list">
+      <li>Bitwise Operators: AND, OR, XOR, NOT, Left/Right Shift.</li>
+      <li>Applications: Parity checks, counting set bits, and manipulating bits.</li>
+      <li>3-hour contest.</li>
     </ul>
   </div>
 
-  <div class="card">
-    <h3>Week 7: Bitmasking</h3>
-    <ul>
-      <li><strong>Topics:</strong>
-        <ul>
-          <li>Bitmasking</li>
-          <li>Submask & Supermask</li>
-          <li>Complete Search with Bitmasking</li>
-        </ul>
-      </li>
-      <li><strong>Contest:</strong> 3-hour contest</li>
+  <div class="level-section">
+    <h2>Week 7 <em>Bitmasking</em></h2>
+    <ul class="topic-list">
+      <li>Introduction to Bitmasking for subsets and state representation.</li>
+      <li>Complete Search with Bitmasking.</li>
+      <li>3-hour contest.</li>
     </ul>
   </div>
 
-  <div class="card">
-    <h3>Week 8: Constructive Algorithms</h3>
-    <ul>
-      <li><strong>Topics:</strong>
-        <ul>
-          <li>Constructive Thinking</li>
-          <li>Permutations</li>
-          <li>Array Construction Problems</li>
-        </ul>
-      </li>
-      <li><strong>Contest:</strong> 3-hour contest</li>
+  <div class="level-section">
+    <h2>Week 8 <em>Constructive Algorithms</em></h2>
+    <ul class="topic-list">
+      <li>Developing constructive thinking for building solutions.</li>
+      <li>Problems involving permutations and array construction.</li>
+      <li>3-hour contest.</li>
     </ul>
   </div>
 
-  <div class="card">
-    <h3>Week 9: GCD / LCM / Divisibility</h3>
-    <ul>
-      <li><strong>Topics:</strong>
-        <ul>
-          <li>GCD & LCM</li>
-          <li>Divisibility Rules</li>
-          <li>Euclidean Algorithm</li>
-        </ul>
-      </li>
-      <li><strong>Contest:</strong> 3-hour contest</li>
+  <div class="level-section">
+    <h2>Week 9 <em>GCD, LCM & Divisibility</em></h2>
+    <ul class="topic-list">
+      <li>Euclidean Algorithm for GCD.</li>
+      <li>Properties of Divisibility and their applications.</li>
+      <li>3-hour contest.</li>
     </ul>
   </div>
 
-  <div class="card">
-    <h3>Week 10: Modular Arithmetic</h3>
-    <ul>
-      <li><strong>Topics:</strong>
-        <ul>
-          <li>Arithmetic & Geometric Progression</li>
-          <li>Modular Arithmetic Basics</li>
-          <li>Modular Properties</li>
-          <li>Binary Exponentiation</li>
-          <li>Modular Inverse</li>
-          <li>Fermat's Theorem</li>
-          <li>Extended Euclidean Algorithm</li>
-        </ul>
-      </li>
-      <li><strong>Contest:</strong> 3-hour contest</li>
+  <div class="level-section">
+    <h2>Week 10 <em>Modular Arithmetic</em></h2>
+    <ul class="topic-list">
+      <li>Modular properties, Binary Exponentiation, and Modular Inverse.</li>
+      <li>Fermat's Little Theorem and Extended Euclidean Algorithm.</li>
+      <li>3-hour contest.</li>
     </ul>
   </div>
 
-  <div class="card">
-    <h3>Week 11: Binary Search</h3>
-    <ul>
-      <li><strong>Topics:</strong>
-        <ul>
-          <li>Binary Search</li>
-          <li>Binary Search on Answer</li>
-        </ul>
-      </li>
-      <li><strong>Contest:</strong> 3-hour contest</li>
+  <div class="level-section">
+    <h2>Week 11 <em>Binary Search</em></h2>
+    <ul class="topic-list">
+      <li>Binary Search on a monotonic function.</li>
+      <li>Binary Search on the Answer (Discrete & Continuous).</li>
+      <li>3-hour contest.</li>
     </ul>
   </div>
 
-  <div class="card">
-    <h3>Week 12: Two Pointers & Sliding Window</h3>
-    <ul>
-      <li><strong>Topics:</strong>
-        <ul>
-          <li>Two Pointers Technique</li>
-          <li>Sliding Window Patterns</li>
-        </ul>
-      </li>
-      <li><strong>Contest:</strong> 3-hour contest</li>
+  <div class="level-section">
+    <h2>Week 12 <em>Two Pointers & Sliding Window</em></h2>
+    <ul class="topic-list">
+      <li>The Two Pointers technique for linear traversals.</li>
+      <li>Sliding Window patterns for subarray/substring problems.</li>
+      <li>3-hour contest.</li>
     </ul>
   </div>
-
-</div>

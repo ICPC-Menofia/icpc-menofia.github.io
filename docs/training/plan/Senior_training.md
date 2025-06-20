@@ -1,293 +1,70 @@
-<h1 align="center">🏆 Senior Competitive Programming Training</h1>
-
-<p align="center">
-  Welcome to the <strong>Menofia ICPC Community</strong> Senior Training!<br>
-  <p>
-    This program is designed to deepen your mastery of advanced Competitive Programming topics across core categories such as Graphs, Data Structures, Geometry, and Dynamic Programming. Ideal for Div1 preparation and ICPC regionals.
+<div class="hero-section">
+  <h1>Senior Training Plan</h1>
+  <p class="md-typeset hero-subtitle">
+    This program is designed to deepen your mastery of advanced topics. Ideal for Div1 preparation and ICPC regionals.
   </p>
-</p>
-
-<hr>
-
-<h2>📚 Categories & Sprints</h2>
-
-<h3>📦 Data Structures</h3>
-<div class="cards-grid">
-  <div class="card">
-    <h3>Sprint 0</h3>
-    <ul>
-      <li>Range Queries: Segment Tree, Binary Indexed Tree (Fenwick Tree), Sparse Table</li>
-      <li>Applications of Segment Tree</li>
-      <li>Range Queries with Sweep Line</li>
-    </ul>
-  </div>
-  <div class="card">
-    <h3>Sprint 1</h3>
-    <ul>
-      <li>Square Root Decomposition</li>
-      <li>Mo's Algorithm</li>
-    </ul>
-  </div>
-  <div class="card">
-    <h3>Sprint 2</h3>
-    <ul>
-      <li>Divide and Conquer on Queries</li>
-      <li>CDQ Divide and Conquer</li>
-    </ul>
-  </div>
-  <div class="card">
-    <h3>Sprint 3</h3>
-    <ul>
-      <li>Persistent Segment Tree</li>
-      <li>Disjoint Set Union (DSU): Augmented DSU, Rollback DSU</li>
-    </ul>
-  </div>
-  <div class="card">
-    <h3>Sprint 4</h3>
-    <ul>
-      <li>2D Range Queries:
-        <ul>
-          <li>2D Segment Tree</li>
-          <li>2D Sparse Table</li>
-          <li>2D BIT</li>
-          <li>Sparse Segment Tree</li>
-        </ul>
-      </li>
-    </ul>
-  </div>
 </div>
 
-<hr>
-
-<h3>🔤 Strings</h3>
-<div class="cards-grid">
-  <div class="card">
-    <h3>Sprint 0</h3>
-    <ul>
-      <li>String Hashing: Rolling, XOR, Polynomial Hashing</li>
-      <li>Double & K-th Hashing</li>
-      <li>2D Hashing</li>
-      <li>String Algorithms: KMP, Z-Algorithm, Manacher's Algorithm</li>
-      <li>Dynamic Programming with KMP</li>
-    </ul>
-  </div>
-  <div class="card">
-    <h3>Sprint 1</h3>
-    <ul>
-      <li>Trie (String & Bit-based)</li>
-      <li>DFS on Trie</li>
-      <li>DP on Trie</li>
-    </ul>
-  </div>
-  <div class="card">
-    <h3>Sprint 2</h3>
-    <ul>
-      <li>Suffix Array</li>
-      <li>Aho-Corasick Algorithm</li>
-    </ul>
-  </div>
+<div class="level-section">
+  <h2>Data Structures <em>Advanced query and tree-based structures</em></h2>
+  <ul class="topic-list">
+    <li><strong>Range Queries:</strong> Segment Tree, Fenwick Tree (BIT), and Sparse Table.</li>
+    <li><strong>Decomposition:</strong> Square Root Decomposition and Mo's Algorithm.</li>
+    <li><strong>Advanced Techniques:</strong> CDQ Divide & Conquer, Persistent Segment Tree, and Augmented/Rollback DSU.</li>
+    <li><strong>2D Queries:</strong> 2D Segment/Sparse/BIT and Sparse Segment Trees.</li>
+  </ul>
 </div>
 
-<hr>
-
-<h3>🔗 Graph</h3>
-<div class="cards-grid">
-  <div class="card">
-    <h3>Sprint 0</h3>
-    <ul>
-      <li>Strongly Connected Components (Tarjan's, Kosaraju's)</li>
-      <li>Topological Sorting</li>
-      <li>DP on SCC</li>
-      <li>Bridge Tree, DFS Tree</li>
-    </ul>
-  </div>
-  <div class="card">
-    <h3>Sprint 1</h3>
-    <ul>
-      <li>Maximum Flow</li>
-      <li>Minimum-Cost Maximum Flow</li>
-      <li>Maximum Bipartite Matching</li>
-    </ul>
-  </div>
-  <div class="card">
-    <h3>Sprint 2</h3>
-    <ul>
-      <li>2-SAT</li>
-    </ul>
-  </div>
+<div class="level-section">
+  <h2>Strings <em>Hashing, tries, and suffix structures</em></h2>
+  <ul class="topic-list">
+    <li><strong>Hashing:</strong> Rolling, XOR, Polynomial, 2D, and Double Hashing.</li>
+    <li><strong>Classic Algorithms:</strong> KMP, Z-Algorithm, and Manacher's Algorithm.</li>
+    <li><strong>Tree-based Structures:</strong> Trie (String/Bit-based) and Suffix Array.</li>
+    <li><strong>Automata:</strong> Aho-Corasick Algorithm.</li>
+  </ul>
 </div>
 
-<hr>
-
-<h3>🧠 Dynamic Programming</h3>
-<div class="cards-grid">
-  <div class="card">
-    <h3>Sprint 0</h3>
-    <ul>
-      <li>Common Tricks:
-        <ul>
-          <li>Presorting</li>
-          <li>Pre-calculation</li>
-          <li>Double DP</li>
-          <li>Eliminating Parameters</li>
-          <li>Skip Useless States</li>
-          <li>Rotate the Recurrence</li>
-        </ul>
-      </li>
-      <li>Masking & Broken Profile DP</li>
-      <li>Submask Enumeration</li>
-    </ul>
-  </div>
-  <div class="card">
-    <h3>Sprint 1</h3>
-    <ul>
-      <li>DP Optimization with Prefix Sum</li>
-      <li>DP with Data Structures</li>
-    </ul>
-  </div>
-  <div class="card">
-    <h3>Sprint 3</h3>
-    <ul>
-      <li>Convex Hull Trick</li>
-      <li>Divide and Conquer Optimization</li>
-      <li>Knuth Optimization</li>
-    </ul>
-  </div>
+<div class="level-section">
+  <h2>Graph Theory <em>Flows, matching, and advanced connectivity</em></h2>
+  <ul class="topic-list">
+    <li><strong>Connectivity:</strong> Strongly Connected Components (Tarjan's, Kosaraju's) and Bridge/DFS Trees.</li>
+    <li><strong>Flows & Matching:</strong> Maximum Flow, Min-Cost Max-Flow, and Maximum Bipartite Matching.</li>
+    <li><strong>Logic:</strong> 2-SAT problem-solving.</li>
+  </ul>
 </div>
 
-<hr>
-
-<h3>🌲 Trees</h3>
-<div class="cards-grid">
-  <div class="card">
-    <h3>Sprint 0</h3>
-    <ul>
-      <li>Binary Lifting & LCA</li>
-      <li>Euler Tour & Tree Linearization</li>
-    </ul>
-  </div>
-  <div class="card">
-    <h3>Sprint 1</h3>
-    <ul>
-      <li>DP on Trees</li>
-      <li>All Roots Problem Solving</li>
-      <li>Small to Large Trick</li>
-    </ul>
-  </div>
-  <div class="card">
-    <h3>Sprint 2</h3>
-    <ul>
-      <li>Heavy-Light Decomposition (HLD)</li>
-      <li>Centroid Decomposition</li>
-    </ul>
-  </div>
+<div class="level-section">
+  <h2>Dynamic Programming <em>Advanced techniques and optimizations</em></h2>
+  <ul class="topic-list">
+    <li><strong>Common Tricks:</strong> Presorting, Pre-calculation, Double DP, and State Elimination.</li>
+    <li><strong>Masking:</strong> Broken Profile DP and Submask Enumeration.</li>
+    <li><strong>Optimizations:</strong> Prefix Sum, Data Structures, Convex Hull Trick, D&C Optimization, and Knuth Optimization.</li>
+  </ul>
 </div>
 
-<hr>
-
-<h3>🎲 Combinatorics</h3>
-<div class="cards-grid">
-  <div class="card">
-    <h3>Sprint 0</h3>
-    <ul>
-      <li>Binomial Coefficients:
-        <ul>
-          <li>Pascal's Triangle</li>
-          <li>Hockey Stick Identity</li>
-          <li>Binomial & Multinomial Theorems</li>
-        </ul>
-      </li>
-      <li>Permutations</li>
-    </ul>
-  </div>
-  <div class="card">
-    <h3>Sprint 1</h3>
-    <ul>
-      <li>Special Sequences:
-        <ul>
-          <li>Fibonacci</li>
-          <li>Stirling Numbers</li>
-          <li>Catalan Numbers</li>
-        </ul>
-      </li>
-      <li>Stars and Bars</li>
-      <li>Inclusion & Exclusion</li>
-    </ul>
-  </div>
-  <div class="card">
-    <h3>Sprint 2</h3>
-    <ul>
-      <li>Probability & Expectations</li>
-    </ul>
-  </div>
-  <div class="card">
-    <h3>Sprint 3</h3>
-    <ul>
-      <li>Matrix Exponentiation</li>
-    </ul>
-  </div>
-  <div class="card">
-    <h3>Sprint 4</h3>
-    <ul>
-      <li>XOR Basis</li>
-    </ul>
-  </div>
+<div class="level-section">
+  <h2>Trees <em>Advanced traversals and decomposition</em></h2>
+  <ul class="topic-list">
+    <li><strong>Ancestry & Traversal:</strong> Binary Lifting for LCA and Euler Tour for tree linearization.</li>
+    <li><strong>DP & Tricks:</strong> DP on Trees, the "All Roots" problem-solving pattern, and Small to Large merging.</li>
+    <li><strong>Decomposition:</strong> Heavy-Light Decomposition (HLD) and Centroid Decomposition.</li>
+  </ul>
 </div>
 
-<hr>
-
-<h3>📐 Geometry</h3>
-<div class="cards-grid">
-  <div class="card">
-    <h3>Sprint 0</h3>
-    <ul>
-      <li>Geometry Primitives</li>
-    </ul>
-  </div>
-  <div class="card">
-    <h3>Sprint 1</h3>
-    <ul>
-      <li>Ahmed Elsayed Mood Problems</li>
-    </ul>
-  </div>
+<div class="level-section">
+  <h2>Combinatorics <em>Counting, probability, and sequences</em></h2>
+  <ul class="topic-list">
+    <li><strong>Binomial Coefficients:</strong> Pascal's Triangle, Hockey Stick Identity, and Binomial/Multinomial Theorems.</li>
+    <li><strong>Sequences & Techniques:</strong> Fibonacci, Stirling, Catalan numbers, Stars and Bars, and Inclusion-Exclusion.</li>
+    <li><strong>Advanced Topics:</strong> Probability & Expectations, Matrix Exponentiation, and XOR Basis.</li>
+  </ul>
 </div>
 
-<hr>
-
-<h3>🔢 Number Theory</h3>
-<div class="cards-grid">
-  <div class="card">
-    <h3>Sprint 0</h3>
-    <ul>
-      <li>Euler's Totient Function</li>
-      <li>Chinese Remainder Theorem</li>
-      <li>Linear Diophantine Equations</li>
-    </ul>
-  </div>
-  <div class="card">
-    <h3>Sprint 1</h3>
-    <ul>
-      <li>Multiplicative Functions</li>
-    </ul>
-  </div>
-  <div class="card">
-    <h3>Sprint 2</h3>
-    <ul>
-      <li>FFT / NTT</li>
-    </ul>
-  </div>
-</div>
-
-<hr>
-
-<h3>🎮 Game Theory</h3>
-<div class="cards-grid">
-  <div class="card">
-    <h3>Game Theory Topics</h3>
-    <ul>
-      <li>Winning and Losing Positions</li>
-      <li>Game of Nim</li>
-      <li>Grundy Numbers</li>
-    </ul>
-  </div>
+<div class="level-section">
+  <h2>Computational Geometry <em>Primitives and problem-solving</em></h2>
+  <ul class="topic-list">
+    <li>Fundamental geometric primitives and their applications.</li>
+    <li>Solving common geometry problems from contests (e.g., "Ahmed Elsayed Mood Problems").</li>
+  </ul>
 </div>

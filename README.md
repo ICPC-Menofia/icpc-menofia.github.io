@@ -1,6 +1,6 @@
 # ICPC Menofia Community Website
 
-This repository contains the source code for the official website of the ICPC Menofia Community, built with [MkDocs](https://www.mkdocs.org/) and the [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) theme.
+This repository contains the source code for the official website of the ICPC Menofia Community, built with  [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) theme.
 
 The website serves as a central hub for our community, providing access to training materials, session recordings, event announcements, and resources for competitive programmers at Menofia University.
 

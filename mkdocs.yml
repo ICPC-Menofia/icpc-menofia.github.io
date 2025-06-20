@@ -4,7 +4,7 @@ copyright: Copyright &copy; 2025 ICPC Menofia Community
 
 theme:
   name: material
-  logo: assets/images/logo.png
+  logo: assets/images/logo-white.jpg
   favicon: assets/images/logo-white.jpg
 
   features:
@@ -67,6 +67,7 @@ nav:
   - Community:
       - Overview: community/index.md
       - About Us: community/about_us.md
+      - Our Coaches: community/coaches.md
       - Join Our Community: community/join_us.md
   - Training:
       - Overview: training/index.md
@@ -78,8 +79,8 @@ nav:
         - Level 2 Training: training/2024/level2_training.md
   - Resources:
       - Overview: resources/index.md
-      - FAQ: resources/faq.md
       - All Community Sessions: resources/all-community-sessions.md
+      - FAQ: resources/FAQ.md
   - News:
       - Overview: news/index.md
       - 2025 Events: news/2025_events.md
@@ -89,3 +90,16 @@ nav:
 plugins:
   - search:
       lang: en
+
+markdown_extensions:
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - attr_list
+  - md_in_html

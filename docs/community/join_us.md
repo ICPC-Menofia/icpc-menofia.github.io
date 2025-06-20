@@ -8,14 +8,14 @@ We are thrilled that you're interested in joining the ICPC Menofia Community! Wh
 
 By joining our community, you gain access to a world of opportunities designed to help you grow and succeed:
 
-*   **Structured Training:** Follow our comprehensive training plans, from the Newcomer track to Senior-level sprints, to systematically build your algorithmic and problem-solving skills.
-*   **Compete at High Levels:** Prepare for and participate in prestigious competitions like the Egyptian Collegiate Programming Contest (ECPC) and work towards qualifying for the ICPC World Finals.
-*   **Collaborative Environment:** Learn from your peers, share your knowledge, and tackle challenging problems together in a supportive and friendly atmosphere.
-*   **Mentorship & Guidance:** Get guidance from experienced senior members, coaches, and alumni who are active in the competitive programming scene and the tech industry.
+*   **Structured Training:** Follow our clear training paths - from Newcomer to Senior-to improve your coding and problem-solving step by step.
+*   **Compete with the Best:** Train for top contests like the ECPC and aim to qualify for the ACPC as part of Menofia University’s official teams.
+*   **Supportive Teamwork:** Learn and grow with fellow students in a positive, collaborative environment where we solve problems and improve together.
+*   **Guidance from Mentors:** Get help and advice from experienced teammates, coaches, and alumni with real ICPC and tech industry experience.
 
 ## How to Get Started
 
-Joining our community is simple. Your journey begins on our Discord server, which is the central hub for all our activities.
+It’s easy to join us! Just hop onto our Discord server—it’s where all the action happens.
 
 1.  **Join Our Discord Server:**
     <a href="https://discord.gg/bdKQ3RSSxK" target="_blank" class="md-button md-button--primary">Click Here to Join Discord</a>

@@ -191,28 +191,55 @@
 }
 
 .coach-section {
-  background-color: var(--md-default-bg-color);
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: var(--md-shadow-z1);
+  /* Makes the section a transparent container for the grid */
+  background-color: transparent;
+  padding: 0;
+  box-shadow: none;
 }
 
 [data-md-color-scheme="slate"] .coach-section {
-  background-color: var(--md-card-bg-color);
+  background-color: transparent;
 }
 
 .coach-section ul {
   list-style: none;
   padding-left: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
 }
 
 .coach-section li {
-  margin-bottom: 15px;
+  background-color: var(--md-default-bg-color--light);
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: var(--md-shadow-z1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  margin-bottom: 0; /* Spacing handled by grid gap */
+}
+
+[data-md-color-scheme="slate"] .coach-section li {
+  background-color: hsla(0, 0%, 100%, 0.1);
+}
+
+.coach-section li:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--md-shadow-z2);
 }
 
 .coach-section strong {
   display: block;
-  margin-bottom: 5px;
+  margin-bottom: 0.2rem;
+  font-size: 1.2rem;
+  color: var(--md-primary-fg-color);
+}
+
+.coach-section li small {
+    display: block;
+    font-size: 0.9rem;
+    color: var(--md-default-fg-color--medium);
+    margin-top: 0.2rem;
+    margin-bottom: 1rem; /* More space before links */
 }
 
 .hero-section {
@@ -266,4 +293,60 @@
   background-color: var(--md-default-bg-color--light);
   margin-top: 3rem;
   border-radius: 12px;
+}
+
+/* Container for each training level section */
+.level-section {
+  padding: 1.5rem;
+  margin-top: 2rem;
+  border-radius: 12px;
+  background-color: var(--md-default-bg-color);
+  box-shadow: var(--md-shadow-z1-hard); /* A slightly more pronounced shadow */
+  transition: box-shadow 0.2s ease;
+}
+
+[data-md-color-scheme="slate"] .level-section {
+    background-color: var(--md-card-bg-color);
+}
+
+.level-section:hover {
+  box-shadow: var(--md-shadow-z2-hard);
+}
+
+.level-section h2 {
+  margin-top: 0;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid var(--md-primary-fg-color);
+  margin-bottom: 1.5rem;
+}
+
+.level-section h2 em {
+  display: block;
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--md-default-fg-color--medium);
+  margin-top: 0.25rem;
+}
+
+.topic-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.topic-list li {
+  position: relative;
+  padding-left: 1.8rem;
+  margin-bottom: 0.8rem;
+  font-size: 1rem;
+}
+
+.topic-list li::before {
+  content: "»";
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-weight: bold;
+  color: var(--md-primary-fg-color);
+  font-size: 1.2rem;
+  line-height: 1;
 }

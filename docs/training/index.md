@@ -25,7 +25,7 @@
   </div>
   <div class="card">
     <h3>Senior Training</h3>
-    <p>Master advanced topics in preparation for Div1 contests and regional competitions like the ECPC.</p>
+    <p>Master advanced topics in preparation for Div1 contests and regional competitions like the ACPC.</p>
     <a href="./plan/Senior_training" class="md-button">Go to Senior Plan</a>
   </div>
 </div>

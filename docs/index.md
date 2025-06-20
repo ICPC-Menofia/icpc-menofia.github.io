@@ -18,18 +18,18 @@ hide:
 
 <div class="cards-grid">
   <div class="card">
-    <h3>Structured Learning Paths</h3>
-    <p>Whether you're new to coding or an advanced problem-solver, our level-based training plans provide a clear roadmap for your growth. Find the path that's right for you, from Newcomer to Senior.</p>
+    <h3>Training Plans & Resources</h3>
+    <p>Start your journey in competitive programming with our step-by-step training paths. Whether you're new to coding or aiming for top contests, there's a plan for you.</p>
     <a href="/training/" class="md-button">Explore Training</a>
   </div>
   <div class="card">
-    <h3>Compete and Grow</h3>
-    <p>Put your skills to the test in our regular contests and workshops. Prepare for major events like the ECPC and the ICPC, and represent Menofia University on a competitive stage.</p>
+    <h3>News & Events</h3>
+    <p>  Follow our journey through events, contests, and regional participation over the years. Discover how our community has grown and competed!</p>
     <a href="/news/" class="md-button">See Latest Events</a>
   </div>
   <div class="card">
-    <h3>A Supportive Community</h3>
-    <p>You're not alone on this journey. Join hundreds of like-minded students on our Discord server. Collaborate on problems, get help from experienced mentors, and build lasting friendships.</p>
+    <h3>Join Our Community</h3>
+    <p>You’re not alone. Be part of our active Discord group with hundreds of students. Solve problems together, get help from mentors, and make new friends.</p>
     <a href="/community/join_us/" class="md-button">Meet the Community</a>
   </div>
 </div>

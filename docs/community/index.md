@@ -1,7 +1,7 @@
 <div class="hero-section">
   <h1>Our Community</h1>
   <p class="md-typeset hero-subtitle">
-    We are a passionate group of problem-solvers, mentors, and friends, united by our love for competitive programming.
+    We’re a passionate team of students and mentors from Menofia University, united by our love for competitive programming and our goal to grow, compete, and succeed together.
   </p>
 </div>
 
