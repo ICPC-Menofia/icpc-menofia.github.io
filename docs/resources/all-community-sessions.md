@@ -98,11 +98,11 @@ This page archives all recorded sessions delivered by our community coaches. Ses
             </tr>
     </thead>
     <tbody>
-        <!-- <tr>
+        <tr>
             <td>DFS & BFS</td>
             <td><a href="../../community/coaches/#coach-khaled">Mohamed Khaled</a></td>
             <td><a href="https://example.com/dfs-bfs" target="_blank">View</a></td>
-        </tr> -->
+        </tr>
         <!-- Add more Level 2 topic sessions here -->
     </tbody>
   </table>
@@ -117,11 +117,11 @@ This page archives all recorded sessions delivered by our community coaches. Ses
         </tr>
     </thead>
     <tbody>
-        <!-- <tr>
+        <tr>
             <td>Div2 Contest #850</td>
                 <td><a href="../../community/coaches/#coach-khaled">Mohamed Khaled</a></td>
             <td><a href="https://example.com/level2-upsolve-1" target="_blank">View</a></td>
-        </tr> -->
+        </tr>
         <!-- Add more Level 2 upsolve sessions here -->
     </tbody>
   </table>

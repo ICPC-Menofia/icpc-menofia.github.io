@@ -21,9 +21,9 @@
 }
 
 [data-md-color-scheme="slate"] {
-    --md-sys-color-primary: #e53935; /* Red from logo for dark mode primary */
-    --md-sys-color-primary-light: #ef5350;
-    --md-sys-color-primary-dark: #b71c1c;
+    --md-sys-color-primary: #336699; /* Blue from logo for dark mode primary */
+    --md-sys-color-primary-light: #4c82b2;
+    --md-sys-color-primary-dark: #264d73;
     --md-sys-color-accent: #FFC107; /* Yellow from logo */
 
     --md-card-bg-color: hsla(0, 0%, 100%, 0.12);
@@ -333,11 +333,12 @@
   padding-left: 0;
 }
 
-.topic-list li {
+.topic-list > li {
   position: relative;
   padding-left: 1.8rem;
   margin-bottom: 0.8rem;
   font-size: 1rem;
+  list-style-type: none !important; /* Force removal of default bullets */
 }
 
 .topic-list li::before {

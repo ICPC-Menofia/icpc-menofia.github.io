@@ -28,7 +28,6 @@
     <ul class="topic-list">
       <li>STL Containers: vector, pair, queue, deque, stack.</li>
       <li>Library Sorting & Custom Comparators.</li>
-      <li>Coaches: Ahmed Mohamed, Esraa Mabrouk, Ameen, Mousa.</li>
     </ul>
   </div>
 
@@ -38,7 +37,6 @@
       <li>STL Containers: map, set, priority_queue, multiset.</li>
       <li>Sorting with lower/upper bound.</li>
       <li>3-hour STL contest.</li>
-      <li>Coaches: Yomna Magdy, Eslam, Ahmed Mohamed, Mordy.</li>
     </ul>
   </div>
 
@@ -48,7 +46,6 @@
       <li>Introduction to Greedy algorithms and Ad-hoc problem-solving techniques.</li>
       <li>Applications: Sweep Line, Scheduling, Tasks and Deadlines.</li>
       <li>3-hour contest.</li>
-      <li>Coaches: Mousa, aalsayed.</li>
     </ul>
   </div>
 
