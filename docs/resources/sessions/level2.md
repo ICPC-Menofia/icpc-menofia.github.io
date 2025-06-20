@@ -199,6 +199,17 @@ This page archives all recorded sessions for our Level 2 Training program.
             <td><a href="../../community/coaches/#khaled-labeb">Khaled Labeb</a></td>
             <td><a href="https://www.youtube.com/watch?v=S5DQZf52tVs" target="_blank">View</a></td>
         </tr>
+        <tr>
+            <td>MST (Minimum Spanning Tree) Practice session</td>
+            <td><a href="../../community/coaches/#mohamed-khaled-saeed">Mohamed khaled Saeed</a></td>
+            <td>
+                <a href="https://drive.google.com/drive/folders/1q3-ELf2AiWA8NlKHedjRVek0yPXLq3_y" target="_blank">View (Part1)</a>
+                <br>
+                <a href="https://drive.google.com/drive/folders/1q3-ELf2AiWA8NlKHedjRVek0yPXLq3_y" target="_blank">View (Part2)</a>
+                <br>
+                <a href="https://drive.google.com/drive/folders/1q3-ELf2AiWA8NlKHedjRVek0yPXLq3_y" target="_blank">View (Part3)</a>
+            </td>
+        </tr>
     </tbody>
   </table>
 </div> 

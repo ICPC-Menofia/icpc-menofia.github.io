@@ -34,6 +34,11 @@ hide:
             <td><a href="https://www.youtube.com/watch?v=hyk46UmJPS4" target="_blank">View</a></td>
         </tr>
         <tr>
+            <td>DP Introduction</td>
+            <td>Usaco guide</td>
+            <td><a href="https://usaco.guide/gold/intro-dp" target="_blank">View</a></td>
+        </tr>
+        <tr>
             <td>Backtracking Session</td>
             <td>Hazem Adel</td>
             <td><a href="https://www.youtube.com/watch?v=eRZwLq68BKU" target="_blank">View</a></td>
