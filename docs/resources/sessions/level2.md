@@ -29,6 +29,13 @@ This page archives all recorded sessions for our Level 2 Training program.
             <td><a href="https://www.youtube.com/watch?v=muYpyTbmeOA&list=PL3otEsYiklFG3jsD1_sJJ99XEoXDzZ9i_" target="_blank">View</a></td>
         </tr>
         <tr>
+            <td>Recusrion</td>
+            <td><a href="../../community/coaches/#abdallah-ahmed">Abdallah Ahmed</a></td>
+            <td>
+                <a href="https://drive.google.com/drive/folders/15iY8yXt6jujb3K1jhudiIQwS5w8fKL6x?usp=sharing" target="_blank">View</a>
+            </td>
+        </tr>
+        <tr>
             <td>Recursion</td>
             <td><a href="../../community/coaches/#abdelrhman-emad">Abdelrhman Emad</a></td>
             <td>
@@ -36,10 +43,24 @@ This page archives all recorded sessions for our Level 2 Training program.
             </td>
         </tr>
         <tr>
+            <td>Backtracking</td>
+            <td><a href="../../community/coaches/#abdallah-ahmed">Abdallah Ahmed</a></td>
+            <td>
+                <a href="https://drive.google.com/drive/folders/1EXU91AzITxolUU_H-kD7myboMNXQEZ66?usp=sharing" target="_blank">View</a>
+            </td>
+        </tr>
+        <tr>
             <td>Complete Search (Backtracking, masking, All permutations)</td>
             <td><a href="../../community/coaches/#abdelrhman-sersawy">Abdelrhman Sersawy</a></td>
             <td>
                 <a href="https://www.youtube.com/watch?v=8T5wb1AQhrk" target="_blank">View</a>
+            </td>
+        </tr>
+        <tr>
+            <td>Graph theory: DFS, Connected Component, Trees, Implicit Graphs</td>
+            <td><a href="../../community/coaches/#abdallah-ahmed">Abdallah Ahmed</a></td>
+            <td>
+                <a href="https://drive.google.com/file/d/1AD7FIiRxwcEV_u5Gw3DWMzufHtCnqUG-/view?usp=sharing" target="_blank">View</a>
             </td>
         </tr>
         <tr>
@@ -84,6 +105,20 @@ This page archives all recorded sessions for our Level 2 Training program.
             <td><a href="../../community/coaches/#abdelrhman-sersawy">Abdelrhman Sersawy</a></td>
             <td>
                 <a href="https://www.youtube.com/watch?v=ls_QVRjquaI&t=1989s">View</a>
+            </td>
+        </tr>
+        <tr>
+            <td>Dynamic Programming [Basics, Knapsack, Subset Style]</td>
+            <td><a href="../../community/coaches/#abdallah-ahmed">Abdallah Ahmed</a></td>
+            <td>
+                <a href="https://drive.google.com/drive/folders/1tSJ4fw3tBwie0YpxzZ7R4qKvvNLF-9mZ?usp=sharing" target="_blank">View</a>
+            </td>
+        </tr>
+        <tr>
+            <td>Dynamic Programming [Consecutive Ranges, Nested Ranges]</td>
+            <td><a href="../../community/coaches/#abdallah-ahmed">Abdallah Ahmed</a></td>
+            <td>
+                <a href="https://drive.google.com/drive/folders/1RDlZpgyUaSUkcvKJypPkYscF4tHhOB2-?usp=sharing" target="_blank">View</a>
             </td>
         </tr>
         <tr>
