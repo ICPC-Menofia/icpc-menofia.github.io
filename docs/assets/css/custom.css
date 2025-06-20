@@ -407,6 +407,133 @@
 }
 /* End Curriculum Flowchart */
 
+/* Achievements Timeline */
+.achievements-timeline {
+  display: flex;
+  align-items: flex-start;
+  margin: 3rem auto;
+  max-width: 1000px;
+  overflow-x: auto;
+  padding: 2rem; /* Increased padding for more breathing room */
+  /* Custom scrollbar styling */
+  scrollbar-width: thin;
+  scrollbar-color: var(--md-primary-fg-color--light) var(--md-default-bg-color);
+}
+
+/* Custom scrollbar for Webkit browsers */
+.achievements-timeline::-webkit-scrollbar {
+  height: 8px;
+}
+.achievements-timeline::-webkit-scrollbar-track {
+  background: var(--md-default-bg-color);
+  border-radius: 4px;
+}
+.achievements-timeline::-webkit-scrollbar-thumb {
+  background-color: var(--md-primary-fg-color--light);
+  border-radius: 4px;
+}
+
+.timeline-step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  flex-shrink: 0;
+  width: 180px;
+  padding: 0px 15px; /* Added a bit more horizontal space */
+}
+
+.timeline-step-year {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background-color: var(--md-default-bg-color--light);
+  border: 3px solid var(--md-primary-fg-color--light);
+  color: var(--md-primary-fg-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 1.4rem;
+  transition: all 0.3s ease;
+  margin-bottom: 1rem;
+}
+
+.timeline-step:hover .timeline-step-year {
+  transform: scale(1.1);
+  background-color: var(--md-primary-fg-color);
+  color: var(--md-primary-bg-color);
+  border-color: var(--md-primary-fg-color);
+}
+
+.timeline-step-details {
+  background-color: var(--md-default-bg-color);
+  padding: 0.8rem;
+  border-radius: 8px;
+  box-shadow: var(--md-shadow-z1);
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 0.9rem;
+  line-height: 1.4;
+  color: var(--md-default-fg-color--medium);
+}
+
+.timeline-connector {
+  flex-grow: 1;
+  min-width: 40px;
+  height: 3px;
+  background-color: var(--md-primary-fg-color--light);
+  position: relative;
+  top: 45px; /* Re-aligned with the middle of the 90px circle */
+}
+
+[data-md-color-scheme="slate"] .timeline-step-year {
+  background-color: var(--md-card-bg-color);
+}
+
+[data-md-color-scheme="slate"] .timeline-step-details {
+  background-color: hsla(0, 0%, 100%, 0.07);
+  box-shadow: none;
+  border: 1px solid hsla(0, 0%, 100%, 0.15);
+}
+
+/* Responsive vertical layout for smaller screens */
+@media screen and (max-width: 800px) {
+  .achievements-timeline {
+    flex-direction: column;
+    align-items: center; /* Center steps vertically */
+    overflow-x: hidden; /* Disable horizontal scroll */
+  }
+
+  .timeline-step {
+    width: 100%; /* Allow steps to take full width */
+  }
+
+  /* Hide the horizontal connector */
+  .timeline-connector {
+    display: none;
+  }
+
+  /* Create a vertical connector with a pseudo-element */
+  .timeline-step:not(:last-child) {
+    position: relative;
+    padding-bottom: 4rem; /* Add space for the line */
+  }
+
+  .timeline-step:not(:last-child)::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 3px;
+    height: 4rem; /* Length of the vertical line */
+    background-color: var(--md-primary-fg-color--light);
+  }
+}
+/* End Achievements Timeline */
+
 /* Container for each training level section */
 .level-section {
   padding: 1.5rem;

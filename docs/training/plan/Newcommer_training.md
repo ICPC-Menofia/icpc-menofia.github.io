@@ -7,22 +7,22 @@
 
 <div class="training-path">
   <div class="path-step active">
-    <div class="path-step-icon">1</div>
+    <div class="path-step-icon">0</div>
     <div class="path-step-title">Newcomer</div>
   </div>
   <div class="path-connector"></div>
   <a href="../Level1_training.md" class="path-step">
-    <div class="path-step-icon">2</div>
+    <div class="path-step-icon">1</div>
     <div class="path-step-title">Level 1</div>
   </a>
   <div class="path-connector"></div>
   <a href="../Level2_training.md" class="path-step">
-    <div class="path-step-icon">3</div>
+    <div class="path-step-icon">2</div>
     <div class="path-step-title">Level 2</div>
   </a>
   <div class="path-connector"></div>
   <a href="../Senior_training.md" class="path-step">
-    <div class="path-step-icon">4</div>
+    <div class="path-step-icon">3</div>
     <div class="path-step-title">Senior</div>
   </a>
 </div>
