@@ -11,7 +11,7 @@ This page archives all recorded sessions for our Level 2 Training program.
 <div class="level-section">
   <h2>Level 2 Training<em>Advanced topics including DP, graphs, and more complex data structures.</em></h2>
 
-  <<h3>Topics Sessions</h3>
+  <h3>Topics Sessions</h3>
   <table class="sessions-table">
     <thead>
         <tr>
