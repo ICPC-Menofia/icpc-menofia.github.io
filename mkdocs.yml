@@ -87,6 +87,9 @@ nav:
       - 2025 Events: news/2025_events.md
       - 2024 Events: news/2024_events.md
       - 2023 Events: news/2023_events.md
+      - 2022 Events: news/2022_events.md
+      - 2021 Events: news/2021_events.md
+      - 2020 Events: news/2020_events.md
 
 plugins:
   - search:
