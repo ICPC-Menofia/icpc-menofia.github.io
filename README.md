@@ -20,8 +20,8 @@ Follow these steps to run the website locally and contribute.
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/ICPC-Menofia/menofia-roadmap.git
-   cd menofia-roadmap
+   git clone [https://github.com/ICPC-Menofia/menofia-roadmap.git](https://github.com/ICPC-Menofia/icpc-menofia.github.io.git)
+   cd icpc-menofia.github.io
    ```
 
 2. **Create and activate a virtual environment (optional but recommended):**
