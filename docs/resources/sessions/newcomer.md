@@ -10,7 +10,6 @@ This page archives all recorded sessions for our Newcomer Training program.
 
 <div class="level-section">
 <h2>Newcomer Training<em>Discussions and problem-solving sessions for beginners.</em></h2>
-  <h2>2024/2025 Season</h2>
   
   <h3>Topics Sessions</h3>
   <table class="sessions-table">
