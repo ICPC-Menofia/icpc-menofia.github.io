@@ -73,6 +73,10 @@ Then open your browser at `http://127.0.0.1:8000/`. The site will auto-refresh o
 
 Everyone is welcome to contribute! You can fix typos, update content, or suggest new ideas.
 
+### 🎥 Video Tutorial
+
+If you're new to contributing, check out this [YouTube playlist](https://youtube.com/playlist?list=PLAw15AnTPFl_CS8sljvkNdf6WDf0LwHlM) for a step-by-step video guide on how to contribute to this project.
+
 ### 🧭 Workflow
 
 1. **Fork** this repo on GitHub
