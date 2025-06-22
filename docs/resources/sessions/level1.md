@@ -116,6 +116,27 @@ This page archives all recorded sessions for our Level 1 Training program.
             </td>
         </tr>
         <tr>
+            <td>GCD & LCM</td>
+            <td><a href="../../community/coaches/#ameen-sakr">Ameen Sakr</a></td>
+            <td>
+                <a href="https://www.youtube.com/watch?v=Zb0NGEO09t4&list=PLYROQO7GJZJMwzFCMvdTmsIyBxEGnn6Be">View</a>
+            </td>
+        </tr>
+        <tr>
+            <td>Bitmask (part 1)</td>
+            <td><a href="../../community/coaches/#ameen-sakr">Ameen Sakr</a></td>
+            <td>
+                <a href="https://www.youtube.com/watch?v=HKsMNoNnoRQ&list=PLYROQO7GJZJMv8V6riZJutDa0zbsm9Qq4">View</a>
+            </td>
+        </tr>
+        <tr>
+            <td>Bitmask (part 2)</td>
+            <td><a href="../../community/coaches/#ameen-sakr">Ameen Sakr</a></td>
+            <td>
+                <a href="https://www.youtube.com/playlist?list=PLYROQO7GJZJNrANmDuL3uk24oy4aql-4F">View</a>
+            </td>
+        </tr>
+        <tr>
             <td>Modular Arithmetic Practice</td>
             <td><a href="../../community/coaches/#abdelrhman-emad">Abdelrhman Emad</a></td>
             <td>
