@@ -76,12 +76,20 @@ nav:
       - Level 1 Training: training/plan/Level1_training.md
       - Level 2 Training: training/plan/Level2_training.md
       - Senior Training: training/plan/Senior_training.md
-      - 2024 Training:
+      - 2024 Archive:
+        - Overview: training/2024/index.md
+        - Level 1 Training: training/2024/level1_training.md
         - Level 2 Training: training/2024/level2_training.md
+        - Seniors Training: training/2024/seniors.md
+      - 2023 Archive:
+        - Overview: training/2023/index.md
+        - Newcomers Training: training/2023/Newcommers.md
+        - Level 1 Training: training/2023/Level1.md
   - Resources:
       - Overview: resources/index.md
       - Sessions Archive: resources/sessions/index.md
       - FAQ: resources/FAQ.md
+      - All Community Sessions: resources/all-community-sessions.md
   - News:
       - Overview: news/index.md
       - 2025 Events: news/2025_events.md
