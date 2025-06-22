@@ -92,6 +92,12 @@
         <a href="https://www.linkedin.com/in/mosmos/" target="_blank">LinkedIn</a> |
         <a href="https://codeforces.com/profile/Mousa" target="_blank">Codeforces</a>
     </li>
+    <li id="ameen-sakr">
+        <strong>Ameen Sakr</strong>
+        <small>ACPC finalist</small>
+        <a href="https://www.linkedin.com/in/ameen-osama-843939234/" target="_blank">LinkedIn</a> |
+        <a href="https://codeforces.com/profile/Amigoo" target="_blank">Codeforces</a>
+    </li>
     <li id="ahmed-elsayed">
         <strong>Ahmed Elsayed</strong>
         <small>2x ACPC finalist</small>

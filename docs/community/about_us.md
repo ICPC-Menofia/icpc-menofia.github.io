@@ -49,7 +49,7 @@ Menofia University has proudly taken part in local and regional programming cont
   <div class="timeline-connector"></div>
   <div class="timeline-step">
     <div class="timeline-step-year">2022</div>
-    <div class="timeline-step-details">2 Silver Medals in ECPC & 4 teams qualified to ACPC</div>
+    <div class="timeline-step-details">2 Bronze Medals in ECPC & 4 teams qualified to ACPC</div>
   </div>
   <div class="timeline-connector"></div>
   <div class="timeline-step">

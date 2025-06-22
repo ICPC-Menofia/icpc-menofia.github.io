@@ -4,6 +4,10 @@
 
 In 2023, our community showcased its talent and dedication at the Egyptian Collegiate Programming Contest (ECPC). We proudly participated in the qualification rounds and were represented by an impressive **6 teams** in the final regional contest.
 
+<div class="image-item" style="max-width: 90%; margin: 1rem auto;">
+  <img src="../../assets/images/events/2023/MenofiaCPC2023.jpg" alt="MenofiaCPC 2023" loading="lazy">
+</div>
+
 Here are some of the memorable moments from the event.
 
 <div class="image-grid">
@@ -16,7 +20,7 @@ Here are some of the memorable moments from the event.
   <div class="image-item">
     <img src="../../assets/images/events/2023/ECPC23-picture-with-coach.jpg" alt="Team with coach at ECPC 2023">
   </div>
-    <div class="image-item">
+  <div class="image-item">
     <img src="../../assets/images/events/2023/ECPC23-picture-with-coach-2.jpg" alt="Another team with coach at ECPC 2023">
   </div>
 </div>
