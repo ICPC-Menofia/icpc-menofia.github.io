@@ -10,7 +10,6 @@ In 2023, our community showcased its talent and dedication at the Egyptian Colle
 
 Here are some of the memorable moments from the event.
 
-
 <div class="image-grid">
   <div class="image-item">
     <img src="../../assets/images/events/2023/MenofiaCPC2023.jpg" alt="Menofia CPC Team Group Photo 2023">
@@ -21,7 +20,7 @@ Here are some of the memorable moments from the event.
   <div class="image-item">
     <img src="../../assets/images/events/2023/ECPC23-picture-with-coach.jpg" alt="Team with coach at ECPC 2023">
   </div>
-    <div class="image-item">
+  <div class="image-item">
     <img src="../../assets/images/events/2023/ECPC23-picture-with-coach-2.jpg" alt="Another team with coach at ECPC 2023">
   </div>
 </div>
@@ -53,7 +52,7 @@ Here are the 6 teams who represented Menofia University at the ECPC 2023 finals:
 
 ## 🏅 ACPC 2023 – Luxor
 
-We also took part in **ACPC 2023**, held in **Luxor**, with **two qualified teams**:Add commentMore actions
+We also took part in **ACPC 2023**, held in **Luxor**, with **two qualified teams**:
 
 - **X coders**
 - **Ultimate Alines**
@@ -61,5 +60,3 @@ We also took part in **ACPC 2023**, held in **Luxor**, with **two qualified team
 <div class="image-item" style="max-width: 90%; margin: 1rem auto;">
   <img src="../../assets/images/events/2023/ACPC23.jpg" alt="ACPC 2023" loading="lazy">
 </div>
-
-
