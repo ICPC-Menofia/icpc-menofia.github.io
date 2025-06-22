@@ -57,6 +57,13 @@ This page archives all recorded sessions for our Level 2 Training program.
             </td>
         </tr>
         <tr>
+            <td>Recursion & Backtracking</td>
+            <td><a href="../../community/coaches/#ameen-sakr">Ameen Sakr</a></td>
+            <td>
+                <a href="https://www.youtube.com/playlist?list=PLYROQO7GJZJM8886anwhzszvDttcNGcMR" target="_blank">View</a>
+            </td>
+        </tr>
+        <tr>
             <td>Graph theory: DFS, Connected Component, Trees, Implicit Graphs</td>
             <td><a href="../../community/coaches/#abdallah-ahmed">Abdallah Ahmed</a></td>
             <td>
