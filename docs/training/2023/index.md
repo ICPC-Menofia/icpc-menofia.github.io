@@ -13,6 +13,11 @@ hide:
   <div class="card">
     <h3>Newcomers Training (2023)</h3>
     <p>The training plan for our newcomers in the 2023 season.</p>
-    <a href="/Newcommers" class="md-button">View Plan</a>
+    <a href="Newcommers" class="md-button">View Plan</a>
+  </div>
+  <div class="card">
+    <h3>Level 1 Training (2023)</h3>
+    <p>A plan covering Graph Theory and Dynamic Programming fundamentals.</p>
+    <a href="Level1" class="md-button">View Plan</a>
   </div>
 </div>

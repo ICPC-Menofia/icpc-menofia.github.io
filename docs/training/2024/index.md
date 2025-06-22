@@ -13,6 +13,11 @@ hide:
   <div class="card">
     <h3>Level 2 Training (2024)</h3>
     <p>A plan for those who have completed Level 1 and are ready for more advanced topics.</p>
-    <a href="/level2_training" class="md-button">View Plan</a>
+    <a href="level2_training" class="md-button">View Plan</a>
+  </div>
+  <div class="card">
+    <h3>Seniors Training (2024)</h3>
+    <p>An advanced plan focusing on complex algorithms and contest strategies.</p>
+    <a href="seniors" class="md-button">View Plan</a>
   </div>
 </div>
