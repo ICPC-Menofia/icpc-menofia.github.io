@@ -58,7 +58,7 @@ This page archives all recorded sessions for our Newcomer Training program.
         <tr>
             <td>Functions</td>
             <td>
-                <a href="../../community/coaches/#ziad-tabor">Ziad Tabor</a>
+                <a href="../../community/coaches/#ziad-Tabour">Ziad Tabour</a>
             </td>
             <td><a href="https://drive.google.com/file/d/1aRo-KMDv-3NysLAzVsomDJ5DnjlLaCJx/view" target="_blank">View</a></td>
         </tr>
@@ -145,10 +145,39 @@ This page archives all recorded sessions for our Newcomer Training program.
         <tr>
             <td>Recursion Practice</td>
             <td>
-                <a href="../../community/coaches/#ziad-tabor">Ziad Tabor</a>
+                <a href="../../community/coaches/#ziad-Tabour">Ziad Tabour</a>
             </td>
             <td><a href="https://drive.google.com/file/d/1QT_zwz4rS1cEns771F9QJGpAOHZgtYu8/view" target="_blank">View</a></td>
         </tr>
+         <tr>
+            <td>Math Practice</td>
+            <td>
+                <a href="../../community/coaches/#ziad-Tabour">Ziad Tabour</a>
+            </td>
+            <td><a href="https://drive.google.com/file/d/1bpyZJNGp7RJSTtp94WwqRSc89I9-HDW9/view?usp=sharing" target="_blank">View</a></td>
+        </tr>
+         <tr>
+            <td>First contest upsolve</td>
+            <td>
+                <a href="../../community/coaches/#ziad-Tabour">Ziad Tabour</a>
+            </td>
+            <td><a href="https://drive.google.com/file/d/1ZHS5CqFnTuF8B8nQ_BuNAJynWxHOwl-0/view?usp=sharing" target="_blank">View</a></td>
+        </tr>
+          <tr>
+            <td>String Practice</td>
+            <td>
+                <a href="../../community/coaches/#ziad-Tabour">Ziad Tabour</a>
+            </td>
+            <td><a href="https://drive.google.com/file/d/1X7GP4Kfn-XHVL3PPfVuvJTT2_46T96cG/view?usp=sharing" target="_blank">View</a></td>
+        </tr>
+            <tr>
+            <td>Frequency and prefix practice</td>
+            <td>
+                <a href="../../community/coaches/#ziad-Tabour">Ziad Tabour</a>
+            </td>
+            <td><a href="https://drive.google.com/file/d/1dg8I6F13ewNh1Jyq-bJgxmI4vN-bmyee/view?usp=sharing" target="_blank">View</a></td>
+        </tr>
+        
     </tbody>
   </table>
 </div>
