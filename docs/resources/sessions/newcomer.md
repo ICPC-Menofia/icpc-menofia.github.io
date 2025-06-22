@@ -104,6 +104,20 @@ This page archives all recorded sessions for our Newcomer Training program.
             <td><a href="https://www.youtube.com/watch?v=3ni4CTA3tM0&feature=youtu.be" target="_blank">View</a></td>
         </tr>
         <tr>
+            <td>Arrays Practice</td>
+            <td>
+                <a href="../../community/coaches/#ibrahme-elhdad">Ibrahem Elhdad</a>
+            </td>
+            <td><a href="https://drive.google.com/file/d/1dcMu9N16bezry_UD0NEOlA-UGI_-QIuT/view?usp=drive_link" target="_blank">View</a></td>
+        </tr>
+        <tr>
+            <td>Frequency array Practice</td>
+            <td>
+                <a href="../../community/coaches/#ibrahme-elhdad">Ibrahem Elhdad</a>
+            </td>
+            <td><a href="https://drive.google.com/file/d/1s4SiUeWQB4SnA6dM2HN39U4B69Czy0BM/view?usp=sharing" target="_blank">View</a></td>
+        </tr>
+        <tr>
             <td>String Practice</td>
             <td>
                 <a href="../../community/coaches/#ahmed-marouf">Ahmed Marouf</a>
