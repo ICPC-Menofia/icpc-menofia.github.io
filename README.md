@@ -1,30 +1,28 @@
 # ICPC Menofia Community Website
 
-This repository contains the source code for the official website of the ICPC Menofia Community. It's built using the [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) theme.
-
-The site provides easy access to training plans, session recordings, events, and helpful resources for competitive programmers at Menofia University.
+This repository contains the source code for the official website of the ICPC Menofia Community. The site is built using the [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) theme and provides centralized access to training plans, session recordings, event updates, and competitive programming resources for Menofia University students.
 
 ---
 
-## 🚀 Get Started
+## Getting Started
 
-Follow these steps to run the website locally and contribute.
+Follow the steps below to set up the project locally.
 
-### ✅ Requirements
+### Prerequisites
 
 * [Python 3.8+](https://www.python.org/downloads/)
 * [pip](https://pip.pypa.io/en/stable/installation/)
 
-### 🛠️ Setup
+### Setup Instructions
 
-1. **Clone the repository:**
+1. Clone the repository:
 
    ```bash
    git clone https://github.com/ICPC-Menofia/icpc-menofia.github.io.git
    cd icpc-menofia.github.io
    ```
 
-2. **Create and activate a virtual environment (optional but recommended):**
+2. (Optional) Create and activate a virtual environment:
 
    ```bash
    # Linux/macOS
@@ -36,70 +34,79 @@ Follow these steps to run the website locally and contribute.
    .\venv\Scripts\activate
    ```
 
-3. **Install dependencies:**
+3. Install required dependencies:
 
    ```bash
    pip install -r requirements.txt
    ```
 
-### ▶️ Run the website
+### Running the Website Locally
 
-Start the local server:
+Start the development server:
 
 ```bash
 mkdocs serve
 ```
 
-Then open your browser at `http://127.0.0.1:8000/`. The site will auto-refresh on changes.
+Then navigate to `http://127.0.0.1:8000/` in your browser. The site supports auto-refresh on content changes.
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
-* `mkdocs.yml`: Website configuration (theme, nav, plugins).
-* `docs/`: All website content (Markdown files).
+* `mkdocs.yml`: Main configuration file (theme settings, navigation, plugins).
+* `docs/`: All documentation and content files in Markdown format.
 
   * `index.md`: Homepage
-  * `community/`: About, Join Us, etc.
-  * `training/`: Training plans and materials
-  * `resources/`: FAQs and session archives
-  * `news/`: Events and announcements
+  * `community/`: Community overview, how to join, etc.
+  * `training/`: Training plans and related material
+  * `resources/`: FAQs, session archives, and helpful links
+  * `news/`: Announcements and events
   * `assets/`: Images and custom CSS
-* `requirements.txt`: List of required Python packages
+* `requirements.txt`: Python dependencies
 
 ---
 
-## 🤝 Contribute
+## Contributing
 
-Everyone is welcome to contribute! You can fix typos, update content, or suggest new ideas.
+Contributions are welcome. You can help by fixing typos, updating outdated content, or suggesting new additions.
 
-### 🧭 Workflow
+### Contribution Guide
 
-1. **Fork** this repo on GitHub
-2. **Create a new branch**:
+If you are new to contributing, refer to this [video tutorial series](https://youtube.com/playlist?list=PLAw15AnTPFl_CS8sljvkNdf6WDf0LwHlM) for detailed instructions.
+
+### Workflow
+
+1. Fork the repository on GitHub.
+
+2. Create a feature branch:
 
    ```bash
    git checkout -b feature-name
    ```
-3. **Make changes** in the `docs/` folder
-4. **Commit**:
+
+3. Make your changes in the `docs/` folder.
+
+4. Commit your changes:
 
    ```bash
    git commit -am "feat: Add new training resource"
    ```
-5. **Push**:
+
+5. Push your branch:
 
    ```bash
    git push origin feature-name
    ```
-6. **Open a Pull Request** to the `main` branch
 
-### 📌 You can help with:
+6. Open a pull request targeting the `main` branch.
 
-* Adding or updating training content
-* Fixing typos and broken links
-* Suggesting new sections (open an issue!)
+### Areas You Can Help With
+
+* Adding or revising training content
+* Fixing broken links or formatting issues
+* Suggesting or drafting new sections (feel free to open an issue)
 
 ---
 
-Thanks for helping improve the ICPC Menofia Community website! 💙
+**Thank you for helping improve the ICPC Menofia Community website. 💙**
