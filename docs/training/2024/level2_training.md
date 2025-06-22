@@ -205,6 +205,11 @@ hide:
           <td><a href="https://youtu.be/K8pzuDmE_b4?si=gICv0rIpq8TRsFTD" target="_blank">View</a></td>
         </tr>
         <tr>
+            <td>Sum Series Practise Session</td>
+            <td>Community (Maryam Abdelhady)</td>
+            <td><a href="https://drive.google.com/drive/u/1/folders/1wyOHpytlWtVzLmXwlY4-xxrrDiPO-C1w" target="_blank">View</a></td>
+        </tr>
+        <tr>
             <td>Combinatorics Session</td>
             <td>Community (Sersawy)</td>
             <td><a href="https://youtu.be/nNW9TGZWfI4?si=XDIM6znZEh6zW7Ns" target="_blank">View</a></td>

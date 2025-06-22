@@ -267,6 +267,11 @@ This page archives all recorded sessions for our Level 2 Training program.
                 <a href="https://drive.google.com/drive/folders/1q3-ELf2AiWA8NlKHedjRVek0yPXLq3_y" target="_blank">View (Part3)</a>
             </td>
         </tr>
+        <tr>
+            <td>Sum Series Practise Session</td>
+            <td><a href="../../community/coaches/#maryam-abdelhady">Maryam Abdelhady</a></td>
+            <td><a href="https://drive.google.com/drive/u/1/folders/1wyOHpytlWtVzLmXwlY4-xxrrDiPO-C1w" target="_blank" target="_blank">View</a></td>
+        </tr>
     </tbody>
   </table>
 </div> 
