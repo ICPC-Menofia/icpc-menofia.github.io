@@ -5,14 +5,14 @@ hide:
 ---
 
 <div class="hero-section">
-  <h1>Level 2 Training (2024)</h1>
+  <h1>Level 2 Training (2025)</h1>
   <p class="hero-subtitle">This plan covers core Level 2 topics like recursion, dynamic programming, and graphs, with curated videos and problem-solving sessions to deepen your understanding.</p>
   <div class="hero-buttons">
     <a href="https://vjudge.net/group/mnf-l2g24" target="_blank" class="md-button md-button--primary">Go to Practice Sheet</a>
   </div>
 </div>
 
-<h2>Week 1: Recursion and Backtracking</h2>
+<h2>Sprint 1: Recursion and Backtracking</h2>
 <h3>Topic Resources:</h3>
 <table class="sessions-table">
     <thead>
@@ -46,7 +46,7 @@ hide:
     </tbody>
 </table>
 
-<h2>Week 2: Introduction to DP</h2>
+<h2>Sprint 2: Introduction to DP</h2>
 <h3>Topic Resources:</h3>
 <table class="sessions-table">
     <thead>
@@ -71,7 +71,7 @@ hide:
 </table>
 
 
-<h2>Week 3 : Graph</h2>
+<h2>Sprint 3 : Graph</h2>
 <h3>Topic Resources:</h3>
 <table class="sessions-table">
     <thead>
@@ -110,7 +110,7 @@ hide:
     </tbody>
 </table>
 
-<h2>Week 4 : DP Style</h2>
+<h2>Sprint 4 : DP Style</h2>
 <h3>Topic Resources:</h3>
 <table class="sessions-table">
     <thead>
@@ -154,7 +154,7 @@ hide:
 </table>
 
 
-<h2>Week 5 : Shortest Path Algorithms</h2>
+<h2>Sprint 5 : Shortest Path Algorithms</h2>
 <h3>Topic Resources:</h3>
 <table class="sessions-table">
     <thead>
@@ -188,7 +188,7 @@ hide:
     </tbody>
 </table>
 
-<h2>Week 6 : Counting & Combinatorics</h2>
+<h2>Sprint 6 : Counting & Combinatorics</h2>
 <h3>Topic Resources:</h3>
 <table class="sessions-table">
     <thead>
@@ -220,4 +220,4 @@ hide:
             <td><a href="https://drive.google.com/file/d/1B-xiL84kv2BtM6vrwxyk-ULkcfiD8x96/view" target="_blank">View</a></td>
         </tr>
     </tbody>
-</table>
+</table> 
