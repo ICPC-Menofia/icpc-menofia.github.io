@@ -6,17 +6,17 @@
 </div>
 
 <div class="training-path">
-  <a href="../Newcommer_training.md" class="path-step">
+  <a href="../Newcommer_training" class="path-step">
     <div class="path-step-icon">0</div>
     <div class="path-step-title">Newcomer</div>
   </a>
   <div class="path-connector"></div>
-  <a href="../Level1_training.md" class="path-step">
+  <a href="../Level1_training" class="path-step">
     <div class="path-step-icon">1</div>
     <div class="path-step-title">Level 1</div>
   </a>
   <div class="path-connector"></div>
-  <a href="../Level2_training.md" class="path-step">
+  <a href="../Level2_training" class="path-step">
     <div class="path-step-icon">2</div>
     <div class="path-step-title">Level 2</div>
   </a>
