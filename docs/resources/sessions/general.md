@@ -71,6 +71,13 @@ This page archives all general sessions, tips, and strategies to help you in you
                <a href="../../../community/coaches/#ebrahim-mordy">Ebrahim Mordy</a>
             </td>
             <td><a href="https://www.youtube.com/watch?v=6oozIFjhcQI&list=PL7GFWD3CwxpZTCtOGnZbDZpMBDipXwAjo&index=1" target="_blank">View</a></td>
+        </tr> 
+        <tr>
+            <td>How To Create Codeforces Team and Team Strategy Discussion</td>
+            <td>
+               <a href="../../../community/coaches/#hossam-saber">Hossam Saber</a>
+            </td>
+            <td><a href="https://youtu.be/O2QEHNkvzJ4?si=yXha8GZ3RYYIYxhb" target="_blank">View</a></td>
         </tr>
     </tbody>
   </table>
