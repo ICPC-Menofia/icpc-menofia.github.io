@@ -34,6 +34,11 @@
 
 <div class="cards-grid">
   <div class="card">
+    <h3>2025 Training Archive</h3>
+    <p>Access the specific resources, sessions, and materials used during our 2025 training cycle.</p>
+    <a href="2025/" class="md-button">View 2025 Archive</a>
+  </div>
+  <div class="card">
     <h3>2024 Training Archive</h3>
     <p>Access the specific resources, sessions, and materials used during our 2024 training cycle.</p>
     <a href="2024/" class="md-button">View 2024 Archive</a>
