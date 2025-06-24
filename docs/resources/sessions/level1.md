@@ -29,6 +29,17 @@ This page archives all recorded sessions for our Level 1 Training program.
                 <a href="https://drive.google.com/drive/folders/1vYe8slH6AzLiX3xdBhA0BNltvAC0ffeX?usp=sharing" target="_blank">View (2023)</a>
             </td>
         </tr>
+         <tr>
+            <td>Static Range Query (1D & 2D Prefix Sum and 1D & 2D Partial Sum)</td>
+               <td><a href="../../community/coaches/#ahmed-wageeh">Ahmed Wageeh</a></td>
+            <td>
+               <a href="https://youtu.be/1VWdxf9kafg" target="_blank">View (Part1)</a>
+                <br>
+                <a href="https://youtu.be/_p4SnBgyu-A" target="_blank">View (Part2)</a>
+                <br>
+               <a href="https://youtu.be/Aj4TrgMn8DQ" target="_blank">View (Part3)</a>
+            </td>
+        </tr>
         <tr>
             <td>Greedy (Stay a head, Exchange argument, Structure argument)</td>
                <td><a href="../../community/coaches/#abdelrhman-sersawy">Abdelrhman Sersawy</a></td>
@@ -104,6 +115,22 @@ This page archives all recorded sessions for our Level 1 Training program.
         </tr>
     </thead>
     <tbody>
+     <tr>
+            <td>Linear STLs</td>
+               <td><a href="../../community/coaches/#ahmed-wageeh">Ahmed Wageeh</a></td>
+            <td>
+               <a href="https://www.youtube.com/watch?v=dW8Vcc2JJBE" target="_blank">View (Part1)</a>
+                <br>
+                <a href="https://www.youtube.com/watch?v=cPef-TEN-UE&t=1382s" target="_blank">View (Part2)</a>               
+            </td>
+        </tr>
+         <tr>
+            <td>Brute Force</td>
+               <td><a href="../../community/coaches/#ahmed-wageeh">Ahmed Wageeh</a></td>
+            <td>
+               <a href="https://youtu.be/FSmHbG_ZBUs" target="_blank">View</a>             
+            </td>
+        </tr>
         <tr>
             <td>Prime and Composite solving problems</td>
                <td><a href="../../community/coaches/#abdelrhman-sersawy">Abdelrhman Sersawy</a></td>
@@ -134,6 +161,13 @@ This page archives all recorded sessions for our Level 1 Training program.
             <td><a href="../../community/coaches/#ameen-sakr">Ameen Sakr</a></td>
             <td>
                 <a href="https://www.youtube.com/playlist?list=PLYROQO7GJZJNrANmDuL3uk24oy4aql-4F">View</a>
+            </td>
+        </tr>
+         <tr>
+            <td>Bitmask</td>
+               <td><a href="../../community/coaches/#ahmed-wageeh">Ahmed Wageeh</a></td>
+            <td>
+               <a href="https://youtu.be/jTbjxW69Sa8" target="_blank">View</a>             
             </td>
         </tr>
         <tr>
