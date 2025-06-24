@@ -180,7 +180,7 @@
      <li id="ahmed-wageeh">
         <strong>Ahmed Wageeh</strong>
         <small>Expert @Codeforces | ECPC Finalist</small>
-        <a href="  https://www.linkedin.com/in/ahmed-wageeh-6aa1b5304?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank">LinkedIn</a> |
+        <a href="  https://www.linkedin.com/in/ahmed-wageeh-6aa1b5304" target="_blank">LinkedIn</a> |
         <a href="https://github.com/with-wageeh" target="_blank">GitHub</a> |
         <a href="https://codeforces.com/profile/Wageeh" target="_blank">Codeforces</a>
     </li>
