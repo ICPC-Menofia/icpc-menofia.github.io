@@ -14,9 +14,8 @@
     <a href="./about_us/" class="md-button">Read Our Story</a>
   </div>
   <div class="card">
-    <h3>Our Coaches & Mentors</h3>
-    <p>Meet the experienced members who lead our training sessions and guide our teams to success in regional and national competitions.</p>
-    <a href="./coaches/" class="md-button">Meet the Team</a>
+    <h3><a href="coaches.md">Our Coaches & Mentors</a></h3>
+    <p>Meet the experienced individuals who guide our training sessions and mentor our members.</p>
   </div>
   <div class="card">
     <h3>Join the Conversation</h3>
@@ -27,5 +26,9 @@
     <h3>Become a Member</h3>
     <p>Ready to take the next step? Find out how you can officially join the community, get access to all our resources, and start your training journey.</p>
     <a href="./join_us/" class="md-button">How to Join</a>
+  </div>
+  <div class="card">
+    <h3><a href="contributions.md">Community Contributions</a></h3>
+    <p>See who has contributed to our open-source projects and learn how you can get involved.</p>
   </div>
 </div>
