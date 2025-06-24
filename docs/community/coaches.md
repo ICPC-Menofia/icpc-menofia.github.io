@@ -40,6 +40,12 @@
         <a href="https://www.linkedin.com/in/naderyahia/" target="_blank">LinkedIn</a> |
         <a href="https://codeforces.com/profile/naderr" target="_blank">Codeforces</a>
     </li>
+    <li id="youssef-amer">
+        <strong>Youssef Amer</strong>
+        <small>Software Engineer at Noon | ECPC Bronze Medialist</small>
+        <a href="https://www.linkedin.com/in/youssef3ahmed/" target="_blank">LinkedIn</a> |
+        <a href="https://codeforces.com/profile/uamer" target="_blank">Codeforces</a>
+    </li>
     <li id="mohamed-sameh">
         <strong>Mohamed Sameh</strong>
         <small>Software Engineer at Sahl |  2x ACPC finalist</small>
@@ -68,16 +74,36 @@
         <a href="https://github.com/xUser5000" target="_blank">GitHub</a> |
         <a href="https://codeforces.com/profile/xUser5000" target="_blank">Codeforces</a>
     </li>
+    <li id="youseef-seliem">
+        <strong>Youssif Seliem</strong>
+        <small>Teaching Assistant @ FEE | ACPC finalist | Penetration Testing Intent @ Cyberteq</small>
+        <a href="https://www.linkedin.com/in/youssif-seliem-a156821aa/" target="_blank">LinkedIn</a> |
+        <a href="https://github.com/YoussifSeliem" target="_blank">GitHub</a> |
+        <a href="https://codeforces.com/profile/KakashiHataki" target="_blank">Codeforces</a>
+    </li>
+    <li id="abdallah-selim">
+        <strong>Abdallah Selim</strong>
+        <small>Ex-SWE Intern @Microsoft | Ex-SWE Intern @Cegedim | Ex-SWE @bld.ai</small>
+        <a href="https://www.linkedin.com/in/abdallahmselim/" target="_blank">LinkedIn</a> |
+        <a href="https://codeforces.com/profile/Selim_Senpai" target="_blank">GitHub</a> |
+        <a href="https://github.com/abdallahsellem" target="_blank">Codeforces</a>
+    </li>
+    <li id="tawfeek-shalash">
+        <strong>Tawfeek Shalash</strong>
+        <a href="https://www.linkedin.com/in/tawfeek-shalash" target="_blank">LinkedIn</a> |
+        <a href="https://github.com/tawfik-s" target="_blank">GitHub</a> |
+        <a href="https://codeforces.com/profile/Tawfik_Shalash" target="_blank">Codeforces</a>
+    </li>
     <li id="mohamed-khaled-saeed">
         <strong>Mohamed khaled Saeed</strong>
         <small>EX-BLD.ai | Software Engineer Intern @ Fawry  | ACPC Finalist</small>
         <a href="https://www.linkedin.com/in/mohamed-khaled-08229b207/" target="_blank">LinkedIn</a>
     </li>
-    <li id="youssef-amer">
-        <strong>Youssef Amer</strong>
-        <small>Software Engineer at Noon | ECPC Bronze Medialist</small>
-        <a href="https://www.linkedin.com/in/youssef3ahmed/" target="_blank">LinkedIn</a> |
-        <a href="https://codeforces.com/profile/uamer" target="_blank">Codeforces</a>
+    <li id="ahmed-sakr">
+        <strong>Ahmed Sakr</strong>
+        <small>Software Engineer @Fawry | ECPC finalist</small>
+        <a href="https://www.linkedin.com/in/ahmedsakr07407/" target="_blank">LinkedIn</a> | 
+        <a href="https://github.com/Ahmed-Mohmed-Sakr/" target="_blank">GitHub</a>
     </li>
     <li id="abdelrhman-sersawy">
         <strong>Abdelrhman Sersawy</strong>
@@ -119,6 +145,12 @@
         <a href="https://github.com/abdoemad552" target="_blank">GitHub</a> |
         <a href="https://codeforces.com/profile/_ABDOEMAD_" target="_blank">Codeforces</a>
     </li>
+    <li id="yomna-magdy">
+        <strong>Yomna Magdy</strong>
+        <small>Former Backend Engineer Intern @Giza systems | Problem solving coach @Coach Academy | ECPC 2024 Finalist | Samsung Innovation Campus Scholarship</small>
+        <a href="https://www.linkedin.com/in/yomna1267" target="_blank">LinkedIn</a> |
+        <a href="https://github.com/yomna1267" target="_blank">GitHub</a> |
+    </li>
     <li id="mahmoud-reda">
         <strong>Mahmoud Reda</strong>
         <small>.Net Developer | 3x ECPC FINALIST</small>
@@ -130,6 +162,13 @@
         <a href="https://www.linkedin.com/in/ebrahemmordy" target="_blank">LinkedIn</a> |
         <a href="https://codeforces.com/profile/M0rdy" target="_blank">GitHub</a> |
         <a href="https://github.com/EbrahemMordy" target="_blank">Codeforces</a>
+    </li>
+    <li id="ahmed-marouf">
+        <strong>Ahmed Salah Marouf</strong>
+        <small>ACPC Finalist | Ex-SWE @Fawry</small>
+        <a href="https://www.linkedin.com/in/ahmed-salah-96b7b322a/" target="_blank">LinkedIn</a> |
+        <a href="https://codeforces.com/profile/M3rof" target="_blank">GitHub</a> |
+        <a href="http://github.com/ahmed-Elshitehi" target="_blank">Codeforces</a>
     </li>
     <li id="ibrahme-elhdad">
         <strong>Ibrahem Elhdad</strong>
