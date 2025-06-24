@@ -59,9 +59,14 @@ extra:
     - icon: fontawesome/solid/code
       link: https://codeforces.com/profile/ICPC_Menofia
       name: Codeforces Profile
+    - icon: fontawesome/brands/telegram
+      link: https://t.me/+invC37P-pkA0NTY0
 
 extra_css:
-  - assets/css/custom.css
+  - assets/css/custom.css?v=1.1
+
+extra_javascript:
+  - assets/js/custom.js
 
 nav:
   - Home: index.md
