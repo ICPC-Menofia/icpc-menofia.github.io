@@ -63,10 +63,7 @@ extra:
       link: https://t.me/+invC37P-pkA0NTY0
 
 extra_css:
-  - assets/css/custom.css?v=1.1
-
-extra_javascript:
-  - assets/js/custom.js
+  - assets/css/custom.css
 
 nav:
   - Home: index.md
