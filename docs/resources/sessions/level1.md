@@ -31,7 +31,7 @@ This page archives all recorded sessions for our Level 1 Training program.
         </tr>
          <tr>
             <td>Static Range Query (1D & 2D Prefix Sum and 1D & 2D Partial Sum)</td>
-               <td><a href="../../community/coaches/#ahmed-wageeh">Ahmed Wageeh</a></td>
+               <td><a href="../../../community/coaches/#ahmed-wageeh">Ahmed Wageeh</a></td>
             <td>
                <a href="https://youtu.be/1VWdxf9kafg" target="_blank">View (Part1)</a>
                 <br>
@@ -117,7 +117,7 @@ This page archives all recorded sessions for our Level 1 Training program.
     <tbody>
      <tr>
             <td>Linear STLs</td>
-               <td><a href="../../community/coaches/#ahmed-wageeh">Ahmed Wageeh</a></td>
+               <td><a href="../../../community/coaches/#ahmed-wageeh">Ahmed Wageeh</a></td>
             <td>
                <a href="https://www.youtube.com/watch?v=dW8Vcc2JJBE" target="_blank">View (Part1)</a>
                 <br>
@@ -126,7 +126,7 @@ This page archives all recorded sessions for our Level 1 Training program.
         </tr>
          <tr>
             <td>Brute Force</td>
-               <td><a href="../../community/coaches/#ahmed-wageeh">Ahmed Wageeh</a></td>
+               <td><a href="../../../community/coaches/#ahmed-wageeh">Ahmed Wageeh</a></td>
             <td>
                <a href="https://youtu.be/FSmHbG_ZBUs" target="_blank">View</a>             
             </td>
@@ -165,7 +165,7 @@ This page archives all recorded sessions for our Level 1 Training program.
         </tr>
          <tr>
             <td>Bitmask</td>
-               <td><a href="../../community/coaches/#ahmed-wageeh">Ahmed Wageeh</a></td>
+               <td><a href="../../../community/coaches/#ahmed-wageeh">Ahmed Wageeh</a></td>
             <td>
                <a href="https://youtu.be/jTbjxW69Sa8" target="_blank">View</a>             
             </td>
