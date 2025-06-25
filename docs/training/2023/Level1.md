@@ -8,6 +8,7 @@ hide:
   <h1>Level 1 Training (2023)</h1>
   <p class="hero-subtitle">This plan covers essential topics like Graph Theory and Dynamic Programming to build a strong competitive programming foundation.</p>
   <div class="hero-buttons">
+   <a href="../../../resources/sessions/level1" target="_blank" class="md-button md-button--primary">Go to Session Archive</a>
     <a href="https://vjudge.net/group/phase-2" target="_blank" class="md-button md-button--primary">Go to Practice Sheets</a>
     <a href="https://drive.google.com/drive/folders/1k6XrFa9HEShwP5vA8CoZfV-WNJJX7viE" target="_blank" class="md-button">View Records</a>
   </div>

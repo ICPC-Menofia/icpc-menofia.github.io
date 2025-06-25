@@ -8,6 +8,7 @@ hide:
   <h1>Level 2 Training (2025)</h1>
   <p class="hero-subtitle">This plan covers core Level 2 topics like recursion, dynamic programming, and graphs, with curated videos and problem-solving sessions to deepen your understanding.</p>
   <div class="hero-buttons">
+    <a href="../../../resources/sessions/level2" target="_blank" class="md-button md-button--primary">Go to Session Archive</a>
     <a href="https://vjudge.net/group/mnf-l2g24" target="_blank" class="md-button md-button--primary">Go to Practice Sheet</a>
   </div>
 </div>
