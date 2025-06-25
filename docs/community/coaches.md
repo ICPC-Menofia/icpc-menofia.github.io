@@ -13,7 +13,7 @@
         <small>Software Engineer at Agillo</small>
         <a href="https://www.linkedin.com/in/amr-saud/" target="_blank">LinkedIn</a> 
     </li>
-    <li id="amr-saud">
+    <li id="mahmoud-magdy">
         <strong>Mahmoud Magdy</strong>
         <small>Community Co-Founder</small>
         <small>Software Engineer at ITIDA</small>
