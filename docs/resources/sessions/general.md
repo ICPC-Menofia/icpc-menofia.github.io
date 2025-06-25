@@ -32,7 +32,7 @@ This page archives all general sessions, tips, and strategies to help you in you
         </tr>
         <tr>
             <td>Guide to Vjudge</td>
-            <td><a href="../../community/coaches/#abdallah-ahmed">Abdallah Ahmed</a></td>
+            <td><a href="../../../community/coaches/#abdallah-ahmed">Abdallah Ahmed</a></td>
             <td>
                 <a href="https://www.youtube.com/watch?v=rlP_ONf1bo8" target="_blank">View</a>
             </td>
