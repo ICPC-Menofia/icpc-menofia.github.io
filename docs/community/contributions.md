@@ -13,6 +13,25 @@ hide:
 </div>
 
 <div class="level-section">
+<h2>Contributing</h2>
+<p>Contributions are welcome. You can help by fixing typos, updating outdated content, or suggesting new additions.</p>
+
+<h3>Contribution Guide</h3>
+<p>If you are new to contributing, refer to this <a href="https://youtube.com/playlist?list=PLAw15AnTPFl_CS8sljvkNdf6WDf0LwHlM" target="_blank">video tutorial series</a> for detailed instructions.</p>
+
+<h3>Areas You Can Help With</h3>
+<ul>
+  <li>Adding or revising training content</li>
+  <li>Fixing broken links or formatting issues</li>
+  <li>Suggesting or drafting new sections (feel free to open an issue)</li>
+</ul>
+
+<hr>
+
+<p><strong>Thank you for helping improve the ICPC Menofia Community website. 💙</strong></p>
+</div>
+
+<div class="level-section">
 <h2>Our Contributors</h2>
 <p>We are grateful to everyone who has dedicated their time and effort to improving our platform. Your contributions make a real difference.</p>
 </div>
@@ -25,14 +44,9 @@ hide:
     <a href="https://github.com/Abdelrhmansersawy" target="_blank" class="md-button">View Profile</a>
   </div>
   <div class="card contributor-card">
-    <img src="https://github.com/Ameensakr.png" alt="Ameensakr's avatar" class="contributor-avatar">
-    <h3>Ameensakr</h3>
-    <a href="https://github.com/Ameensakr" target="_blank" class="md-button">View Profile</a>
-  </div>
-  <div class="card contributor-card">
-    <img src="https://github.com/Znno.png" alt="Znno's avatar" class="contributor-avatar">
-    <h3>Znno</h3>
-    <a href="https://github.com/Znno" target="_blank" class="md-button">View Profile</a>
+    <img src="https://github.com/Abo-Omar-74.png" alt="Abo-Omar-74's avatar" class="contributor-avatar">
+    <h3>Abo-Omar-74</h3>
+    <a href="https://github.com/Abo-Omar-74" target="_blank" class="md-button">View Profile</a>
   </div>
   <div class="card contributor-card">
     <img src="https://github.com/HossamSaberr.png" alt="HossamSaberr's avatar" class="contributor-avatar">
@@ -40,13 +54,28 @@ hide:
     <a href="https://github.com/HossamSaberr" target="_blank" class="md-button">View Profile</a>
   </div>
   <div class="card contributor-card">
-    <img src="https://github.com/mahmoud-abouelazm.png" alt="mahmoud-abouelazm's avatar" class="contributor-avatar">
-    <h3>mahmoud-abouelazm</h3>
-    <a href="https://github.com/mahmoud-abouelazm" target="_blank" class="md-button">View Profile</a>
+    <img src="https://github.com/with-wageeh.png" alt="with-wageeh's avatar" class="contributor-avatar">
+    <h3>with-wageeh</h3>
+    <a href="https://github.com/with-wageeh" target="_blank" class="md-button">View Profile</a>
   </div>
   <div class="card contributor-card">
     <img src="https://github.com/I-Elhadad.png" alt="I-Elhadad's avatar" class="contributor-avatar">
     <h3>I-Elhadad</h3>
     <a href="https://github.com/I-Elhadad" target="_blank" class="md-button">View Profile</a>
+  </div>
+  <div class="card contributor-card">
+    <img src="https://github.com/mahmoud-abouelazm.png" alt="mahmoud-abouelazm's avatar" class="contributor-avatar">
+    <h3>mahmoud-abouelazm</h3>
+    <a href="https://github.com/mahmoud-abouelazm" target="_blank" class="md-button">View Profile</a>
+  </div>
+  <div class="card contributor-card">
+    <img src="https://github.com/Znno.png" alt="Znno's avatar" class="contributor-avatar">
+    <h3>Znno</h3>
+    <a href="https://github.com/Znno" target="_blank" class="md-button">View Profile</a>
+  </div>
+  <div class="card contributor-card">
+    <img src="https://github.com/Ameensakr.png" alt="Ameensakr's avatar" class="contributor-avatar">
+    <h3>Ameen-sakr</h3>
+    <a href="https://github.com/Ameensakr" target="_blank" class="md-button">View Profile</a>
   </div>
 </div> 
