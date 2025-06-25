@@ -8,6 +8,7 @@ hide:
   <h1>Seniors Training (2025)</h1>
   <p class="hero-subtitle">An advanced training plan for our senior members, focusing on complex algorithms and contest strategies.</p>
   <div class="hero-buttons">
+    <a href="../../../resources/sessions/senior" target="_blank" class="md-button md-button--primary">Go to Session Archive</a>
     <a href="https://vjudge.net/group/menofia-senior-training" target="_blank" class="md-button md-button--primary">Go to Practice Sheets</a>
   </div>
 </div>
