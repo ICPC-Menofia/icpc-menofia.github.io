@@ -27,7 +27,7 @@ hide:
         <tr>
           <td>Gold Community Sessions</td>
           <td>Community</td>
-          <td><a href="../../resources/sessions/level2/" target="_blank">View</a></td>
+          <td><a href="#" data-link="page:level2_sessions" target="_blank">View</a></td>
         </tr>
         <tr>
             <td>Dr. Mostafa Saad (Concept Review)</td>
@@ -61,7 +61,7 @@ hide:
         <tr>
           <td>Gold Community Sessions</td>
           <td>Community</td>
-          <td><a href="../../../resources/sessions/level2/" target="_blank">View</a></td>
+          <td><a href="#" data-link="page:level2_sessions" target="_blank">View</a></td>
         </tr>
         <tr>
             <td>Your Guide to DP</td>

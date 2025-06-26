@@ -8,7 +8,7 @@ hide:
   <h1>Community Contributions</h1>
   <p class="hero-subtitle">Our community thrives on collaboration. This page recognizes the amazing people who have contributed to our open-source website.</p>
   <div class="hero-buttons">
-    <a href="https://github.com/ICPC-Menofia/icpc-menofia.github.io" target="_blank" class="md-button md-button--primary">Contribute on GitHub</a>
+    <a href="#" data-link="external:github_website" target="_blank" class="md-button md-button--primary">Contribute on GitHub</a>
   </div>
 </div>
 
@@ -17,7 +17,7 @@ hide:
 <p>Contributions are welcome. You can help by fixing typos, updating outdated content, or suggesting new additions.</p>
 
 <h3>Contribution Guide</h3>
-<p>If you are new to contributing, refer to this <a href="https://youtube.com/playlist?list=PLAw15AnTPFl_CS8sljvkNdf6WDf0LwHlM" target="_blank">video tutorial series</a> for detailed instructions.</p>
+<p>If you are new to contributing, refer to this <a href="#" data-link="external:youtube_tutorial" target="_blank">video tutorial series</a> for detailed instructions.</p>
 
 <h3>Areas You Can Help With</h3>
 <ul>

@@ -66,5 +66,5 @@ Menofia University has proudly taken part in local and regional programming cont
 <div class="final-cta">
   <h2>Join Our Story</h2>
   <p>Be part of our future achievements. Whether you're a beginner or a seasoned coder, your journey starts here.</p>
-  <a href="../join_us/" class="md-button md-button--primary md-button--large">Learn How to Join</a>
+  <a href="#" data-link="page:join" class="md-button md-button--primary md-button--large">Learn How to Join</a>
 </div>

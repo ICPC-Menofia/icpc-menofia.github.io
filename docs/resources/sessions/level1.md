@@ -22,7 +22,7 @@ This page archives all recorded sessions for our Level 1 Training program.
         <tbody>
             <tr>
             <td>STL</td>
-            <td><a href="../../../community/coaches/#abdelrhman-emad">Abdelrhman Emad</a></td>
+            <td><a href="#" data-link="coach:abdelrhman_emad">Abdelrhman Emad</a></td>
             <td>
                 <a href="https://drive.google.com/drive/folders/1D8jReWLFJj0Qc1KKb5Z-umyCUfkLEfYJ?usp=sharing" target="_blank">View (2024)</a>
                 <br>
@@ -31,7 +31,7 @@ This page archives all recorded sessions for our Level 1 Training program.
         </tr>
          <tr>
             <td>Static Range Query (1D & 2D Prefix Sum and 1D & 2D Partial Sum)</td>
-               <td><a href="../../../community/coaches/#ahmed-wageeh">Ahmed Wageeh</a></td>
+               <td><a href="#" data-link="coach:ahmed_wageeh">Ahmed Wageeh</a></td>
             <td>
                <a href="https://youtu.be/1VWdxf9kafg" target="_blank">View (Part1)</a>
                 <br>
@@ -42,7 +42,7 @@ This page archives all recorded sessions for our Level 1 Training program.
         </tr>
         <tr>
             <td>Greedy (Stay a head, Exchange argument, Structure argument)</td>
-               <td><a href="../../../community/coaches/#abdelrhman-sersawy">Abdelrhman Sersawy</a></td>
+               <td><a href="#" data-link="coach:abdelrhman_sersawy">Abdelrhman Sersawy</a></td>
             <td>
                 <a href="https://www.youtube.com/watch?v=RBC3EeOIkT4">View</a>
             </td>
@@ -50,13 +50,13 @@ This page archives all recorded sessions for our Level 1 Training program.
         <tr>
             <td>Constructive Algorithms</td>
             <td>
-                <a href="../../../community/coaches/#ebrahim-mordy">Ebrahim Mordy</a>
+                <a href="#" data-link="coach:ebrahim_mordy">Ebrahim Mordy</a>
             </td>
             <td><a href="https://www.youtube.com/watch?v=FEABVLyuVKI&list=PL7GFWD3CwxpZTCtOGnZbDZpMBDipXwAjo&index=3" target="_blank">View</a></td>
         </tr>
         <tr>
             <td>Binary Search</td>
-            <td><a href="../../../community/coaches/#abdelrhman-emad">Abdelrhman Emad</a></td>
+            <td><a href="#" data-link="coach:abdelrhman_emad">Abdelrhman Emad</a></td>
             <td>
                 <a href="https://drive.google.com/drive/folders/1wwuHi_HA7h2DKx3VkihspDHBszHpnDOk?usp=drive_link">View</a>
             </td>
@@ -64,27 +64,27 @@ This page archives all recorded sessions for our Level 1 Training program.
         <tr>
             <td>Binary Search</td>
             <td>
-                <a href="../../../../community/coaches/#ebrahim-mordy">Ebrahim Mordy</a>
+                <a href="#" data-link="coach:ebrahim_mordy">Ebrahim Mordy</a>
             </td>
             <td><a href="https://www.youtube.com/watch?v=TVk4wDjI-mw&list=PL7GFWD3CwxpZTCtOGnZbDZpMBDipXwAjo&index=4" target="_blank">View</a></td>
         </tr>
         <tr>
             <td>Sieve of Eratosthenes</td>
             <td>
-                <a href="../../../community/coaches/#ebrahim-mordy">Ebrahim Mordy</a>
+                <a href="#" data-link="coach:ebrahim_mordy">Ebrahim Mordy</a>
             </td>
             <td><a href="https://www.youtube.com/watch?v=2Rc7c3Bf3hE&list=PL7GFWD3CwxpZTCtOGnZbDZpMBDipXwAjo&index=2" target="_blank">View</a></td>
         </tr>
         <tr>
             <td>GCD & LCM</td>
-            <td><a href="../../../community/coaches/#abdelrhman-emad">Abdelrhman Emad</a></td>
+            <td><a href="#" data-link="coach:abdelrhman_emad">Abdelrhman Emad</a></td>
             <td>
                 <a href="https://drive.google.com/drive/folders/1RZNVlp8hvGQjzbyBQuDbGduzkv_GjnMe?usp=sharing">View</a>
             </td>
         </tr>
         <tr>
             <td>Modular Arthimatics</td>
-                <td><a href="../../../community/coaches/#ahmed-elsayed">Ahmed Elsayed</a></td>
+                <td><a href="#" data-link="coach:ahmed_elsayed">Ahmed Elsayed</a></td>
             <td>
                 <a href="https://drive.google.com/file/d/1XeoAi6e29FikQkZR8aJaMstWL9kZE5BR/view?usp=sharing" target="_blank">View (Part1)</a>
                 <br>
@@ -93,7 +93,7 @@ This page archives all recorded sessions for our Level 1 Training program.
         </tr>
         <tr>
             <td>Bitwise operators</td>
-               <td><a href="../../../community/coaches/#abdelrhman-sersawy">Abdelrhman Sersawy</a></td>
+               <td><a href="#" data-link="coach:abdelrhman_sersawy">Abdelrhman Sersawy</a></td>
             <td>
                 <a href="https://www.youtube.com/watch?v=82qVMWtY18w" target="_blank">View (Part1)</a>
                 <br>
@@ -117,7 +117,7 @@ This page archives all recorded sessions for our Level 1 Training program.
     <tbody>
      <tr>
             <td>Linear STLs</td>
-               <td><a href="../../../community/coaches/#ahmed-wageeh">Ahmed Wageeh</a></td>
+               <td><a href="#" data-link="coach:ahmed_wageeh">Ahmed Wageeh</a></td>
             <td>
                <a href="https://www.youtube.com/watch?v=dW8Vcc2JJBE" target="_blank">View (Part1)</a>
                 <br>
@@ -126,14 +126,14 @@ This page archives all recorded sessions for our Level 1 Training program.
         </tr>
          <tr>
             <td>Brute Force</td>
-               <td><a href="../../../community/coaches/#ahmed-wageeh">Ahmed Wageeh</a></td>
+               <td><a href="#" data-link="coach:ahmed_wageeh">Ahmed Wageeh</a></td>
             <td>
                <a href="https://youtu.be/FSmHbG_ZBUs" target="_blank">View</a>             
             </td>
         </tr>
         <tr>
             <td>Prime and Composite solving problems</td>
-               <td><a href="../../../community/coaches/#abdelrhman-sersawy">Abdelrhman Sersawy</a></td>
+               <td><a href="#" data-link="coach:abdelrhman_sersawy">Abdelrhman Sersawy</a></td>
             <td>
                 <a href="https://www.youtube.com/watch?v=MxQPntwurfU" target="_blank">View (Part1)</a>
                 <br>
@@ -144,42 +144,42 @@ This page archives all recorded sessions for our Level 1 Training program.
         </tr>
         <tr>
             <td>GCD & LCM</td>
-            <td><a href="../../../community/coaches/#ameen-sakr">Ameen Sakr</a></td>
+            <td><a href="#" data-link="coach:ameen_sakr">Ameen Sakr</a></td>
             <td>
                 <a href="https://www.youtube.com/watch?v=Zb0NGEO09t4&list=PLYROQO7GJZJMwzFCMvdTmsIyBxEGnn6Be">View</a>
             </td>
         </tr>
         <tr>
             <td>Bitmask (part 1)</td>
-            <td><a href="../../../community/coaches/#ameen-sakr">Ameen Sakr</a></td>
+            <td><a href="#" data-link="coach:ameen_sakr">Ameen Sakr</a></td>
             <td>
                 <a href="https://www.youtube.com/watch?v=HKsMNoNnoRQ&list=PLYROQO7GJZJMv8V6riZJutDa0zbsm9Qq4">View</a>
             </td>
         </tr>
         <tr>
             <td>Bitmask (part 2)</td>
-            <td><a href="../../../community/coaches/#ameen-sakr">Ameen Sakr</a></td>
+            <td><a href="#" data-link="coach:ameen_sakr">Ameen Sakr</a></td>
             <td>
                 <a href="https://www.youtube.com/playlist?list=PLYROQO7GJZJNrANmDuL3uk24oy4aql-4F">View</a>
             </td>
         </tr>
          <tr>
             <td>Bitmask</td>
-               <td><a href="../../../community/coaches/#ahmed-wageeh">Ahmed Wageeh</a></td>
+               <td><a href="#" data-link="coach:ahmed_wageeh">Ahmed Wageeh</a></td>
             <td>
                <a href="https://youtu.be/jTbjxW69Sa8" target="_blank">View</a>             
             </td>
         </tr>
         <tr>
             <td>Modular Arithmetic Practice</td>
-            <td><a href="../../../community/coaches/#abdelrhman-emad">Abdelrhman Emad</a></td>
+            <td><a href="#" data-link="coach:abdelrhman_emad">Abdelrhman Emad</a></td>
             <td>
                 <a href="https://drive.google.com/drive/folders/1RT_FMm4yeNEouhDY4LFndSQ7UyGb1o9X?usp=sharing">View</a>
             </td>
         </tr>
         <tr>
             <td>Bitwise Practise Problems</td>
-            <td><a href="../../../community/coaches/#abdelrhman-emad">Abdelrhman Emad</a></td>
+            <td><a href="#" data-link="coach:abdelrhman_emad">Abdelrhman Emad</a></td>
             <td>
                 <a href="https://drive.google.com/drive/folders/1_12GanpS4WS5EkgtBISk00X2VX8c-cPF?usp=sharing">View</a>
             </td>
