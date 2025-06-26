@@ -9,7 +9,7 @@ hide:
   <p class="hero-subtitle">This program builds on your foundation with core algorithms, data structures, and number theory. By the end, you'll be ready to confidently solve Div2 A, B, and C problems.</p>
   <div class="hero-buttons">
     <a href="#" data-link="page:level1_sessions" target="_blank" class="md-button md-button--primary">Go to Session Archive</a>
-<a href="#" data-link="external:vjudge_level1" target="_blank" class="md-button md-button--primary">Go to Practice Sheet</a>
+    <a href="#" data-link="external:vjudge_level1" target="_blank" class="md-button md-button--primary">Go to Practice Sheet</a>
   </div>
 </div>
 
@@ -210,10 +210,12 @@ hide:
 </div>
 
 <div class="level-section">
-  <h2>Week 7 <em>Modular Arithmetic</em></h2>
+  <h2>Week 7 <em>Modular Arithmetic & Fast Exponentiation</em></h2>
   <ul class="topic-list">
-    <li>Modular properties, Binary Exponentiation, and Modular Inverse.</li>
-    <li>Fermat's Little Theorem and Extended Euclidean Algorithm.</li>
+    <li>Modular arithmetic properties and operations.</li>
+    <li>Fast Exponentiation (Binary Exponentiation) for efficient computation.</li>
+    <li>Modular inverse and applications.</li>
+    <li>Practical problems involving large numbers and modular constraints.</li>
     <li>3-hour contest.</li>
   </ul>
 
@@ -232,10 +234,12 @@ hide:
 </div>
 
 <div class="level-section">
-  <h2>Week 8 <em>Binary Search</em></h2>
+  <h2>Week 8 <em>Binary Search & Applications</em></h2>
   <ul class="topic-list">
-    <li>Binary Search on a monotonic function.</li>
-    <li>Binary Search on the Answer (Discrete & Continuous).</li>
+    <li>Binary Search algorithm and its variants.</li>
+    <li>Binary Search on the answer technique.</li>
+    <li>Applications in optimization problems.</li>
+    <li>Lower bound and upper bound techniques.</li>
     <li>3-hour contest.</li>
   </ul>
 
@@ -256,9 +260,11 @@ hide:
 <div class="level-section">
   <h2>Week 9 <em>Two Pointers & Sliding Window</em></h2>
   <ul class="topic-list">
-    <li>The Two Pointers technique for linear traversals.</li>
-    <li>Sliding Window patterns for subarray/substring problems.</li>
-    <li>3-hour contest.</li>
+    <li>Two Pointers technique for array and string problems.</li>
+    <li>Sliding Window approach for subarray problems.</li>
+    <li>Applications in finding subarrays with specific properties.</li>
+    <li>Optimization techniques for linear time complexity.</li>
+    <li>3-hour final contest.</li>
   </ul>
 
   <h3>Topic Resources:</h3>

@@ -8,6 +8,7 @@ hide:
   <h1>Newcomers Training Plan (2023)</h1>
   <p class="hero-subtitle">Your first step into the world of competitive programming. This plan covers foundational topics to build a strong base for problem-solving.</p>
   <div class="hero-buttons">
+  <a href="../../../resources/sessions/Newcommers" target="_blank" class="md-button md-button--primary">Go to Session Archive</a>
     <a href="https://vjudge.net/group/icpc_mnf_newcommer_2024" target="_blank" class="md-button md-button--primary">Go to Practice Sheets</a>
     <a href="https://codeforces.com/group/WWor4JSxmP/contests" target="_blank" class="md-button">Go to Contests</a>
   </div>
