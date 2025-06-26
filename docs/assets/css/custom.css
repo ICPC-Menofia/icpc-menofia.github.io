@@ -569,6 +569,62 @@
   margin-top: 0.25rem;
 }
 
+/* Active week styling */
+.level-section.active-week {
+  border: 2px solid var(--md-sys-color-primary);
+  box-shadow: 0 4px 16px rgba(51, 102, 153, 0.2);
+  background: linear-gradient(135deg, rgba(51, 102, 153, 0.05) 0%, rgba(51, 102, 153, 0.02) 100%);
+}
+
+[data-md-color-scheme="slate"] .level-section.active-week {
+  border-color: var(--md-sys-color-accent);
+  box-shadow: 0 4px 16px rgba(255, 193, 7, 0.2);
+  background: linear-gradient(135deg, rgba(255, 193, 7, 0.08) 0%, rgba(255, 193, 7, 0.03) 100%);
+}
+
+.active-badge {
+  display: inline-block;
+  background: linear-gradient(135deg, var(--md-sys-color-primary) 0%, var(--md-sys-color-primary-light) 100%);
+  color: white;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 0.75em;
+  font-weight: 600;
+  margin-left: 12px;
+  animation: pulse 2s infinite;
+  box-shadow: 0 2px 8px rgba(51, 102, 153, 0.3);
+}
+
+[data-md-color-scheme="slate"] .active-badge {
+  background: linear-gradient(135deg, var(--md-sys-color-accent) 0%, #ffcd38 100%);
+  color: #1a1a1a;
+  box-shadow: 0 2px 8px rgba(255, 193, 7, 0.3);
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 2px 8px rgba(51, 102, 153, 0.3);
+  }
+  50% {
+    box-shadow: 0 2px 8px rgba(51, 102, 153, 0.6), 0 0 0 4px rgba(51, 102, 153, 0.1);
+  }
+  100% {
+    box-shadow: 0 2px 8px rgba(51, 102, 153, 0.3);
+  }
+}
+
+[data-md-color-scheme="slate"] @keyframes pulse {
+  0% {
+    box-shadow: 0 2px 8px rgba(255, 193, 7, 0.3);
+  }
+  50% {
+    box-shadow: 0 2px 8px rgba(255, 193, 7, 0.6), 0 0 0 4px rgba(255, 193, 7, 0.1);
+  }
+  100% {
+    box-shadow: 0 2px 8px rgba(255, 193, 7, 0.3);
+  }
+}
+
 .topic-list {
   list-style-type: none;
   padding-left: 0;
@@ -651,4 +707,241 @@
   font-size: 0.75rem;
   font-weight: 600;
   margin-bottom: 1rem;
+}
+
+/* Level 1 Coaches Styling */
+.level1-coaches {
+  margin: 2rem 0;
+}
+
+.level1-coaches .coaches-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 1.5rem;
+  padding: 1rem 0;
+}
+
+.coach-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 1.5rem;
+  background: linear-gradient(135deg, var(--md-default-bg-color) 0%, var(--md-default-bg-color--light) 100%);
+  border: 2px solid transparent;
+  border-radius: 12px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  min-height: 60px;
+}
+
+[data-md-color-scheme="slate"] .coach-card {
+  background: linear-gradient(135deg, var(--md-card-bg-color) 0%, hsla(0, 0%, 100%, 0.12) 100%);
+}
+
+.coach-card:hover {
+  transform: translateY(-6px);
+  border-color: var(--md-sys-color-primary);
+  box-shadow: 0 8px 25px rgba(51, 102, 153, 0.15);
+  text-decoration: none;
+}
+
+[data-md-color-scheme="slate"] .coach-card:hover {
+  border-color: var(--md-sys-color-accent);
+  box-shadow: 0 8px 25px rgba(255, 193, 7, 0.15);
+}
+
+.coach-name {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--md-default-fg-color);
+  text-align: center;
+  line-height: 1.3;
+}
+
+.coach-card:hover .coach-name {
+  color: var(--md-sys-color-primary);
+}
+
+[data-md-color-scheme="slate"] .coach-card:hover .coach-name {
+  color: var(--md-sys-color-accent);
+}
+
+/* Training Plan Section Styling */
+.training-plan-section {
+  margin: 3rem 0;
+  padding: 2.5rem;
+  background: linear-gradient(135deg, var(--md-default-bg-color--light) 0%, var(--md-default-bg-color) 100%);
+  border-radius: 20px;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+  position: relative;
+  overflow: hidden;
+}
+
+.training-plan-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, var(--md-sys-color-primary) 0%, var(--md-sys-color-primary-light) 50%, var(--md-sys-color-primary) 100%);
+}
+
+[data-md-color-scheme="slate"] .training-plan-section {
+  background: linear-gradient(135deg, var(--md-card-bg-color) 0%, hsla(0, 0%, 100%, 0.05) 100%);
+  border-color: hsla(0, 0%, 100%, 0.15);
+}
+
+[data-md-color-scheme="slate"] .training-plan-section::before {
+  background: linear-gradient(90deg, var(--md-sys-color-accent) 0%, #ffcd38 50%, var(--md-sys-color-accent) 100%);
+}
+
+.training-plan-section h2 {
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+  color: var(--md-sys-color-primary);
+  text-align: center;
+  font-weight: 700;
+}
+
+[data-md-color-scheme="slate"] .training-plan-section h2 {
+  color: var(--md-sys-color-accent);
+}
+
+.plan-description {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.plan-description > p {
+  font-size: 1.125rem;
+  line-height: 1.7;
+  color: var(--md-default-fg-color);
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.program-structure {
+  background: var(--md-default-bg-color);
+  padding: 1.8rem;
+  border-radius: 16px;
+  margin: 2rem 0;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.05);
+  border: 1px solid var(--md-default-fg-color--lightest);
+}
+
+[data-md-color-scheme="slate"] .program-structure {
+  background: hsla(0, 0%, 100%, 0.08);
+  border-color: hsla(0, 0%, 100%, 0.1);
+}
+
+.program-structure h3 {
+  margin-top: 0;
+  margin-bottom: 1.2rem;
+  font-size: 1.3rem;
+  color: var(--md-sys-color-primary);
+  font-weight: 600;
+  text-align: center;
+}
+
+[data-md-color-scheme="slate"] .program-structure h3 {
+  color: var(--md-sys-color-accent);
+}
+
+.structure-list {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+}
+
+.structure-list li {
+  position: relative;
+  padding: 1rem 1rem 1rem 2.5rem;
+  background: linear-gradient(135deg, var(--md-default-bg-color--light) 0%, var(--md-default-bg-color) 100%);
+  border-radius: 12px;
+  border-left: 4px solid var(--md-sys-color-primary);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  font-size: 0.95rem;
+  line-height: 1.5;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.structure-list li::before {
+  content: "✓";
+  position: absolute;
+  left: 0.8rem;
+  top: 50%;
+  transform: translateY(-50%);
+  font-weight: bold;
+  color: var(--md-sys-color-primary);
+  font-size: 1.1rem;
+}
+
+[data-md-color-scheme="slate"] .structure-list li {
+  background: linear-gradient(135deg, hsla(0, 0%, 100%, 0.1) 0%, hsla(0, 0%, 100%, 0.05) 100%);
+  border-left-color: var(--md-sys-color-accent);
+}
+
+[data-md-color-scheme="slate"] .structure-list li::before {
+  color: var(--md-sys-color-accent);
+}
+
+.structure-list li:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 16px rgba(51, 102, 153, 0.1);
+}
+
+[data-md-color-scheme="slate"] .structure-list li:hover {
+  box-shadow: 0 4px 16px rgba(255, 193, 7, 0.1);
+}
+
+.plan-cta {
+  text-align: center;
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: var(--md-sys-color-primary);
+  margin-top: 2rem;
+  padding: 1rem;
+  background: linear-gradient(135deg, rgba(51, 102, 153, 0.1) 0%, rgba(51, 102, 153, 0.05) 100%);
+  border-radius: 12px;
+  border: 1px solid rgba(51, 102, 153, 0.2);
+}
+
+[data-md-color-scheme="slate"] .plan-cta {
+  color: var(--md-sys-color-accent);
+  background: linear-gradient(135deg, rgba(255, 193, 7, 0.15) 0%, rgba(255, 193, 7, 0.08) 100%);
+  border-color: rgba(255, 193, 7, 0.25);
+}
+
+/* Integrated Coaches Section */
+.coaches-section-integrated {
+  margin: 2rem 0;
+}
+
+.coaches-section-integrated h3 {
+  margin-bottom: 0.5rem;
+  font-size: 1.3rem;
+  color: var(--md-sys-color-primary);
+  font-weight: 600;
+  text-align: center;
+}
+
+[data-md-color-scheme="slate"] .coaches-section-integrated h3 {
+  color: var(--md-sys-color-accent);
+}
+
+.coaches-section-integrated > p {
+  text-align: center;
+  color: var(--md-default-fg-color--medium);
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
+}
+
+.coaches-section-integrated .level1-coaches {
+  margin: 1.5rem 0 0 0;
 }

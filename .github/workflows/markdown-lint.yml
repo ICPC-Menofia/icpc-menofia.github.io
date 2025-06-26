@@ -1,0 +1,64 @@
+name: Markdown Lint
+
+on:
+  pull_request:
+    branches: [ main, master ]
+    paths:
+      - '**.md'
+      - '**.markdown'
+      - '**.mdown'
+      - '**.mkd'
+      - '**.mkdn'
+      - '**.mdwn'
+      - '**.mdtxt'
+      - '**.mdtext'
+  push:
+    branches: [ main, master ]
+    paths:
+      - '**.md'
+      - '**.markdown'
+      - '**.mdown'
+      - '**.mkd'
+      - '**.mkdn'
+      - '**.mdwn'
+      - '**.mdtxt'
+      - '**.mdtext'
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      with:
+        # Full history is needed for proper diff analysis
+        fetch-depth: 0
+    
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+        cache: 'npm'
+    
+    - name: Install markdownlint-cli2
+      run: npm install -g markdownlint-cli2
+    
+    - name: Run markdownlint on all markdown files
+      run: markdownlint-cli2 "**/*.md" "#node_modules" "#venv"
+      continue-on-error: false
+    
+    - name: Run markdownlint with JSON output for annotations
+      if: failure()
+      run: |
+        markdownlint-cli2 "**/*.md" "#node_modules" "#venv" --output-format json > markdown-issues.json || true
+        echo "Markdown issues found:"
+        cat markdown-issues.json
+    
+    - name: Upload markdown lint results
+      if: always()
+      uses: actions/upload-artifact@v4
+      with:
+        name: markdown-lint-results
+        path: markdown-issues.json
+        retention-days: 7 
