@@ -11,17 +11,17 @@
   <div class="card">
     <h3>Newcomer Training</h3>
     <p>For absolute beginners. Learn the fundamentals of programming and problem-solving to build a strong foundation.</p>
-    <a href="./plan/Newcommer_training" class="md-button">Start Learning</a>
+    <a href="#" data-link="page:newcomer_plan" class="md-button">Start Learning</a>
   </div>
   <div class="card">
     <h3>Level 1 Training</h3>
     <p>Build on your basics with core data structures, algorithms, and number theory. Aimed at solving Div2 A, B, and C problems.</p>
-    <a href="./plan/Level1_training" class="md-button">Begin Level 1</a>
+    <a href="#" data-link="page:level1_plan" class="md-button">Begin Level 1</a>
   </div>
   <div class="card">
     <h3>Level 2 Training</h3>
     <p>Dive into more advanced topics like graphs, trees, and dynamic programming to tackle more complex contest problems.</p>
-    <a href="./plan/Level2_training" class="md-button">Advance to Level 2</a>
+    <a href="#" data-link="page:level2_plan" class="md-button">Advance to Level 2</a>
   </div>
   <div class="card">
     <h3>Senior Training</h3>

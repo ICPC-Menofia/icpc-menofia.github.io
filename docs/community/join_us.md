@@ -8,7 +8,7 @@ hide:
   <h1>Join Our Thriving Community</h1>
   <p class="hero-subtitle">Whether you're a beginner or an experienced coder, the ICPC Menofia Community is your place to learn, compete, and grow with the best.</p>
   <div class="hero-buttons">
-    <a href="https://discord.gg/bdKQ3RSSxK" target="_blank" class="md-button md-button--primary">Join Our Discord Server</a>
+    <a href="#" data-link="external:discord" target="_blank" class="md-button md-button--primary">Join Our Discord Server</a>
   </div>
 </div>
 
@@ -62,5 +62,5 @@ Follow us on our social channels to stay up-to-date with our latest news and ach
 
 <div class="final-cta">
   <p>Ready to be part of our story? Your journey starts now.</p>
-  <a href="https://discord.gg/bdKQ3RSSxK" target="_blank" class="md-button md-button--primary">Join the Community</a>
+  <a href="#" data-link="external:discord" target="_blank" class="md-button md-button--primary">Join the Community</a>
 </div>

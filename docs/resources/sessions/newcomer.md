@@ -9,8 +9,9 @@ hide:
 This page archives all recorded sessions for our Newcomer Training program.
 
 <div class="level-section">
-<h2>Newcomer Training<em>Discussions and problem-solving sessions for beginners.</em></h2>
-  
+  <h2>Newcomer Training</h2>
+  <em>Discussions and problem-solving sessions tailored for beginners.</em>
+
   <h3>Topics Sessions</h3>
   <table class="sessions-table">
     <thead>
@@ -22,162 +23,189 @@ This page archives all recorded sessions for our Newcomer Training program.
     </thead>
     <tbody>
         <tr>
-            <td>Introduction to Competitive Programming/Data types</td>
+            <td>Problem-solving general session</td>
             <td>
-                <a href="../../../community/coaches/#seifaldin-elabyad">Seifaldin Elabyad</a>
+                <a href="#" data-link="coach:seifaldin_elabyad">Seifaldin Elabyad</a>
             </td>
             <td>
-              <a href="https://www.youtube.com/watch?v=EJT1JN1Uy1o" target="_blank">View</a>
+                <a href="https://www.youtube.com/watch?v=aJ6cJYnMm_g&list=PL7GFWD3CwxpZPE_-rYUb9zRGHI2dBUf9y&index=3" target="_blank">View</a>
             </td>
-        </tr>
-        <tr>
-            <td>Conditions and loops</td>
-            <td>
-                <a href="../../../community/coaches/#mahmoud-reda">Mahmoud Reda</a>
-            </td>
-            <td><a href="https://www.youtube.com/watch?v=QCanwM1d5AE" target="_blank">View</a></td>
         </tr>
         <tr>
             <td>Arrays</td>
             <td>
-                <a href="../../../community/coaches/#seifaldin-elabyad">Seifaldin Elabyad</a>
+                <a href="#" data-link="coach:mahmoud_reda">Mahmoud Reda</a>
             </td>
             <td>
-                <a href="https://www.youtube.com/watch?v=oS5m8VSxNkY" target="_blank">View (Part1)</a>
-                <br>
-                <a href="https://www.youtube.com/watch?v=pAp4ybwq5j0" target="_blank">View (Part2)</a>
+                <a href="https://www.youtube.com/watch?v=8lR6Cq6YeIE&list=PL7GFWD3CwxpZPE_-rYUb9zRGHI2dBUf9y&index=2" target="_blank">View</a>
             </td>
         </tr>
         <tr>
-            <td>Linear STLs</td>
+            <td>Arrays Practice</td>
             <td>
-                <a href="../../../community/coaches/#yaseen-abdulghany">Yaseen Abdulghany</a>
+                <a href="#" data-link="coach:seifaldin_elabyad">Seifaldin Elabyad</a>
             </td>
-            <td><a href="https://www.youtube.com/watch?v=jWdY0vF0xHw" target="_blank">View</a></td>
+            <td>
+                <a href="https://www.youtube.com/watch?v=CjFLQA8j3_I&list=PL7GFWD3CwxpZPE_-rYUb9zRGHI2dBUf9y&index=1">View</a>
+            </td>
+        </tr>
+        <tr>
+            <td>Loops</td>
+            <td>
+                <a href="#" data-link="coach:yaseen_abdulghany">Yaseen Abdulghany</a>
+            </td>
+            <td>
+                <a href="https://www.youtube.com/watch?v=PfGLwzVQPso&list=PL7GFWD3CwxpZPE_-rYUb9zRGHI2dBUf9y&index=4" target="_blank">View</a>
+            </td>
+        </tr>
+        <tr>
+            <td>Loops Practice</td>
+            <td>
+                <a href="#" data-link="coach:ziad_tabour">Ziad Tabour</a>
+            </td>
+            <td>
+                <a href="https://www.youtube.com/watch?v=eF0YJxC16Yo&list=PL7GFWD3CwxpZPE_-rYUb9zRGHI2dBUf9y&index=5" target="_blank">View</a>
+            </td>
         </tr>
         <tr>
             <td>Functions</td>
             <td>
-                <a href="../../../community/coaches/#ziad-Tabour">Ziad Tabour</a>
+                <a href="#" data-link="coach:seifaldin_elabyad">Seifaldin Elabyad</a>
             </td>
-            <td><a href="https://drive.google.com/file/d/1aRo-KMDv-3NysLAzVsomDJ5DnjlLaCJx/view" target="_blank">View</a></td>
+            <td>
+                <a href="https://www.youtube.com/watch?v=9q1ER-pq9lE&list=PL7GFWD3CwxpZPE_-rYUb9zRGHI2dBUf9y&index=6" target="_blank">View</a>
+            </td>
         </tr>
         <tr>
-            <td>Basic Math</td>
+            <td>Functions Practice</td>
             <td>
-                <a href="../../../community/coaches/#seifaldin-elabyad">Seifaldin Elabyad</a>
+                <a href="#" data-link="coach:seifaldin_elabyad">Seifaldin Elabyad</a>
             </td>
-            <td><a href="https://www.youtube.com/watch?v=AxH9h-mNlLY" target="_blank">View</a></td>
-        </tr>
-        <tr>
-            <td>Recursion</td>
             <td>
-                <a href="../../../community/coaches/#seifaldin-elabyad">Seifaldin Elabyad</a>
+                <a href="https://www.youtube.com/watch?v=4DP55lKU3qE&list=PL7GFWD3CwxpZPE_-rYUb9zRGHI2dBUf9y&index=8" target="_blank">View</a>
             </td>
-            <td><a href="https://drive.google.com/file/d/1XBRf9qlr6MdJdPTylJ2o8uEDlJ6CWTN8/view" target="_blank">View</a></td>
         </tr>
     </tbody>
   </table>
 
-  <h3>Upsolve Sessions</h3>
+  <h3>Contest Review Sessions</h3>
   <table class="sessions-table">
     <thead>
         <tr>
-            <th>Contest / Problemset</th>
+            <th>Contest</th>
             <th>Coach</th>
             <th>Recording / Material</th>
         </tr>
     </thead>
     <tbody>
         <tr>
-            <td>Conditions and loops Practice</td>
+            <td>ACPC Kickoff 2023</td>
             <td>
-                <a href="../../../community/coaches/#yaseen-abdulghany">Yaseen Abdulghany</a>
-            </td>
-            <td><a href="https://www.youtube.com/watch?v=c2SMx3HcXCg" target="_blank">View</a></td>
-        </tr>
-        <tr>
-            <td>Arrays Practice</td>
-            <td>
-                <a href="../../../community/coaches/#seifaldin-elabyad">Seifaldin Elabyad</a>
-            </td>
-            <td><a href="https://www.youtube.com/watch?v=3ni4CTA3tM0&feature=youtu.be" target="_blank">View</a></td>
-        </tr>
-        <tr>
-            <td>Arrays Practice</td>
-            <td>
-                <a href="../../../community/coaches/#ibrahme-elhdad">Ibrahem Elhdad</a>
-            </td>
-            <td><a href="https://drive.google.com/file/d/1dcMu9N16bezry_UD0NEOlA-UGI_-QIuT/view?usp=drive_link" target="_blank">View</a></td>
-        </tr>
-        <tr>
-            <td>Frequency array Practice</td>
-            <td>
-                <a href="../../../community/coaches/#ibrahme-elhdad">Ibrahem Elhdad</a>
-            </td>
-            <td><a href="https://drive.google.com/file/d/1s4SiUeWQB4SnA6dM2HN39U4B69Czy0BM/view?usp=sharing" target="_blank">View</a></td>
-        </tr>
-        <tr>
-            <td>String Practice</td>
-            <td>
-                <a href="../../../community/coaches/#ahmed-marouf">Ahmed Marouf</a>
-            </td>
-            <td><a href="https://www.youtube.com/watch?v=N0x8bqHSimA&feature=youtu.be" target="_blank">View</a></td>
-        </tr>
-        <tr>
-            <td>STL practice</td>
-            <td>
-                <a href="../../../community/coaches/#seifaldin-elabyad">Seifaldin Elabyad</a>
+                <a href="#" data-link="coach:yaseen_abdulghany">Yaseen Abdulghany</a>
             </td>
             <td>
-                <a href="https://www.youtube.com/watch?v=cvb1XeG1ItA&feature=youtu.be" target="_blank">View (Part2)</a>
-                <br>
-                <a href="https://www.youtube.com/watch?v=ezjcsyE3cF0" target="_blank">View (Part3)</a>
+                <a href="https://www.youtube.com/watch?v=Yjx3PVlPJBE&list=PL7GFWD3CwxpZPE_-rYUb9zRGHI2dBUf9y&index=9" target="_blank">View</a>
             </td>
         </tr>
         <tr>
-            <td>Functions Practice</td>
+            <td>ACPC Kickoff 2023</td>
             <td>
-                <a href="../../../community/coaches/#ahmed-marouf">Ahmed Marouf</a>
+                <a href="#" data-link="coach:seifaldin_elabyad">Seifaldin Elabyad</a>
             </td>
-            <td><a href="https://www.youtube.com/watch?v=fBL9-7LjUoo&feature=youtu.be" target="_blank">View</a></td>
+            <td>
+                <a href="https://www.youtube.com/watch?v=oeGRdVl8NHA&list=PL7GFWD3CwxpZPE_-rYUb9zRGHI2dBUf9y&index=10" target="_blank">View</a>
+            </td>
         </tr>
         <tr>
-            <td>Recursion Practice</td>
+            <td>Starters 75 Practice</td>
             <td>
-                <a href="../../../community/coaches/#ziad-Tabour">Ziad Tabour</a>
+                <a href="#" data-link="coach:ibrahem_elhdad">Ibrahem Elhdad</a>
             </td>
-            <td><a href="https://drive.google.com/file/d/1QT_zwz4rS1cEns771F9QJGpAOHZgtYu8/view" target="_blank">View</a></td>
-        </tr>
-         <tr>
-            <td>Math Practice</td>
             <td>
-                <a href="../../../community/coaches/#ziad-Tabour">Ziad Tabour</a>
+                <a href="https://www.youtube.com/watch?v=pZL6HpAAaZg&list=PL7GFWD3CwxpZPE_-rYUb9zRGHI2dBUf9y&index=11" target="_blank">View</a>
             </td>
-            <td><a href="https://drive.google.com/file/d/1bpyZJNGp7RJSTtp94WwqRSc89I9-HDW9/view?usp=sharing" target="_blank">View</a></td>
         </tr>
-         <tr>
-            <td>First contest upsolve</td>
+        <tr>
+            <td>Starters 77 Practice</td>
             <td>
-                <a href="../../../community/coaches/#ziad-Tabour">Ziad Tabour</a>
+                <a href="#" data-link="coach:ibrahem_elhdad">Ibrahem Elhdad</a>
             </td>
-            <td><a href="https://drive.google.com/file/d/1ZHS5CqFnTuF8B8nQ_BuNAJynWxHOwl-0/view?usp=sharing" target="_blank">View</a></td>
-        </tr>
-          <tr>
-            <td>String Practice</td>
             <td>
-                <a href="../../../community/coaches/#ziad-Tabour">Ziad Tabour</a>
+                <a href="https://www.youtube.com/watch?v=vRkCrLW-_jw&list=PL7GFWD3CwxpZPE_-rYUb9zRGHI2dBUf9y&index=12" target="_blank">View</a>
             </td>
-            <td><a href="https://drive.google.com/file/d/1X7GP4Kfn-XHVL3PPfVuvJTT2_46T96cG/view?usp=sharing" target="_blank">View</a></td>
         </tr>
-            <tr>
-            <td>Frequency and prefix practice</td>
+        <tr>
+            <td>CodeChef 79</td>
             <td>
-                <a href="../../../community/coaches/#ziad-Tabour">Ziad Tabour</a>
+                <a href="#" data-link="coach:ahmed_marouf">Ahmed Marouf</a>
             </td>
-            <td><a href="https://drive.google.com/file/d/1dg8I6F13ewNh1Jyq-bJgxmI4vN-bmyee/view?usp=sharing" target="_blank">View</a></td>
+            <td>
+                <a href="https://www.youtube.com/watch?v=cJYbC0rSa1U&list=PL7GFWD3CwxpZPE_-rYUb9zRGHI2dBUf9y&index=13" target="_blank">View</a>
+            </td>
         </tr>
-        
+        <tr>
+            <td>1st Contest Review</td>
+            <td>
+                <a href="#" data-link="coach:seifaldin_elabyad">Seifaldin Elabyad</a>
+            </td>
+            <td>
+                <a href="https://www.youtube.com/watch?v=nEi1xMgW5c8&list=PL7GFWD3CwxpZPE_-rYUb9zRGHI2dBUf9y&index=14" target="_blank">View</a>
+            </td>
+        </tr>
+        <tr>
+            <td>2nd Contest Review</td>
+            <td>
+                <a href="#" data-link="coach:ahmed_marouf">Ahmed Marouf</a>
+            </td>
+            <td>
+                <a href="https://www.youtube.com/watch?v=OgxhUoZ7cDo&list=PL7GFWD3CwxpZPE_-rYUb9zRGHI2dBUf9y&index=15" target="_blank">View</a>
+            </td>
+        </tr>
+        <tr>
+            <td>3rd Contest Review</td>
+            <td>
+                <a href="#" data-link="coach:ziad_tabour">Ziad Tabour</a>
+            </td>
+            <td>
+                <a href="https://www.youtube.com/watch?v=4fzfO0Gn9T0&list=PL7GFWD3CwxpZPE_-rYUb9zRGHI2dBUf9y&index=16" target="_blank">View</a>
+            </td>
+        </tr>
+        <tr>
+            <td>4th Contest Review</td>
+            <td>
+                <a href="#" data-link="coach:ziad_tabour">Ziad Tabour</a>
+            </td>
+            <td>
+                <a href="https://www.youtube.com/watch?v=_vOJM2jWQOA&list=PL7GFWD3CwxpZPE_-rYUb9zRGHI2dBUf9y&index=17" target="_blank">View</a>
+            </td>
+        </tr>
+        <tr>
+            <td>5th Contest Review</td>
+            <td>
+                <a href="#" data-link="coach:ziad_tabour">Ziad Tabour</a>
+            </td>
+            <td>
+                <a href="https://www.youtube.com/watch?v=LuPkDGdR4hM&list=PL7GFWD3CwxpZPE_-rYUb9zRGHI2dBUf9y&index=18" target="_blank">View</a>
+            </td>
+        </tr>
+        <tr>
+            <td>6th Contest Review</td>
+            <td>
+                <a href="#" data-link="coach:ziad_tabour">Ziad Tabour</a>
+            </td>
+            <td>
+                <a href="https://www.youtube.com/watch?v=UHZCKafaKIo&list=PL7GFWD3CwxpZPE_-rYUb9zRGHI2dBUf9y&index=19" target="_blank">View</a>
+            </td>
+        </tr>
+        <tr>
+            <td>7th Contest Review</td>
+            <td>
+                <a href="#" data-link="coach:ziad_tabour">Ziad Tabour</a>
+            </td>
+            <td>
+                <a href="https://www.youtube.com/watch?v=Q8-bYlM3kT8&list=PL7GFWD3CwxpZPE_-rYUb9zRGHI2dBUf9y&index=20" target="_blank">View</a>
+            </td>
+        </tr>
     </tbody>
   </table>
 </div>
