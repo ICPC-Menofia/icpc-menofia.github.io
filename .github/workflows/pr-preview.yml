@@ -1,0 +1,187 @@
+name: PR Preview Deploy
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened, closed]
+    branches: [main, master]
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+  pull-requests: write
+  deployments: write
+
+concurrency:
+  group: pr-preview-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
+jobs:
+  deploy-preview:
+    if: github.event.action != 'closed'
+    runs-on: ubuntu-latest
+    environment:
+      name: pr-preview-${{ github.event.pull_request.number }}
+      url: https://icpc-menofia.github.io/menofia-roadmap/pr-${{ github.event.pull_request.number }}/
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+    
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+    
+    - name: Cache pip dependencies
+      uses: actions/cache@v3
+      with:
+        path: ~/.cache/pip
+        key: ${{ runner.os }}-pip-${{ hashFiles('requirements.txt') }}
+        restore-keys: |
+          ${{ runner.os }}-pip-
+    
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+    
+    - name: Configure MkDocs for preview
+      run: |
+        # Create a temporary mkdocs config for preview
+        cp mkdocs.yml mkdocs-preview.yml
+        
+        # Update or add site_url for PR preview
+        if grep -q "^site_url:" mkdocs-preview.yml; then
+          sed -i "s|^site_url:.*|site_url: https://icpc-menofia.github.io/menofia-roadmap/pr-${{ github.event.pull_request.number }}/|g" mkdocs-preview.yml
+        else
+          echo "site_url: https://icpc-menofia.github.io/menofia-roadmap/pr-${{ github.event.pull_request.number }}/" >> mkdocs-preview.yml
+        fi
+        
+        # Ensure use_directory_urls is set
+        if ! grep -q "use_directory_urls:" mkdocs-preview.yml; then
+          echo "use_directory_urls: true" >> mkdocs-preview.yml
+        fi
+        
+        echo "Preview configuration for PR #${{ github.event.pull_request.number }}:"
+        echo "---"
+        cat mkdocs-preview.yml
+        echo "---"
+    
+    - name: Build site
+      run: |
+        echo "Building site for PR #${{ github.event.pull_request.number }}"
+        mkdocs build --config-file mkdocs-preview.yml --site-dir site-preview
+        
+        # Add PR info to the site
+        echo "<div style='background: #fff3cd; border: 1px solid #ffeaa7; padding: 10px; margin: 10px 0; border-radius: 5px;'>" > pr-banner.html
+        echo "<strong>PR Preview #${{ github.event.pull_request.number }}</strong><br>" >> pr-banner.html
+        echo "This is a preview of changes from <a href='${{ github.event.pull_request.html_url }}'>Pull Request #${{ github.event.pull_request.number }}</a><br>" >> pr-banner.html
+        echo "<small>Last updated: $(date -u +'%Y-%m-%d %H:%M:%S UTC')</small>" >> pr-banner.html
+        echo "</div>" >> pr-banner.html
+        
+        # Insert banner into index.html
+        if [ -f "site-preview/index.html" ]; then
+          sed -i '/<body[^>]*>/r pr-banner.html' site-preview/index.html
+        fi
+        
+        echo "Site built successfully"
+        echo "Site directory contents:"
+        ls -la site-preview/
+        echo "Index file size: $(wc -c < site-preview/index.html) bytes"
+        echo "First few lines of index.html:"
+        head -20 site-preview/index.html
+    
+    - name: Deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./site-preview
+        destination_dir: pr-${{ github.event.pull_request.number }}
+        keep_files: true
+        enable_jekyll: false
+        commit_message: 'Deploy PR #${{ github.event.pull_request.number }} preview'
+        force_orphan: false
+    
+    - name: Verify deployment
+      run: |
+        echo "Deployment completed for PR #${{ github.event.pull_request.number }}"
+        echo "Preview should be available at: https://icpc-menofia.github.io/menofia-roadmap/pr-${{ github.event.pull_request.number }}/"
+        echo "Note: GitHub Pages may take 1-10 minutes to update after deployment"
+    
+    - name: Find previous preview comment
+      id: find-comment
+      uses: peter-evans/find-comment@v2
+      with:
+        issue-number: ${{ github.event.pull_request.number }}
+        comment-author: 'github-actions[bot]'
+        body-includes: 'PR Preview Deploy'
+    
+    - name: Create or update preview comment
+      uses: peter-evans/create-or-update-comment@v3
+      with:
+        comment-id: ${{ steps.find-comment.outputs.comment-id }}
+        issue-number: ${{ github.event.pull_request.number }}
+        edit-mode: replace
+        body: |
+          ## PR Preview Deploy
+          
+          **Preview deployed successfully!**
+          
+          **Preview URL:** https://icpc-menofia.github.io/menofia-roadmap/pr-${{ github.event.pull_request.number }}/
+          
+          **Last updated:** ${{ github.event.pull_request.updated_at }}
+          **Commit:** ${{ github.event.pull_request.head.sha }}
+          
+          ---
+          
+          ### Quick Links
+          - [Preview Site](https://icpc-menofia.github.io/menofia-roadmap/pr-${{ github.event.pull_request.number }}/)
+          - [View Changes](https://github.com/${{ github.repository }}/pull/${{ github.event.pull_request.number }}/files)
+          - [PR Discussion](https://github.com/${{ github.repository }}/pull/${{ github.event.pull_request.number }})
+          
+          > **Note:** The preview automatically updates when you push new commits to this PR.
+          
+          <details>
+          <summary>Build Details</summary>
+          
+          - **Workflow:** [${{ github.workflow }}](https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }})
+          - **Branch:** `${{ github.event.pull_request.head.ref }}`
+          - **Build Time:** ${{ github.event.repository.updated_at }}
+          - **Deploy Path:** `pr-${{ github.event.pull_request.number }}/`
+          
+          </details>
+
+  cleanup-preview:
+    if: github.event.action == 'closed'
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Find preview comment
+      uses: peter-evans/find-comment@v2
+      id: find-cleanup-comment
+      with:
+        issue-number: ${{ github.event.pull_request.number }}
+        comment-author: 'github-actions[bot]'
+        body-includes: 'PR Preview Deploy'
+    
+    - name: Add cleanup notice to comment
+      if: steps.find-cleanup-comment.outputs.comment-id != ''
+      uses: peter-evans/create-or-update-comment@v3
+      with:
+        comment-id: ${{ steps.find-cleanup-comment.outputs.comment-id }}
+        edit-mode: append
+        body: |
+          
+          ---
+          
+          **Preview Cleaned Up**
+          
+          The preview for this PR has been automatically removed since the PR was ${{ github.event.action }}.
+          Preview was available at: `https://icpc-menofia.github.io/menofia-roadmap/pr-${{ github.event.pull_request.number }}/`
+          
+          *Cleanup completed at: $(date -u +'%Y-%m-%d %H:%M:%S UTC')*
+          
+          Note: Due to GitHub Pages caching, the preview URL may still be accessible for a few minutes. 
