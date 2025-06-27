@@ -301,4 +301,4 @@ hide:
   <li><a href="https://codeforces.com/group/WWor4JSxmP/contests" target="_blank">Codeforces Contests Group</a></li>
   <li><a href="https://t.me/+invC37P-pkA0NTY0" target="_blank">Telegram Channel</a></li>
 </ul>
-</div> 
+</div>

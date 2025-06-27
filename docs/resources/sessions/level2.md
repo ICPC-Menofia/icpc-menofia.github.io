@@ -153,7 +153,7 @@ This page archives all recorded sessions for our Level 2 Training program.
         <tr>
             <td>Dynamic Programming [Masking and Digits]</td>
             <td><a href="#" data-link="coach:ahmed_wageeh">Ahmed Wageeh</a></td>
-            <td><a href="https://youtu.be/AeROGSfe0JY?si=lPW3I4ee_WrOpHI_" target="_blank">View (Part 1)</a> 
+            <td><a href="https://youtu.be/AeROGSfe0JY?si=lPW3I4ee_WrOpHI_" target="_blank">View (Part 1)</a>
             <br>
             <a href="https://www.youtube.com/watch?v=oDytgB9fucU" target="_blank">View (Part 2)</a>
             <br>
@@ -287,4 +287,5 @@ This page archives all recorded sessions for our Level 2 Training program.
         </tr>
     </tbody>
   </table>
-</div> 
+</div>
+

@@ -59,4 +59,4 @@ const LINKS = {
 - Page keys: `page:descriptive_name`
 - External keys: `external:service_name`
 
-See the `LINKS` object in `universal-link-router.js` for all available links. 
+See the `LINKS` object in `universal-link-router.js` for all available links.

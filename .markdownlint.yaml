@@ -1,0 +1,23 @@
+# Markdownlint configuration for MkDocs Material theme
+# This configuration enforces standard markdown practices while allowing minimal exceptions for MkDocs
+
+# Allow HTML elements since MkDocs Material uses them for styling components
+MD033: false  # Allow inline HTML (necessary for MkDocs Material components)
+
+# Line length - enforce reasonable limits
+MD013:
+  line_length: 120  # Standard line length limit
+  code_blocks: false  # Don't check line length in code blocks
+  tables: false  # Don't check line length in tables
+
+# Enforce proper heading and list formatting
+MD022: true   # Headings should be surrounded by blank lines
+MD032: true   # Lists should be surrounded by blank lines
+
+# Standard rules we want to enforce
+MD009: true   # No trailing spaces
+MD012: true   # No multiple consecutive blank lines
+MD030: true   # Proper list marker spacing
+MD047: true   # Single trailing newline
+MD024: false  # Allow duplicate headers (common in documentation)
+MD046: false  # Allow code block style variations (for MkDocs compatibility) 

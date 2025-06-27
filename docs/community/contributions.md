@@ -6,7 +6,8 @@ hide:
 
 <div class="hero-section">
   <h1>Community Contributions</h1>
-  <p class="hero-subtitle">Our community thrives on collaboration. This page recognizes the amazing people who have contributed to our open-source website.</p>
+  <p class="hero-subtitle">Our community thrives on collaboration. This page recognizes the amazing people who have
+  contributed to our open-source website.</p>
   <div class="hero-buttons">
     <a href="#" data-link="external:github_website" target="_blank" class="md-button md-button--primary">Contribute on GitHub</a>
   </div>
@@ -17,7 +18,8 @@ hide:
 <p>Contributions are welcome. You can help by fixing typos, updating outdated content, or suggesting new additions.</p>
 
 <h3>Contribution Guide</h3>
-<p>If you are new to contributing, refer to this <a href="#" data-link="external:youtube_tutorial" target="_blank">video tutorial series</a> for detailed instructions.</p>
+<p>If you are new to contributing, refer to this <a href="#" data-link="external:youtube_tutorial" target="_blank">
+video tutorial series</a> for detailed instructions.</p>
 
 <h3>Areas You Can Help With</h3>
 <ul>
@@ -33,7 +35,8 @@ hide:
 
 <div class="level-section">
 <h2>Our Contributors</h2>
-<p>We are grateful to everyone who has dedicated their time and effort to improving our platform. Your contributions make a real difference.</p>
+<p>We are grateful to everyone who has dedicated their time and effort to improving our platform. Your contributions
+make a real difference.</p>
 </div>
 
 <div class="cards-grid contributors-grid">
@@ -78,4 +81,4 @@ hide:
     <h3>Ameen-sakr</h3>
     <a href="https://github.com/Ameensakr" target="_blank" class="md-button">View Profile</a>
   </div>
-</div> 
+</div>

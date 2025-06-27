@@ -15,10 +15,10 @@ hide:
 
 <div class="training-plan-section">
   <h2>Level 1 Program Overview</h2>
-  
+
   <div class="plan-description">
     <p>Our Level 1 training is a comprehensive 9-week program designed to take you from foundational knowledge to intermediate competitive programming skills. Each week focuses on specific topics with hands-on practice, contests, and guidance from our experienced coaching team.</p>
-    
+
     <div class="program-structure">
       <h3>Program Structure:</h3>
       <ul class="structure-list">
@@ -28,11 +28,11 @@ hide:
         <li><strong>Coach-led sessions</strong> for live instruction and Q&A support</li>
       </ul>
     </div>
-    
+
     <div class="coaches-section-integrated">
       <h3>Your Level 1 Coaches:</h3>
       <p>Meet the dedicated coaches who will guide you through this journey. Click on any coach to learn more about them.</p>
-      
+
       <div class="level1-coaches">
         <div class="coaches-grid">
           <a href="#" data-link="coach:ahmed_mohamed" class="coach-card">
@@ -59,7 +59,7 @@ hide:
         </div>
       </div>
     </div>
-    
+
     <div class="plan-cta">
       Ready to dive in? Let's explore the weekly breakdown:
     </div>
@@ -280,3 +280,4 @@ hide:
     </tbody>
   </table>
 </div>
+

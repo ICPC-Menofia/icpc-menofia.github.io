@@ -1,23 +1,23 @@
 <div class="hero-section">
   <h1>Our Coaches & Mentors</h1>
   <p class="md-typeset hero-subtitle">
-    Meet the dedicated and experienced community members who lead our training sessions and guide our aspiring competitive programmers.
+    Meet the dedicated and experienced community members who lead our training sessions and guide our aspiring
+    competitive programmers.
   </p>
 </div>
-
 <div class="coach-section" markdown="1">
   <ul>
     <li id="amr-saud">
         <strong>Amr Saud</strong>
         <small>Community Founder</small>
         <small>Software Engineer at Agillo</small>
-        <a href="https://www.linkedin.com/in/amr-saud/" target="_blank">LinkedIn</a> 
+        <a href="https://www.linkedin.com/in/amr-saud/" target="_blank">LinkedIn</a>
     </li>
     <li id="mahmoud-magdy">
         <strong>Mahmoud Magdy</strong>
         <small>Community Co-Founder</small>
         <small>Software Engineer at ITIDA</small>
-        <a href="https://www.linkedin.com/in/mahmoud-magdy-60628915a/" target="_blank">LinkedIn</a> 
+        <a href="https://www.linkedin.com/in/mahmoud-magdy-60628915a/" target="_blank">LinkedIn</a>
     </li>
     <li id="mostafa-mounir-shehab">
         <strong>Mostafa Mounir Shehab</strong>
@@ -102,7 +102,7 @@
     <li id="ahmed-sakr">
         <strong>Ahmed Sakr</strong>
         <small>Software Engineer @Fawry | ECPC finalist</small>
-        <a href="https://www.linkedin.com/in/ahmedsakr07407/" target="_blank">LinkedIn</a> | 
+        <a href="https://www.linkedin.com/in/ahmedsakr07407/" target="_blank">LinkedIn</a> |
         <a href="https://github.com/Ahmed-Mohmed-Sakr/" target="_blank">GitHub</a>
     </li>
     <li id="abdelrhman-sersawy">
@@ -147,14 +147,15 @@
     </li>
     <li id="yomna-magdy">
         <strong>Yomna Magdy</strong>
-        <small>Former Backend Engineer Intern @Giza systems | Problem solving coach @Coach Academy | ECPC 2024 Finalist | Samsung Innovation Campus Scholarship</small>
+        <small>Former Backend Engineer Intern @Giza systems | Problem solving coach @Coach Academy | ECPC 2024
+        Finalist | Samsung Innovation Campus Scholarship</small>
         <a href="https://www.linkedin.com/in/yomna1267" target="_blank">LinkedIn</a> |
         <a href="https://github.com/yomna1267" target="_blank">GitHub</a> |
     </li>
     <li id="mahmoud-reda">
         <strong>Mahmoud Reda</strong>
         <small>.Net Developer | 3x ECPC FINALIST</small>
-        <a href="https://www.linkedin.com/in/mahmoud-abouelazm" target="_blank">LinkedIn</a> 
+        <a href="https://www.linkedin.com/in/mahmoud-abouelazm" target="_blank">LinkedIn</a>
     </li>
     <li id="ebrahim-mordy">
         <strong>Ebrahem Mordy</strong>
@@ -187,9 +188,10 @@
     <li id="hossam-saber">
         <strong>Hossam Saber</strong>
         <small>Expert @Codeforces </small>
-        <a href="https://www.linkedin.com/in/hossam-saberr?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">LinkedIn</a> |
+        <a href="https://www.linkedin.com/in/hossam-saberr?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+        target="_blank">LinkedIn</a> |
         <a href="https://github.com/HossamSaberr" target="_blank">GitHub</a> |
         <a href="https://codeforces.com/profile/Homz" target="_blank">Codeforces</a>
     </li>
   </ul>
-</div> 
+</div>

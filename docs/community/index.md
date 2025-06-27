@@ -1,17 +1,17 @@
 <div class="hero-section">
-  <h1>Our Community</h1>
+  <h1>ICPC Menofia Community</h1>
   <p class="md-typeset hero-subtitle">
-    We're a passionate team of students and mentors from Menofia University, united by our love for competitive programming and our goal to grow, compete, and succeed together.
+    We're a passionate team of students and mentors from Menofia University, united by our love for competitive
+    programming and our goal to grow, compete, and succeed together.
   </p>
 </div>
-
 ## Get to Know Us
-
 <div class="cards-grid">
   <div class="card">
-    <h3>About Us</h3>
-    <p>Learn about our mission, our history, and the values that drive us. Discover what makes the ICPC Menofia Community a special place to grow.</p>
-    <a href="#" data-link="page:about" class="md-button">Read Our Story</a>
+    <h3>About Our Community</h3>
+    <p>Learn about our mission, values, and the incredible journey we've been on since our founding. Discover our
+    history and achievements.</p>
+    <a href="#" data-link="page:about" class="md-button">Learn More</a>
   </div>
   <div class="card">
     <h3><a href="#" data-link="page:coaches">Our Coaches & Mentors</a></h3>
@@ -19,16 +19,20 @@
   </div>
   <div class="card">
     <h3>Join the Conversation</h3>
-    <p>The heart of our community is on Discord. Join hundreds of members to discuss problems, share resources, and get involved in our next event.</p>
+    <p>The heart of our community is on Discord. Join hundreds of members to discuss problems, share resources, and
+    get involved in our next event.</p>
     <a href="#" data-link="external:discord" target="_blank" class="md-button md-button--primary">Join Our Discord</a>
   </div>
   <div class="card">
-    <h3>Become a Member</h3>
-    <p>Ready to take the next step? Find out how you can officially join the community, get access to all our resources, and start your training journey.</p>
-    <a href="#" data-link="page:join" class="md-button">How to Join</a>
+    <h3>Join Our Community</h3>
+    <p>Ready to start your competitive programming journey? Learn how to become part of our thriving community and
+    access all our resources.</p>
+    <a href="#" data-link="page:join" class="md-button">Get Started</a>
   </div>
   <div class="card">
-    <h3><a href="#" data-link="page:contributions">Community Contributions</a></h3>
-    <p>See who has contributed to our open-source projects and learn how you can get involved.</p>
+    <h3>Community Contributions</h3>
+    <p>Explore our open-source projects and discover how you can contribute to our growing collection of resources
+    and tools.</p>
+    <a href="#" data-link="page:contributions" class="md-button">View Contributions</a>
   </div>
 </div>

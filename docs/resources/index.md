@@ -1,31 +1,33 @@
 # Community Resources
 
-<div class="hero-section">
-  <div class="hero-content">
-    <h1>Community Resources</h1>
-    <p class="hero-subtitle">
-      Discover our carefully curated collection of session recordings, FAQs, and learning materials. Everything you need to support your competitive programming journey.
+<div class="cards-grid" markdown="1">
+  <div class="card" markdown="1">
+    <h1>Training Resources</h1>
+    <p>
+      Access structured training plans, practice problems, and learning materials designed to help you grow from
+      beginner to advanced competitive programmer.
     </p>
-    <div class="hero-buttons">
-      <a href="#" data-link="page:sessions" class="md-button">Browse Sessions</a>
+    <div class="card-actions">
+      <a href="#" data-link="page:training" class="md-button">Explore Training Plans</a>
     </div>
   </div>
 </div>
 
-<div class="card-grid">
+<div class="cards-grid">
   <div class="card">
-    <h3>Frequently Asked Questions</h3>
-    <p>Find answers to common questions about our community, training, and events. A great place to start if you're new here.</p>
-    <a href="#" data-link="page:faq" class="md-button">View FAQ</a>
-  </div>
-  <div class="card">
-    <h3>Community Session Archive</h3>
-    <p>Missed a session? Access our full archive of recorded training sessions and workshops, led by experienced community members.</p>
+    <h3>Session Archives</h3>
+    <p>Recordings and materials from past training sessions, workshops, and problem-solving discussions.</p>
     <a href="#" data-link="page:sessions" class="md-button">Browse Sessions</a>
   </div>
   <div class="card">
-    <h3>Training Plans</h3>
-    <p>Structure your learning with our detailed training plans designed for different skill levels.</p>
-    <a href="#" data-link="page:training" class="md-button">Go to Training</a>
+    <h3>Frequently Asked Questions</h3>
+    <p>Find answers to common questions about competitive programming, our community, and getting started with
+    training.</p>
+    <a href="#" data-link="page:faq" class="md-button">Read FAQ</a>
+  </div>
+  <div class="card">
+    <h3>External Links</h3>
+    <p>Useful competitive programming platforms, tools, and educational resources from around the web.</p>
+    <a href="#" data-link="page:external" class="md-button">View Links</a>
   </div>
 </div>

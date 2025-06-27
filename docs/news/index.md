@@ -4,9 +4,7 @@
     Stay up-to-date with our latest activities, contest results, and community announcements. See what we've been up to!
   </p>
 </div>
-
 ## Event Archives by Year
-
 <div class="cards-grid">
   <div class="card">
     <h3>2025 Events</h3>

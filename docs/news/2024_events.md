@@ -1,30 +1,30 @@
 ## 🏆 2024 Regional Participation
 
-We proudly participated in **ECPC 2024** with **13 teams** representing Menofia University.
+Our teams continued to excel in competitive programming throughout 2024, representing Menofia University with
+distinction at regional competitions.
 
-<div class="image-item" style="max-width: 90%; margin: 1rem auto;">
-  <img src="../../assets/images/events/2024/ECPC24.jpg" alt="ECPC 2024" loading="lazy">
-</div>
+![ACPC 2024 Team](/assets/images/events/2024/ACPC'24.jpg)
 
-## 🏅 ACPC 2024 – Luxor
+## 🥉 ECPC 2024 Results
 
-We also took part in **ACPC 2024**, held in **Luxor**, with **three qualified teams**:
-
-- **Triple Threat**  
-- **Strong Connected Menofia**
-- **Not Clean Code**
-
-<div class="image-item" style="max-width: 90%; margin: 1rem auto;">
-  <img src="../../assets/images/events/2024/ACPC'24.jpg" alt="ACPC 2024" loading="lazy">
-</div>
-
-### 📸 Team Highlights
+The Egyptian Collegiate Programming Contest 2024 showcased our community's growth and dedication to competitive
+programming excellence.
 
 <div class="image-grid">
   <div class="image-item">
-    <img src="../../assets/images/events/2024/tripple-threat-team.jpg" alt="Triple Threat Team" loading="lazy">
+    <img src="/assets/images/events/2024/ECPC24.jpg" alt="ECPC 2024">
+  </div>
+</div>
+
+## 🏅 Team Achievements
+
+Our teams demonstrated exceptional performance and teamwork throughout the year:
+
+<div class="image-grid">
+  <div class="image-item">
+    <img src="/assets/images/events/2024/strong-connected-menofia.jpg" alt="Strong Connected Menofia Team">
   </div>
   <div class="image-item">
-    <img src="../../assets/images/events/2024/strong-connected-menofia.jpg" alt="Strong Connected Menofia Team" loading="lazy">
+    <img src="/assets/images/events/2024/tripple-threat-team.jpg" alt="Triple Threat Team">
   </div>
 </div>

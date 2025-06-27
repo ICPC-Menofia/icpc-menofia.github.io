@@ -1,12 +1,11 @@
 <div class="hero-section">
-  <h1>Training Plans & Resources</h1>
+  <h1>Training Plans & Programs</h1>
   <p class="md-typeset hero-subtitle">
-    Our structured training plans are designed to guide you from your first line of code to advanced competitive programming techniques. Find your level and start your journey.
+    We're a passionate team of students and mentors from Menofia University, united by our love for competitive
+    programming and our goal to grow, compete, and succeed together.
   </p>
 </div>
-
 ## Our Core Training Paths
-
 <div class="cards-grid">
   <div class="card">
     <h3>Newcomer Training</h3>
@@ -29,9 +28,7 @@
     <a href="./plan/Senior_training" class="md-button">Go to Senior Plan</a>
   </div>
 </div>
-
 ## Yearly Training Archives
-
 <div class="cards-grid">
   <div class="card">
     <h3>2025 Training Archive</h3>
