@@ -249,4 +249,4 @@ hide:
       <td><a href="https://youkn0wwho.academy/topic-list/persistent_segment_tree" target="_blank">Go to Sheet</a></td>
     </tr>
   </tbody>
-</table> 
+</table>

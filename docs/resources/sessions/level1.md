@@ -121,14 +121,14 @@ This page archives all recorded sessions for our Level 1 Training program.
             <td>
                <a href="https://www.youtube.com/watch?v=dW8Vcc2JJBE" target="_blank">View (Part1)</a>
                 <br>
-                <a href="https://www.youtube.com/watch?v=cPef-TEN-UE&t=1382s" target="_blank">View (Part2)</a>               
+                <a href="https://www.youtube.com/watch?v=cPef-TEN-UE&t=1382s" target="_blank">View (Part2)</a>
             </td>
         </tr>
          <tr>
             <td>Brute Force</td>
                <td><a href="#" data-link="coach:ahmed_wageeh">Ahmed Wageeh</a></td>
             <td>
-               <a href="https://youtu.be/FSmHbG_ZBUs" target="_blank">View</a>             
+               <a href="https://youtu.be/FSmHbG_ZBUs" target="_blank">View</a>
             </td>
         </tr>
         <tr>
@@ -167,7 +167,7 @@ This page archives all recorded sessions for our Level 1 Training program.
             <td>Bitmask</td>
                <td><a href="#" data-link="coach:ahmed_wageeh">Ahmed Wageeh</a></td>
             <td>
-               <a href="https://youtu.be/jTbjxW69Sa8" target="_blank">View</a>             
+               <a href="https://youtu.be/jTbjxW69Sa8" target="_blank">View</a>
             </td>
         </tr>
         <tr>
@@ -186,4 +186,4 @@ This page archives all recorded sessions for our Level 1 Training program.
         </tr>
     </tbody>
   </table>
-</div> 
+</div>

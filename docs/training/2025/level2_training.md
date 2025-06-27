@@ -70,8 +70,6 @@ hide:
         </tr>
     </tbody>
 </table>
-
-
 <h2>Sprint 3 : Graph</h2>
 <h3>Topic Resources:</h3>
 <table class="sessions-table">
@@ -135,7 +133,7 @@ hide:
         <tr>
             <td>DP Masking and Digits Session</td>
             <td>Community (Ahmed Wageh)</td>
-            <td><a href="https://youtu.be/AeROGSfe0JY?si=lPW3I4ee_WrOpHI_" target="_blank">View (Part 1)</a> 
+            <td><a href="https://youtu.be/AeROGSfe0JY?si=lPW3I4ee_WrOpHI_" target="_blank">View (Part 1)</a>
             <br>
             <a href="https://www.youtube.com/watch?v=oDytgB9fucU" target="_blank">View (Part 2)</a>
             <br>
@@ -153,8 +151,6 @@ hide:
         </tr>
     </tbody>
 </table>
-
-
 <h2>Sprint 5 : Shortest Path Algorithms</h2>
 <h3>Topic Resources:</h3>
 <table class="sessions-table">
@@ -221,4 +217,4 @@ hide:
             <td><a href="https://drive.google.com/file/d/1B-xiL84kv2BtM6vrwxyk-ULkcfiD8x96/view" target="_blank">View</a></td>
         </tr>
     </tbody>
-</table> 
+</table>
