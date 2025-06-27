@@ -94,21 +94,36 @@ jobs:
         echo "First few lines of index.html:"
         head -20 site-preview/index.html
     
-    - name: Deploy to GitHub Pages
-      uses: peaceiris/actions-gh-pages@v3
+    - name: Checkout gh-pages branch
+      uses: actions/checkout@v4
       with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./site-preview
-        destination_dir: pr-${{ github.event.pull_request.number }}
-        keep_files: true
-        enable_jekyll: false
-        commit_message: 'Deploy PR #${{ github.event.pull_request.number }} preview'
-        force_orphan: false
+        ref: gh-pages
+        path: gh-pages-repo
+    
+    - name: Deploy to GitHub Pages
+      run: |
+        # Copy built site to PR directory
+        mkdir -p gh-pages-repo/pr-${{ github.event.pull_request.number }}
+        cp -r site-preview/* gh-pages-repo/pr-${{ github.event.pull_request.number }}/
+        
+        # Configure git
+        cd gh-pages-repo
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        
+        # Add and commit changes
+        git add pr-${{ github.event.pull_request.number }}
+        git commit -m "Deploy PR #${{ github.event.pull_request.number }} preview" || echo "No changes to commit"
+        
+        # Push changes
+        git push origin gh-pages
     
     - name: Verify deployment
       run: |
         echo "Deployment completed for PR #${{ github.event.pull_request.number }}"
         echo "Preview should be available at: https://icpc-menofia.github.io/menofia-roadmap/pr-${{ github.event.pull_request.number }}/"
+        echo "Files deployed:"
+        ls -la gh-pages-repo/pr-${{ github.event.pull_request.number }}/
         echo "Note: GitHub Pages may take 1-10 minutes to update after deployment"
     
     - name: Find previous preview comment
@@ -159,6 +174,31 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
+    - name: Checkout gh-pages branch
+      uses: actions/checkout@v4
+      with:
+        ref: gh-pages
+        path: gh-pages-repo
+    
+    - name: Remove PR preview directory
+      run: |
+        cd gh-pages-repo
+        if [ -d "pr-${{ github.event.pull_request.number }}" ]; then
+          echo "Removing preview directory: pr-${{ github.event.pull_request.number }}"
+          rm -rf "pr-${{ github.event.pull_request.number }}"
+          
+          # Configure git
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          
+          # Commit and push the removal
+          git add .
+          git commit -m "Clean up PR #${{ github.event.pull_request.number }} preview" || echo "No changes to commit"
+          git push origin gh-pages
+        else
+          echo "Preview directory pr-${{ github.event.pull_request.number }} not found"
+        fi
+    
     - name: Find preview comment
       uses: peter-evans/find-comment@v2
       id: find-cleanup-comment
