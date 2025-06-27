@@ -1,0 +1,195 @@
+name: Content Management
+
+on:
+  push:
+    branches: [ main, master ]
+    paths:
+      - 'docs/community/coaches.md'
+      - 'docs/resources/sessions/*.md'
+  workflow_dispatch:
+    inputs:
+      action_type:
+        description: 'Type of content to add'
+        required: true
+        default: 'coach'
+        type: choice
+        options:
+        - coach
+        - session
+      content_data:
+        description: 'JSON data for the content'
+        required: true
+        type: string
+
+jobs:
+  create-content-pr:
+    runs-on: ubuntu-latest
+    if: github.event_name == 'workflow_dispatch'
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        fetch-depth: 0
+    
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+    
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+        pip install flask flask-cors
+    
+    - name: Generate branch name and content info
+      id: content_info
+      run: |
+        TIMESTAMP=$(date +"%Y%m%d-%H%M%S")
+        ACTION_TYPE="${{ github.event.inputs.action_type }}"
+        
+        # Extract name from JSON for better branch naming
+        if [ "$ACTION_TYPE" == "coach" ]; then
+          NAME=$(echo '${{ github.event.inputs.content_data }}' | python3 -c "import sys, json; data=json.load(sys.stdin); print(data.get('name', 'unknown').replace(' ', '-').lower())")
+          BRANCH_NAME="add-coach-${NAME}-${TIMESTAMP}"
+          PR_TITLE="Add new coach: ${NAME}"
+        else
+          TITLE=$(echo '${{ github.event.inputs.content_data }}' | python3 -c "import sys, json; data=json.load(sys.stdin); print(data.get('title', 'unknown').replace(' ', '-').lower())")
+          LEVEL=$(echo '${{ github.event.inputs.content_data }}' | python3 -c "import sys, json; data=json.load(sys.stdin); print(data.get('level', 'unknown'))")
+          BRANCH_NAME="add-session-${LEVEL}-${TITLE}-${TIMESTAMP}"
+          PR_TITLE="Add new session: ${TITLE} (${LEVEL})"
+        fi
+        
+        echo "branch_name=${BRANCH_NAME}" >> $GITHUB_OUTPUT
+        echo "pr_title=${PR_TITLE}" >> $GITHUB_OUTPUT
+        echo "action_type=${ACTION_TYPE}" >> $GITHUB_OUTPUT
+    
+    - name: Create new branch
+      run: |
+        git checkout -b ${{ steps.content_info.outputs.branch_name }}
+        git push -u origin ${{ steps.content_info.outputs.branch_name }}
+    
+    - name: Process content addition
+      run: |
+        echo "Processing ${{ steps.content_info.outputs.action_type }} addition..."
+        
+        if [ "${{ steps.content_info.outputs.action_type }}" == "coach" ]; then
+          echo "Adding coach..."
+          python scripts/add_coach.py --data '${{ github.event.inputs.content_data }}'
+        else
+          echo "Adding session..."
+          python scripts/add_resource.py --data '${{ github.event.inputs.content_data }}'
+        fi
+    
+    - name: Validate site build
+      run: |
+        echo "Testing site build..."
+        mkdocs build --strict
+        echo "✓ Site builds successfully"
+    
+    - name: Commit and push changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        
+        if git diff --quiet && git diff --staged --quiet; then
+          echo "No changes to commit"
+          exit 1
+        else
+          git add .
+          git commit -m "${{ steps.content_info.outputs.pr_title }}
+        
+        Content added via GitHub Actions workflow."
+          git push origin ${{ steps.content_info.outputs.branch_name }}
+        fi
+    
+    - name: Create Pull Request
+      uses: peter-evans/create-pull-request@v5
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        branch: ${{ steps.content_info.outputs.branch_name }}
+        title: ${{ steps.content_info.outputs.pr_title }}
+        body: |
+          ## 📝 Content Addition Request
+          
+          **Type:** ${{ steps.content_info.outputs.action_type }}
+          
+          **Data submitted:**
+          ```json
+          ${{ github.event.inputs.content_data }}
+          ```
+          
+          ### 🔍 Changes Made
+          - Updated relevant content files
+          - Validated site build successfully
+          
+          ### ✅ Review Checklist
+          - [ ] Content information is accurate
+          - [ ] Links are valid and working
+          - [ ] No formatting issues
+          - [ ] Follows community guidelines
+          
+          **This PR was automatically created by GitHub Actions workflow.**
+        labels: |
+          content-update
+          ${{ steps.content_info.outputs.action_type }}
+          automated-pr
+        assignees: ${{ github.actor }}
+        draft: false
+
+  deploy-site:
+    runs-on: ubuntu-latest
+    if: github.event_name == 'push' && (github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master')
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+    
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+    
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+    
+    - name: Validate markdown files
+      run: |
+        echo "Validating markdown files..."
+        
+        # Check if coaches.md is valid
+        if [ -f "docs/community/coaches.md" ]; then
+          echo "✓ coaches.md exists"
+        else
+          echo "✗ coaches.md is missing"
+          exit 1
+        fi
+        
+        # Check if session files are valid
+        for level_file in docs/resources/sessions/*.md; do
+          if [ -f "$level_file" ]; then
+            echo "✓ $level_file exists"
+          fi
+        done
+    
+    - name: Build site
+      run: |
+        echo "Building MkDocs site..."
+        mkdocs build --strict
+        echo "✓ Site built successfully"
+    
+    - name: Deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3
+      if: success()
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./site
+        cname: # Add your custom domain here if you have one
+    
+    - name: Notify on deployment
+      run: |
+        echo "✅ Site deployed successfully to GitHub Pages" 

@@ -65,6 +65,9 @@ extra:
 extra_css:
   - assets/css/custom.css
 
+extra_javascript:
+  - assets/js/universal-link-router.js
+
 nav:
   - Home: index.md
   - Community:
@@ -72,6 +75,7 @@ nav:
       - About Us: community/about_us.md
       - Our Coaches: community/coaches.md
       - Community Contributions: community/contributions.md
+      - Content Management Guide: community/automation_guide.md
       - Join Our Community: community/join_us.md
   - Training:
       - Overview: training/index.md
