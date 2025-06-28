@@ -79,6 +79,13 @@ This page archives all general sessions, tips, and strategies to help you in you
             </td>
             <td><a href="https://youtu.be/O2QEHNkvzJ4?si=yXha8GZ3RYYIYxhb" target="_blank">View</a></td>
         </tr>
+        <tr>
+            <td>How to Learn From Contest | How To Upsolve Contest</td>
+            <td>
+               <a href="../../../community/coaches/#hossam-saber">Hossam Saber</a>
+            </td>
+            <td><a href="https://youtu.be/976o2k_tMUM?si=KXJeUpGAMMJYyUW3" target="_blank">View</a></td>
+        </tr>
     </tbody>
   </table>
 
