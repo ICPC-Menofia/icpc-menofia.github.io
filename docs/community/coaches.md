@@ -90,7 +90,7 @@
     </li>
     <li id="tawfeek-shalash">
         <strong>Tawfeek Shalash</strong>
-        <small>Software Engineer @vodafone  || ex SE @ TechnoVerse || ex SE intern @ Fawry & Fatura</small>
+        <small>Software Engineer @vodafone | ex SE @ TechnoVerse | ex SE intern @ Fawry & Fatura</small>
         <a href="https://www.linkedin.com/in/tawfeek-shalash" target="_blank">LinkedIn</a> |
         <a href="https://github.com/tawfik-s" target="_blank">GitHub</a> |
         <a href="https://codeforces.com/profile/Tawfik_Shalash" target="_blank">Codeforces</a>
