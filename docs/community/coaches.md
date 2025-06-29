@@ -90,9 +90,17 @@
     </li>
     <li id="tawfeek-shalash">
         <strong>Tawfeek Shalash</strong>
+        <small>Software Engineer @vodafone  || ex SE @ TechnoVerse || ex SE intern @ Fawry & Fatura</small>
         <a href="https://www.linkedin.com/in/tawfeek-shalash" target="_blank">LinkedIn</a> |
         <a href="https://github.com/tawfik-s" target="_blank">GitHub</a> |
         <a href="https://codeforces.com/profile/Tawfik_Shalash" target="_blank">Codeforces</a>
+    </li>
+    <li id="mohamed-elrashidy">
+        <strong>Mohamed Elrashidy</strong>
+        <small>Software Engineer @ Bayanatz</small>
+        <a href="https://www.linkedin.com/in/mohamed--elrashidy/" target="_blank">LinkedIn</a> |
+        <a href="https://github.com/Mohamed-Elrashidy" target="_blank">GitHub</a> |
+        <a href="https://codeforces.com/profile/meahef" target="_blank">Codeforces</a>
     </li>
     <li id="mohamed-khaled-saeed">
         <strong>Mohamed khaled Saeed</strong>
@@ -181,7 +189,7 @@
      <li id="ahmed-wageeh">
         <strong>Ahmed Wageeh</strong>
         <small>Expert @Codeforces | ECPC Finalist</small>
-        <a href="  https://www.linkedin.com/in/ahmed-wageeh-6aa1b5304" target="_blank">LinkedIn</a> |
+        <a href="https://www.linkedin.com/in/ahmed-wageeh-6aa1b5304" target="_blank">LinkedIn</a> |
         <a href="https://github.com/with-wageeh" target="_blank">GitHub</a> |
         <a href="https://codeforces.com/profile/Wageeh" target="_blank">Codeforces</a>
     </li>
