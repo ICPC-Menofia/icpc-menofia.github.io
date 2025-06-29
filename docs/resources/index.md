@@ -1,4 +1,4 @@
-# Community ResourcesAdd commentMore actions
+# Community Resources
 
 <div class="hero-section">
   <div class="hero-content">
