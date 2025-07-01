@@ -1,0 +1,947 @@
+:root {
+  /* Define your custom blue from the logo for light scheme */
+  --md-sys-color-primary: #336699; /* Example: A muted blue (adjust based on actual logo color) */
+  --md-sys-color-primary-light: #4c82b2;
+  --md-sys-color-primary-dark: #264d73;
+
+  /* For dark mode, if you want a specific red or yellow */
+  --md-sys-color-accent: #e53935; /* Example: A strong red (adjust based on actual logo color) */
+  --md-sys-color-accent-light: #ef5350;
+  --md-sys-color-accent-dark: #b71c1c;
+
+  /* Ensure the accent color for light mode is also derived from the logo red */
+  /* Default scheme uses --md-sys-color-accent for accent */
+}
+
+[data-md-color-scheme="default"] {
+    --md-sys-color-primary: #336699; /* Blue from logo */
+    --md-sys-color-primary-light: #4c82b2;
+    --md-sys-color-primary-dark: #264d73;
+    --md-sys-color-accent: #e53935; /* Red from logo */
+}
+
+[data-md-color-scheme="slate"] {
+    --md-sys-color-primary: #336699; /* Blue from logo for dark mode primary */
+    --md-sys-color-primary-light: #4c82b2;
+    --md-sys-color-primary-dark: #264d73;
+    --md-sys-color-accent: #FFC107; /* Yellow from logo */
+
+    --md-card-bg-color: hsla(0, 0%, 100%, 0.12);
+    --md-table-bg-color: hsla(0, 0%, 100%, 0.07);
+    --md-table-hover-bg-color: hsla(0, 0%, 100%, 0.1);
+    --md-table-header-bg-color: hsla(0, 0%, 100%, 0.15);
+}
+
+
+/* Example for banner images in a specific section */
+.md-content img[alt$="banner"] { /* Targets images where alt text ends with "banner" */
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px; /* Slightly rounded corners */
+    margin-bottom: 24px;
+}
+
+/* General image styling for responsiveness */
+.md-content img {
+    max-width: 100%; /* Ensures images don't overflow their container */
+    height: auto;    /* Maintains aspect ratio */
+    display: block;  /* Prevents extra space below image */
+    margin: 0 auto;  /* Centers images if smaller than container */
+}
+
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1rem;
+  padding: 1rem 0;
+}
+
+.image-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+  display: block;
+}
+
+.image-item img:hover {
+  transform: scale(1.05);
+}
+
+.intro {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 1.5rem;
+  padding: 1rem 0;
+}
+
+.card {
+  background-color: var(--md-default-bg-color);
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: var(--md-shadow-z1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+[data-md-color-scheme="slate"] .card {
+  background-color: var(--md-card-bg-color);
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--md-shadow-z2);
+}
+
+.card h2 {
+  color: var(--md-default-fg-color);
+  font-size: 1.3rem;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+.card h3 {
+  margin: 0.8rem 0 0.5rem;
+  color: var(--md-primary-fg-color);
+  font-size: 1rem;
+}
+
+.card ul {
+  padding-left: 1.2rem;
+  margin: 0;
+}
+
+.card li {
+  margin-bottom: 0.4rem;
+  list-style-type: disc;
+}
+
+.card li:last-child {
+  margin-bottom: 0;
+}
+
+.card a {
+  color: #007acc;
+  text-decoration: none;
+}
+
+.card a:hover {
+  text-decoration: underline;
+}
+
+.sessions-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  background-color: var(--md-default-bg-color);
+  box-shadow: var(--md-shadow-z1);
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 40px;
+}
+
+[data-md-color-scheme="slate"] .sessions-table {
+  background-color: var(--md-table-bg-color);
+}
+
+.sessions-table th,
+.sessions-table td {
+  padding: 15px 20px;
+  text-align: left;
+}
+
+.sessions-table th {
+  background-color: var(--md-default-bg-color);
+  color: #2c3e50;
+  font-weight: 600;
+  border-bottom: 2px solid #e0e6ed;
+}
+
+[data-md-color-scheme="slate"] .sessions-table th {
+  background-color: var(--md-table-header-bg-color);
+  color: hsla(0, 0%, 100%, 0.87); /* White text for dark mode */
+  border-bottom-color: hsla(0, 0%, 100%, 0.2); /* Lighter border for dark mode */
+}
+
+.sessions-table tr:not(:last-child) {
+  border-bottom: 1px solid #eaecef;
+}
+
+.sessions-table tr:hover {
+  background-color: var(--md-default-bg-color--light);
+}
+
+[data-md-color-scheme="slate"] .sessions-table tr:hover {
+  background-color: var(--md-table-hover-bg-color);
+}
+
+.sessions-table a,
+.coach-section a {
+  color: #0077cc;
+  text-decoration: none;
+}
+
+.sessions-table a:hover,
+.coach-section a:hover {
+  text-decoration: underline;
+}
+
+.coach-section {
+  /* Makes the section a transparent container for the grid */
+  background-color: transparent;
+  padding: 0;
+  box-shadow: none;
+}
+
+[data-md-color-scheme="slate"] .coach-section {
+  background-color: transparent;
+}
+
+.coach-section ul {
+  list-style: none;
+  padding-left: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.coach-section li {
+  background-color: var(--md-default-bg-color--light);
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: var(--md-shadow-z1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  margin-bottom: 0; /* Spacing handled by grid gap */
+}
+
+[data-md-color-scheme="slate"] .coach-section li {
+  background-color: hsla(0, 0%, 100%, 0.1);
+}
+
+.coach-section li:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--md-shadow-z2);
+}
+
+.coach-section strong {
+  display: block;
+  margin-bottom: 0.2rem;
+  font-size: 1.2rem;
+  color: var(--md-primary-fg-color);
+}
+
+.coach-section li small {
+    display: block;
+    font-size: 0.9rem;
+    color: var(--md-default-fg-color--medium);
+    margin-top: 0.2rem;
+    margin-bottom: 1rem; /* More space before links */
+}
+
+.hero-section {
+  text-align: center;
+  padding: 3rem 1rem;
+  background-color: var(--md-default-bg-color--light);
+}
+
+.hero-section h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--md-default-fg-color);
+}
+
+.hero-section .hero-subtitle {
+  font-size: 1.25rem;
+  color: var(--md-default-fg-color--medium);
+  margin-top: 1rem;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero-section img {
+  max-width: 900px;
+  width: 100%;
+  border-radius: 16px;
+  margin-top: 2.5rem;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.15);
+}
+
+.hero-buttons {
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.about-image {
+  display: block;
+  max-width: 450px;
+  width: 100%;
+  margin: 2rem auto;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+}
+
+.final-cta {
+  text-align: center;
+  padding: 1.5rem 1rem;
+  background-color: var(--md-default-bg-color--light);
+  margin-top: 3rem;
+  border-radius: 12px;
+}
+
+/* Training Path Diagram */
+.training-path {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin: 3rem auto;
+  padding: 1rem;
+  max-width: 800px;
+}
+
+.path-step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  width: 80px;
+}
+
+.path-step-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: var(--md-default-bg-color--light);
+  border: 2px solid var(--md-primary-fg-color--light);
+  color: var(--md-primary-fg-color--light);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 1.2rem;
+  transition: all 0.3s ease;
+}
+
+.path-step-title {
+  margin-top: 0.75rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--md-default-fg-color--medium);
+  line-height: 1.2;
+}
+
+.path-connector {
+  flex-grow: 1;
+  height: 2px;
+  background-color: var(--md-primary-fg-color--light);
+  margin: 0 0.5rem;
+  position: relative;
+  top: 25px; /* Align with middle of the icon */
+}
+
+/* Active step styling */
+.path-step.active .path-step-icon {
+  background-color: var(--md-primary-fg-color);
+  color: var(--md-primary-bg-color);
+  border-color: var(--md-primary-fg-color);
+  transform: scale(1.1);
+}
+
+.path-step.active .path-step-title {
+  color: var(--md-primary-fg-color);
+  font-weight: bold;
+}
+/* End Training Path Diagram */
+
+/* Curriculum Flowchart */
+.curriculum-flowchart {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin-top: 3rem;
+  padding: 1.5rem;
+  background-color: var(--md-default-bg-color--light);
+  border-radius: 12px;
+}
+
+.flowchart-level {
+  display: flex;
+  flex-direction: column;
+}
+
+.flowchart-level h3 {
+  margin-top: 0;
+  font-size: 1.4rem;
+  color: var(--md-primary-fg-color);
+  border-bottom: 2px solid var(--md-primary-fg-color--light);
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.flowchart-topics {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0;
+  flex-grow: 1;
+}
+
+.flowchart-topics li {
+  padding: 0.5rem 0;
+  font-size: 0.95rem;
+  border-bottom: 1px solid var(--md-default-bg-color);
+}
+
+[data-md-color-scheme="slate"] .curriculum-flowchart {
+    background-color: var(--md-card-bg-color);
+}
+
+[data-md-color-scheme="slate"] .flowchart-topics li {
+    border-bottom: 1px solid var(--md-default-bg-color--dark);
+}
+/* End Curriculum Flowchart */
+
+/* Achievements Timeline */
+.achievements-timeline {
+  display: flex;
+  align-items: flex-start;
+  margin: 3rem auto;
+  max-width: 1000px;
+  overflow-x: auto;
+  padding: 2rem; /* Increased padding for more breathing room */
+  /* Custom scrollbar styling */
+  scrollbar-width: thin;
+  scrollbar-color: var(--md-primary-fg-color--light) var(--md-default-bg-color);
+}
+
+/* Custom scrollbar for Webkit browsers */
+.achievements-timeline::-webkit-scrollbar {
+  height: 8px;
+}
+.achievements-timeline::-webkit-scrollbar-track {
+  background: var(--md-default-bg-color);
+  border-radius: 4px;
+}
+.achievements-timeline::-webkit-scrollbar-thumb {
+  background-color: var(--md-primary-fg-color--light);
+  border-radius: 4px;
+}
+
+.timeline-step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  flex-shrink: 0;
+  width: 180px;
+  padding: 0px 15px; /* Added a bit more horizontal space */
+}
+
+.timeline-step-year {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background-color: var(--md-default-bg-color--light);
+  border: 3px solid var(--md-primary-fg-color--light);
+  color: var(--md-primary-fg-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 1.4rem;
+  transition: all 0.3s ease;
+  margin-bottom: 1rem;
+}
+
+.timeline-step:hover .timeline-step-year {
+  transform: scale(1.1);
+  background-color: var(--md-primary-fg-color);
+  color: var(--md-primary-bg-color);
+  border-color: var(--md-primary-fg-color);
+}
+
+.timeline-step-details {
+  background-color: var(--md-default-bg-color);
+  padding: 0.8rem;
+  border-radius: 8px;
+  box-shadow: var(--md-shadow-z1);
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 0.9rem;
+  line-height: 1.4;
+  color: var(--md-default-fg-color--medium);
+}
+
+.timeline-connector {
+  flex-grow: 1;
+  min-width: 40px;
+  height: 3px;
+  background-color: var(--md-primary-fg-color--light);
+  position: relative;
+  top: 45px; /* Re-aligned with the middle of the 90px circle */
+}
+
+[data-md-color-scheme="slate"] .timeline-step-year {
+  background-color: var(--md-card-bg-color);
+}
+
+[data-md-color-scheme="slate"] .timeline-step-details {
+  background-color: hsla(0, 0%, 100%, 0.07);
+  box-shadow: none;
+  border: 1px solid hsla(0, 0%, 100%, 0.15);
+}
+
+/* Responsive vertical layout for smaller screens */
+@media screen and (max-width: 800px) {
+  .achievements-timeline {
+    flex-direction: column;
+    align-items: center; /* Center steps vertically */
+    overflow-x: hidden; /* Disable horizontal scroll */
+  }
+
+  .timeline-step {
+    width: 100%; /* Allow steps to take full width */
+  }
+
+  /* Hide the horizontal connector */
+  .timeline-connector {
+    display: none;
+  }
+
+  /* Create a vertical connector with a pseudo-element */
+  .timeline-step:not(:last-child) {
+    position: relative;
+    padding-bottom: 4rem; /* Add space for the line */
+  }
+
+  .timeline-step:not(:last-child)::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 3px;
+    height: 4rem; /* Length of the vertical line */
+    background-color: var(--md-primary-fg-color--light);
+  }
+}
+/* End Achievements Timeline */
+
+/* Container for each training level section */
+.level-section {
+  padding: 1.5rem;
+  margin-top: 2rem;
+  border-radius: 12px;
+  background-color: var(--md-default-bg-color);
+  box-shadow: var(--md-shadow-z1-hard); /* A slightly more pronounced shadow */
+  transition: box-shadow 0.2s ease;
+}
+
+[data-md-color-scheme="slate"] .level-section {
+    background-color: var(--md-card-bg-color);
+}
+
+.level-section:hover {
+  box-shadow: var(--md-shadow-z2-hard);
+}
+
+.level-section h2 {
+  margin-top: 0;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid var(--md-primary-fg-color);
+  margin-bottom: 1.5rem;
+}
+
+.level-section h2 em {
+  display: block;
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--md-default-fg-color--medium);
+  margin-top: 0.25rem;
+}
+
+/* Active week styling */
+.level-section.active-week {
+  border: 2px solid var(--md-sys-color-primary);
+  box-shadow: 0 4px 16px rgba(51, 102, 153, 0.2);
+  background: linear-gradient(135deg, rgba(51, 102, 153, 0.05) 0%, rgba(51, 102, 153, 0.02) 100%);
+}
+
+[data-md-color-scheme="slate"] .level-section.active-week {
+  border-color: var(--md-sys-color-accent);
+  box-shadow: 0 4px 16px rgba(255, 193, 7, 0.2);
+  background: linear-gradient(135deg, rgba(255, 193, 7, 0.08) 0%, rgba(255, 193, 7, 0.03) 100%);
+}
+
+.active-badge {
+  display: inline-block;
+  background: linear-gradient(135deg, var(--md-sys-color-primary) 0%, var(--md-sys-color-primary-light) 100%);
+  color: white;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 0.75em;
+  font-weight: 600;
+  margin-left: 12px;
+  animation: pulse 2s infinite;
+  box-shadow: 0 2px 8px rgba(51, 102, 153, 0.3);
+}
+
+[data-md-color-scheme="slate"] .active-badge {
+  background: linear-gradient(135deg, var(--md-sys-color-accent) 0%, #ffcd38 100%);
+  color: #1a1a1a;
+  box-shadow: 0 2px 8px rgba(255, 193, 7, 0.3);
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 2px 8px rgba(51, 102, 153, 0.3);
+  }
+  50% {
+    box-shadow: 0 2px 8px rgba(51, 102, 153, 0.6), 0 0 0 4px rgba(51, 102, 153, 0.1);
+  }
+  100% {
+    box-shadow: 0 2px 8px rgba(51, 102, 153, 0.3);
+  }
+}
+
+[data-md-color-scheme="slate"] @keyframes pulse {
+  0% {
+    box-shadow: 0 2px 8px rgba(255, 193, 7, 0.3);
+  }
+  50% {
+    box-shadow: 0 2px 8px rgba(255, 193, 7, 0.6), 0 0 0 4px rgba(255, 193, 7, 0.1);
+  }
+  100% {
+    box-shadow: 0 2px 8px rgba(255, 193, 7, 0.3);
+  }
+}
+
+.topic-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.topic-list > li {
+  position: relative;
+  padding-left: 1.8rem;
+  margin-bottom: 0.8rem;
+  font-size: 1rem;
+  list-style-type: none !important; /* Force removal of default bullets */
+}
+
+.topic-list li::before {
+  content: "»";
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-weight: bold;
+  color: var(--md-primary-fg-color);
+  font-size: 1.2rem;
+  line-height: 1;
+}
+
+.md-button--small {
+  padding: 0.3em 1em;
+  font-size: 0.65rem;
+}
+
+/* Custom Scrollbar for Navigation */
+.md-sidebar__scrollwrap {
+  scrollbar-width: thin;
+  scrollbar-color: var(--md-primary-fg-color--light) transparent;
+}
+
+.md-sidebar__scrollwrap::-webkit-scrollbar {
+  width: 8px;
+}
+
+.md-sidebar__scrollwrap::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.md-sidebar__scrollwrap::-webkit-scrollbar-thumb {
+  background-color: var(--md-primary-fg-color--light);
+  border-radius: 4px;
+}
+
+.md-sidebar__scrollwrap::-webkit-scrollbar-thumb:hover {
+  background-color: var(--md-primary-fg-color);
+}
+
+/* Contributor Cards */
+.contributors-grid {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+}
+
+.contributors-grid .contributor-card {
+  text-align: center;
+}
+
+.contributor-avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+  border: 3px solid var(--md-primary-fg-color);
+}
+
+/* Admin Tag */
+.admin-tag {
+  display: inline-block;
+  background-color: var(--md-primary-fg-color);
+  color: var(--md-primary-bg-color);
+  padding: 0.2em 0.6em;
+  border-radius: 12px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+/* Level 1 Coaches Styling */
+.level1-coaches {
+  margin: 2rem 0;
+}
+
+.level1-coaches .coaches-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 1.5rem;
+  padding: 1rem 0;
+}
+
+.coach-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 1.5rem;
+  background: linear-gradient(135deg, var(--md-default-bg-color) 0%, var(--md-default-bg-color--light) 100%);
+  border: 2px solid transparent;
+  border-radius: 12px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  min-height: 60px;
+}
+
+[data-md-color-scheme="slate"] .coach-card {
+  background: linear-gradient(135deg, var(--md-card-bg-color) 0%, hsla(0, 0%, 100%, 0.12) 100%);
+}
+
+.coach-card:hover {
+  transform: translateY(-6px);
+  border-color: var(--md-sys-color-primary);
+  box-shadow: 0 8px 25px rgba(51, 102, 153, 0.15);
+  text-decoration: none;
+}
+
+[data-md-color-scheme="slate"] .coach-card:hover {
+  border-color: var(--md-sys-color-accent);
+  box-shadow: 0 8px 25px rgba(255, 193, 7, 0.15);
+}
+
+.coach-name {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--md-default-fg-color);
+  text-align: center;
+  line-height: 1.3;
+}
+
+.coach-card:hover .coach-name {
+  color: var(--md-sys-color-primary);
+}
+
+[data-md-color-scheme="slate"] .coach-card:hover .coach-name {
+  color: var(--md-sys-color-accent);
+}
+
+/* Training Plan Section Styling */
+.training-plan-section {
+  margin: 3rem 0;
+  padding: 2.5rem;
+  background: linear-gradient(135deg, var(--md-default-bg-color--light) 0%, var(--md-default-bg-color) 100%);
+  border-radius: 20px;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+  position: relative;
+  overflow: hidden;
+}
+
+.training-plan-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, var(--md-sys-color-primary) 0%, var(--md-sys-color-primary-light) 50%, var(--md-sys-color-primary) 100%);
+}
+
+[data-md-color-scheme="slate"] .training-plan-section {
+  background: linear-gradient(135deg, var(--md-card-bg-color) 0%, hsla(0, 0%, 100%, 0.05) 100%);
+  border-color: hsla(0, 0%, 100%, 0.15);
+}
+
+[data-md-color-scheme="slate"] .training-plan-section::before {
+  background: linear-gradient(90deg, var(--md-sys-color-accent) 0%, #ffcd38 50%, var(--md-sys-color-accent) 100%);
+}
+
+.training-plan-section h2 {
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+  color: var(--md-sys-color-primary);
+  text-align: center;
+  font-weight: 700;
+}
+
+[data-md-color-scheme="slate"] .training-plan-section h2 {
+  color: var(--md-sys-color-accent);
+}
+
+.plan-description {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.plan-description > p {
+  font-size: 1.125rem;
+  line-height: 1.7;
+  color: var(--md-default-fg-color);
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.program-structure {
+  background: var(--md-default-bg-color);
+  padding: 1.8rem;
+  border-radius: 16px;
+  margin: 2rem 0;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.05);
+  border: 1px solid var(--md-default-fg-color--lightest);
+}
+
+[data-md-color-scheme="slate"] .program-structure {
+  background: hsla(0, 0%, 100%, 0.08);
+  border-color: hsla(0, 0%, 100%, 0.1);
+}
+
+.program-structure h3 {
+  margin-top: 0;
+  margin-bottom: 1.2rem;
+  font-size: 1.3rem;
+  color: var(--md-sys-color-primary);
+  font-weight: 600;
+  text-align: center;
+}
+
+[data-md-color-scheme="slate"] .program-structure h3 {
+  color: var(--md-sys-color-accent);
+}
+
+.structure-list {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+}
+
+.structure-list li {
+  position: relative;
+  padding: 1rem 1rem 1rem 2.5rem;
+  background: linear-gradient(135deg, var(--md-default-bg-color--light) 0%, var(--md-default-bg-color) 100%);
+  border-radius: 12px;
+  border-left: 4px solid var(--md-sys-color-primary);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  font-size: 0.95rem;
+  line-height: 1.5;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.structure-list li::before {
+  content: "✓";
+  position: absolute;
+  left: 0.8rem;
+  top: 50%;
+  transform: translateY(-50%);
+  font-weight: bold;
+  color: var(--md-sys-color-primary);
+  font-size: 1.1rem;
+}
+
+[data-md-color-scheme="slate"] .structure-list li {
+  background: linear-gradient(135deg, hsla(0, 0%, 100%, 0.1) 0%, hsla(0, 0%, 100%, 0.05) 100%);
+  border-left-color: var(--md-sys-color-accent);
+}
+
+[data-md-color-scheme="slate"] .structure-list li::before {
+  color: var(--md-sys-color-accent);
+}
+
+.structure-list li:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 16px rgba(51, 102, 153, 0.1);
+}
+
+[data-md-color-scheme="slate"] .structure-list li:hover {
+  box-shadow: 0 4px 16px rgba(255, 193, 7, 0.1);
+}
+
+.plan-cta {
+  text-align: center;
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: var(--md-sys-color-primary);
+  margin-top: 2rem;
+  padding: 1rem;
+  background: linear-gradient(135deg, rgba(51, 102, 153, 0.1) 0%, rgba(51, 102, 153, 0.05) 100%);
+  border-radius: 12px;
+  border: 1px solid rgba(51, 102, 153, 0.2);
+}
+
+[data-md-color-scheme="slate"] .plan-cta {
+  color: var(--md-sys-color-accent);
+  background: linear-gradient(135deg, rgba(255, 193, 7, 0.15) 0%, rgba(255, 193, 7, 0.08) 100%);
+  border-color: rgba(255, 193, 7, 0.25);
+}
+
+/* Integrated Coaches Section */
+.coaches-section-integrated {
+  margin: 2rem 0;
+}
+
+.coaches-section-integrated h3 {
+  margin-bottom: 0.5rem;
+  font-size: 1.3rem;
+  color: var(--md-sys-color-primary);
+  font-weight: 600;
+  text-align: center;
+}
+
+[data-md-color-scheme="slate"] .coaches-section-integrated h3 {
+  color: var(--md-sys-color-accent);
+}
+
+.coaches-section-integrated > p {
+  text-align: center;
+  color: var(--md-default-fg-color--medium);
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
+}
+
+.coaches-section-integrated .level1-coaches {
+  margin: 1.5rem 0 0 0;
+}
