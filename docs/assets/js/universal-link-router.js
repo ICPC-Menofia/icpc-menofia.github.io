@@ -106,37 +106,176 @@ const LINKS = {
   'external:twitter': 'https://x.com/icpcmenofia',
   'external:codeforces': 'https://codeforces.com/profile/ICPC_Menofia',
   'external:telegram': 'https://t.me/+invC37P-pkA0NTY0',
-  'external:youtube_tutorial': 'https://youtube.com/playlist?list=PLAw15AnTPFl_CS8sljvkNdf6WDf0LwHlM'
+  'external:youtube_tutorial': 'https://youtube.com/playlist?list=PLAw15AnTPFl_CS8sljvkNdf6WDf0LwHlM',
+  
+  // Missing page links
+  'page:external': '/resources/FAQ/',  // Map to FAQ page for external links section
+  
+  // Missing coach aliases and corrections
+  'coach:sersawy': '/community/coaches/#abdelrhman-sersawy',
+  'coach:ahmed_wageh': '/community/coaches/#ahmed-wageeh',
+  'coach:elhabal': '/community/coaches/#abdelrhman-emad',
+  'coach:mahmoud_khaled': '/community/coaches/#mohamed-khaled-saeed',
+  'coach:mohamed_yasser': '/community/coaches/#muhammad-eid',
+  'coach:abdelrhman_elhabal': '/community/coaches/#abdelrhman-emad'
 };
 
 // Get absolute link - no more relative path calculation needed!
 function getLink(linkKey) {
   const target = LINKS[linkKey];
   if (!target) {
-    console.warn(`Link "${linkKey}" not found`);
+    console.warn(`🔗 Link "${linkKey}" not found in LINKS object`);
+    console.log(`Available keys:`, Object.keys(LINKS).filter(k => k.includes(linkKey.split(':')[0])));
     return '#';
   }
   
-  // All links are now absolute paths or external URLs
+  console.log(`✅ Found link: ${linkKey} → ${target}`);
   return target;
 }
 
-// Auto-process all links on page load
-document.addEventListener('DOMContentLoaded', function() {
+// Check if URL is external
+function isExternalLink(url) {
+  return url.startsWith('http://') || url.startsWith('https://') || url.startsWith('mailto:');
+}
+
+// Navigate to internal link properly
+function navigateToInternal(url) {
+  // Use location.href for proper browser history
+  window.location.href = url;
+}
+
+// Process all data-link elements on the current page
+function processDataLinks() {
+  console.log('🔄 Processing data-link elements...');
+  
   // Process all elements with data-link attribute
   document.querySelectorAll('[data-link]').forEach(element => {
+    // Skip if already processed
+    if (element.hasAttribute('data-link-processed')) {
+      return;
+    }
+    
     const linkKey = element.getAttribute('data-link');
     const url = getLink(linkKey);
+    const isExternal = isExternalLink(url);
     
     if (element.tagName === 'A') {
       element.href = url;
+      // For external links, open in new tab
+      if (isExternal) {
+        element.target = '_blank';
+        element.rel = 'noopener noreferrer';
+      }
     } else {
-      element.onclick = () => window.open(url, '_blank');
+      // For non-anchor elements (buttons, divs, etc.)
+      element.onclick = (e) => {
+        e.preventDefault();
+        if (isExternal) {
+          // Open external links in new tab
+          window.open(url, '_blank', 'noopener,noreferrer');
+        } else {
+          // Navigate to internal links in same window for proper history
+          navigateToInternal(url);
+        }
+      };
+      // Add cursor pointer for clickable elements
+      element.style.cursor = 'pointer';
     }
+    
+    // Mark as processed
+    element.setAttribute('data-link-processed', 'true');
+  });
+  
+  // Add keyboard accessibility to non-anchor elements
+  document.querySelectorAll('[data-link]:not(a)').forEach(element => {
+    if (element.hasAttribute('data-link-keyboard-processed')) {
+      return;
+    }
+    
+    element.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter' || e.key === ' ') {
+        e.preventDefault();
+        element.click();
+      }
+    });
+    
+    // Make focusable
+    if (!element.hasAttribute('tabindex')) {
+      element.setAttribute('tabindex', '0');
+    }
+    
+    // Mark as processed
+    element.setAttribute('data-link-keyboard-processed', 'true');
+  });
+  
+  console.log(`✅ Processed ${document.querySelectorAll('[data-link]').length} data-link elements`);
+}
+
+// Initial processing on page load
+document.addEventListener('DOMContentLoaded', processDataLinks);
+
+// Handle MkDocs Material instant navigation
+// This fires when new content is loaded via AJAX
+document.addEventListener('DOMContentLoaded', () => {
+  // Check if MkDocs Material is being used
+  if (typeof app !== 'undefined' && app.location$) {
+    console.log('🎯 MkDocs Material instant navigation detected');
+    
+    // Subscribe to location changes (page navigation)
+    app.location$.subscribe(() => {
+      console.log('📄 Page changed, re-processing links...');
+      
+      // Small delay to ensure new content is rendered
+      setTimeout(processDataLinks, 100);
+    });
+  } else {
+    console.log('📝 Standard navigation - using DOMContentLoaded only');
+  }
+});
+
+// Fallback: Also listen for hashchange and popstate events
+window.addEventListener('hashchange', () => {
+  setTimeout(processDataLinks, 100);
+});
+
+window.addEventListener('popstate', () => {
+  setTimeout(processDataLinks, 100);
+});
+
+// Additional fallback: Mutation Observer to detect content changes
+const observer = new MutationObserver((mutations) => {
+  let shouldReprocess = false;
+  
+  mutations.forEach((mutation) => {
+    if (mutation.type === 'childList') {
+      // Check if any added nodes contain data-link attributes
+      mutation.addedNodes.forEach((node) => {
+        if (node.nodeType === Node.ELEMENT_NODE) {
+          if (node.hasAttribute && node.hasAttribute('data-link')) {
+            shouldReprocess = true;
+          } else if (node.querySelector && node.querySelector('[data-link]')) {
+            shouldReprocess = true;
+          }
+        }
+      });
+    }
+  });
+  
+  if (shouldReprocess) {
+    console.log('🔄 New data-link elements detected, re-processing...');
+    setTimeout(processDataLinks, 50);
+  }
+});
+
+// Start observing when DOM is ready
+document.addEventListener('DOMContentLoaded', () => {
+  observer.observe(document.body, {
+    childList: true,
+    subtree: true
   });
 });
 
 // Global helper function
 window.getLink = getLink;
 
-console.log('Universal link router loaded with absolute paths!'); 
+console.log('🚀 Universal link router loaded with instant navigation support!'); 
