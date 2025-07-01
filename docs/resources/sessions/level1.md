@@ -20,7 +20,7 @@ This page archives all recorded sessions for our Level 1 Training program.
             </tr>
         </thead>
         <tbody>
-            <tr>
+        <tr>
             <td>STL</td>
             <td><a href="#" data-link="coach:abdelrhman_emad">Abdelrhman Emad</a></td>
             <td>
@@ -29,7 +29,14 @@ This page archives all recorded sessions for our Level 1 Training program.
                 <a href="https://drive.google.com/drive/folders/1vYe8slH6AzLiX3xdBhA0BNltvAC0ffeX?usp=sharing" target="_blank">View (2023)</a>
             </td>
         </tr>
-         <tr>
+        <tr>
+            <td>STL</td>
+            <td><a href="#" data-link="coach:maryam_abdelhady">Maryam Abdelhady</a></td>
+            <td>
+                <a href="https://drive.google.com/drive/folders/1A7MuzNd9f-1gBOux9TFAJUcIBGiTjBBR" target="_blank">View</a>
+            </td>
+        </tr>
+        <tr>
             <td>Static Range Query (1D & 2D Prefix Sum and 1D & 2D Partial Sum)</td>
                <td><a href="#" data-link="coach:ahmed_wageeh">Ahmed Wageeh</a></td>
             <td>
