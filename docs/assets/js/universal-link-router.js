@@ -34,6 +34,7 @@ const LINKS = {
   'coach:ibrahme_elhdad': '/community/coaches/#ibrahme-elhdad',
   'coach:ahmed_wageeh': '/community/coaches/#ahmed-wageeh',
   'coach:hossam_saber': '/community/coaches/#hossam-saber',
+  'coach:maryam_abdelhady': '/community/coaches/#maryam_abdelhady',
   
   // Additional coaches found in sessions
   'coach:seifaldin_elabyad': '/community/coaches/#seifaldin-elabyad',

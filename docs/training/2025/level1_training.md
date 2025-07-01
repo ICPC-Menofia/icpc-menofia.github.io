@@ -88,6 +88,21 @@ hide:
       </tr>
     </thead>
     <tbody>
+      <tr>
+        <th>STL Explanation Record</th>
+        <th>Community (Maryam Abdelhady)</th>
+        <td><a href="https://drive.google.com/drive/folders/1A7MuzNd9f-1gBOux9TFAJUcIBGiTjBBR" target="_blank">View</a></td>
+      </tr>
+      <tr>
+        <th>STL Session Slides</th>
+        <th>Community (Abdelrhman Emad)</th>
+        <td><a href="https://drive.google.com/drive/folders/1Z02ArBOjaKb9Fk47rtqbb4VSPljdVSLp" target="_blank">View</a></td>
+      </tr>
+      <tr>
+        <th>STL Guide</th>
+        <th>Community (Ahmed Mohamed)</th>
+        <td><a href="https://github.com/AhmedMohamedAbdelaty/CPP-STL-beginners-guide" target="_blank">View</a></td>
+      </tr>
     </tbody>
   </table>
 </div>
