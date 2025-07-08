@@ -10,8 +10,9 @@
 
   <div class="hero-section">
     <h1>Level 1 Training Plan</h1>
-    <p class="md-typeset hero-subtitle">
-      This program builds on your foundation with core algorithms, data structures, and number theory. By the end, you'll be ready to confidently solve Div2 A, B, and C problems.
+    <p class="hero-subtitle">
+      A comprehensive 12-week program designed to build strong foundations in competitive programming.
+      Perfect for students with basic programming knowledge.
     </p>
   </div>
 
@@ -152,4 +153,8 @@
       <li>3-hour contest.</li>
     </ul>
   </div>
+
+</div>
+</body>
+</html>
 

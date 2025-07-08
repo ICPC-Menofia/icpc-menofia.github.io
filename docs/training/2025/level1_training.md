@@ -68,8 +68,8 @@ hide:
 
 ---
 
-<div class="level-section active-week">
-  <h2>Week 1 <em>STL Fundamentals: Linear & Nonlinear Containers</em> <span class="active-badge">🔥 Current Week</span></h2>
+<div class="level-section">
+  <h2>Week 1 <em>STL Fundamentals: Linear & Nonlinear Containers</em> </h2>
   <ul class="topic-list">
     <li>STL Containers: vector, pair, queue, deque, stack.</li>
     <li>Library Sorting & Custom Comparators.</li>
@@ -100,15 +100,20 @@ hide:
       </tr>
       <tr>
         <th>STL Guide</th>
-        <th>Community (Ahmed Mohamed)</th>
+        <th>Community (Ahmed Mohamed Abdelaty)</th>
         <td><a href="https://github.com/AhmedMohamedAbdelaty/CPP-STL-beginners-guide" target="_blank">View</a></td>
+      </tr>
+      <tr>
+        <th>STL Practise Session</th>
+        <th>Community (Mohamed Khaled)</th>
+        <td><a href="https://drive.google.com/drive/folders/1kAVeYXJL-42fEoid_v_i2EBwJLZtyPmH" target="_blank">View</a></td>
       </tr>
     </tbody>
   </table>
 </div>
 
-<div class="level-section">
-  <h2>Week 2 <em>Greedy & Constructive Algorithms</em></h2>
+<div class="level-section active-week">
+  <h2>Week 2 <em>Greedy & Constructive Algorithms</em> <span class="active-badge">🔥 Current Week</span></h2>
   <ul class="topic-list">
     <li>Introduction to Greedy algorithms and problem-solving techniques.</li>
     <li>Developing constructive thinking for building solutions.</li>
@@ -126,6 +131,21 @@ hide:
       </tr>
     </thead>
     <tbody>
+      <tr>
+        <th>Greedy (Stay a head, Exchange argument, Structure argument)</th>
+        <th>Community (Abdelrhman Sersawy)</th>
+        <th><a href="https://www.youtube.com/watch?v=RBC3EeOIkT4" target="_blank">View</a></th>
+      </tr>
+      <tr>
+        <th>Introduction to Greedy Algorithms</th>
+        <th>USACO</th>
+        <th><a href="https://usaco.guide/bronze/intro-greedy?lang=cpp" target="_blank">View</a></th>
+      </tr>
+      <tr>
+        <th>Greedy Algorithms with Sorting</th>
+        <th>USACO</th>
+        <th><a href="https://usaco.guide/silver/greedy-sorting?lang=cpp" target="_blank">View</a></th>
+      </tr>
     </tbody>
   </table>
 </div>

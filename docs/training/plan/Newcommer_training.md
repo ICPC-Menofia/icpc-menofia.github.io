@@ -1,7 +1,7 @@
 <div class="hero-section">
   <h1>Newcomer Training Plan</h1>
-  <p class="md-typeset hero-subtitle">
-    Welcome! This program is designed to introduce you to the fundamentals of Competitive Programming and help you build a strong foundation.
+  <p class="hero-subtitle">
+    A beginner-friendly introduction to competitive programming fundamentals.
   </p>
 </div>
 
@@ -33,8 +33,9 @@
     <li>Introduction to CP, Online Judges (Vjudge, Codeforces), and the training structure.</li>
     <li>C++ Crash Course: Basic syntax, variables, data types, and conditions.</li>
     <li>Common C++ Errors & Debugging.</li>
-    </ul>
-  </div>
+    <li>Introduction to problem-solving strategies</li>
+  </ul>
+</div>
 
 <div class="level-section">
   <h2>Week 2 <em>Loops & Complexity</em></h2>

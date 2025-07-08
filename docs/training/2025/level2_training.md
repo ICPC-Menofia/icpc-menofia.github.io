@@ -383,3 +383,13 @@ hide:
     </tbody>
   </table>
 </div>
+
+The Level 2 training program is designed for students who have completed Level 1 training and are ready for advanced competitive programming topics. Here's what makes this program special:
+
+```
+✓ Advanced algorithms and data structures
+✓ Expert coaching from experienced competitive programmers  
+✓ Preparation for prestigious contests (ECPC, ACPC)
+✓ Team formation and collaboration opportunities
+✓ Access to extensive practice problems and resources
+```
