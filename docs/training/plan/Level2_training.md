@@ -1,7 +1,7 @@
 <div class="hero-section">
   <h1>Level 2 Training Plan</h1>
-  <p class="md-typeset hero-subtitle">
-    This program focuses on recursion, complete search, graph algorithms, trees, and dynamic programming — preparing you to solve intermediate to advanced problems.
+  <p class="hero-subtitle">
+    Advanced competitive programming training for students ready to tackle complex algorithms and data structures.
   </p>
 </div>
 
@@ -128,6 +128,13 @@
   <ul class="topic-list">
     <li>Floyd-Warshall Algorithm for all-pairs shortest paths.</li>
     <li>Bellman-Ford Algorithm for detecting negative cycles.</li>
+  </ul>
+</div>
+
+<div class="level-section">
+  <h2>Week 14 <em>Minimum Spanning Trees (MST)</em></h2>
+  <ul class="topic-list">
+    <li>Minimum Spanning Trees (MST)</li>
   </ul>
 </div>
 

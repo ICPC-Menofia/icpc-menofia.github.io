@@ -122,13 +122,20 @@ This page archives all recorded sessions for our Level 1 Training program.
         </tr>
     </thead>
     <tbody>
-     <tr>
+        <tr>
             <td>Linear STLs</td>
                <td><a href="#" data-link="coach:ahmed_wageeh">Ahmed Wageeh</a></td>
             <td>
                <a href="https://www.youtube.com/watch?v=dW8Vcc2JJBE" target="_blank">View (Part1)</a>
                 <br>
                 <a href="https://www.youtube.com/watch?v=cPef-TEN-UE&t=1382s" target="_blank">View (Part2)</a>
+            </td>
+        </tr>
+        <tr>
+            <td>Linear STLs</td>
+               <td><a href="#" data-link="coach:mohamed_khaled">Mohamed Khaled</a></td>
+            <td>
+               <a href="https://drive.google.com/drive/folders/1kAVeYXJL-42fEoid_v_i2EBwJLZtyPmH" target="_blank">View</a>
             </td>
         </tr>
          <tr>
