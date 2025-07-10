@@ -108,6 +108,12 @@ This page archives all recorded sessions for our Level 1 Training program.
                 <br>
                 <a href="https://www.youtube.com/watch?v=D5XOTZ518S4" target="_blank">View (Part3)</a>
             </td>
+        </tr><tr>
+            <td>Greedy Algorithm</td>
+               <td><a href="#" data-link="coach:abdelrhman_sersawy">Hossam Saber</a></td>
+            <td>
+                <a href="https://youtu.be/fAfreIb7dcg?si=AGOPWmeYsAcnDXGg" target="_blank">View</a>
+            </td>
         </tr>
     </tbody>
   </table>
