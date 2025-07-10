@@ -56,6 +56,9 @@ hide:
           <a href="#" data-link="coach:menna_fathy" class="coach-card">
             <div class="coach-name">Menna Fathy</div>
           </a>
+          <a href="#" data-link="coach:hossam-saber" class="coach-card">
+            <div class="coach-name">Hossam Saber</div>
+          </a>
         </div>
       </div>
     </div>
@@ -145,6 +148,11 @@ hide:
         <th>Greedy Algorithms with Sorting</th>
         <th>USACO</th>
         <th><a href="https://usaco.guide/silver/greedy-sorting?lang=cpp" target="_blank">View</a></th>
+      </tr>
+      <tr>
+        <th>Greedy Algorithms Session</th>
+        <th>Community (Hossam Saber)</th>
+        <th><a href="https://youtu.be/fAfreIb7dcg?si=ouBeL1awiSGRbaoT" target="_blank">View</a></th>
       </tr>
     </tbody>
   </table>
