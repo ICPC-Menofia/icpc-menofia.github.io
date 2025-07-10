@@ -9,8 +9,10 @@ hide:
 This page archives all recorded sessions for our Senior Training program.
 
 <div class="level-section">
-  <h2>Senior Training<em>Specialized topics for advanced members.</em></h2>
+  <h2>Senior Training</h2>
+  <em>Specialized topics and advanced problem-solving for experienced members.</em>
 
+  <h3>Topics Sessions</h3>
   <table class="sessions-table">
     <thead>
         <tr>
@@ -21,43 +23,49 @@ This page archives all recorded sessions for our Senior Training program.
     </thead>
     <tbody>
         <tr>
-            <td>Range Queries (Segment tree + Fenwich tree + sparse table)</td>
-            <td><a href="../../community/coaches/#abdelrhman-sersawy">Abdelrhman Sersawy</a></td>
+            <td>Heavy Light Decomposition</td>
+            <td><a href="#" data-link="coach:abdelrhman_sersawy">Abdelrhman Sersawy</a></td>
             <td>
-                <a href="https://www.youtube.com/watch?v=ZqNNHDT2-Zc&list=PLAw15AnTPFl-XiybIMqTcOiE_WBQa0aVi&index=13" target="_blank">View (Part1)</a>
-                <br>
-                <a href="https://www.youtube.com/watch?v=TlYtrARMugw&list=PLAw15AnTPFl-XiybIMqTcOiE_WBQa0aVi&index=14" target="_blank">View (Part2)</a>
+                <a href="https://www.youtube.com/watch?v=vAKvLZNNINs" target="_blank">View</a>
             </td>
         </tr>
         <tr>
-            <td>Strings algorithms (Hashing)</td>
-            <td><a href="../../community/coaches/#khaled-labeb">Khaled Labeb</a></td>
+            <td>Segment Trees</td>
+            <td><a href="#" data-link="coach:khaled_labeb">Khaled Labeb</a></td>
             <td>
-                <a href="https://www.youtube.com/watch?v=ykmnopLoxUs" target="_blank">View</a>
+                <a href="https://www.youtube.com/watch?v=xWYCo0gxANE" target="_blank">View</a>
             </td>
         </tr>
         <tr>
-            <td>DP on Tree</td>
-            <td><a href="../../community/coaches/#abdelrhman-sersawy">Abdelrhman Sersawy</a></td>
-            <td><a href="https://www.youtube.com/watch?v=pNmISEk052Y&list=PLAw15AnTPFl-XiybIMqTcOiE_WBQa0aVi&index=17" target="_blank">View</a></td>
+            <td>Divide And Conquer On Trees (Centroid Decomposition)</td>
+            <td><a href="#" data-link="coach:abdelrhman_sersawy">Abdelrhman Sersawy</a></td>
+            <td>
+                <a href="https://www.youtube.com/watch?v=Rza6sZUEUIo" target="_blank">View</a>
+            </td>
         </tr>
         <tr>
-            <td>DFS Re-rooting (Solving All root)</td>
-            <td><a href="../../community/coaches/#abdelrhman-sersawy">Abdelrhman Sersawy</a></td>
-            <td><a href="https://www.youtube.com/watch?v=Q_xH-clyzCQ&list=PLAw15AnTPFl-XiybIMqTcOiE_WBQa0aVi&index=18" target="_blank">View</a></td>
-            </tr>
-            <tr>
-            <td>SQRT algorithms overview , MO , MO on tree and MO with rollback dsu</td>
-            <td><a href="../../community/coaches/#khaled-labeb">Khaled Labeb</a></td>
-            <td><a href="https://www.youtube.com/watch?v=J0sIsvgds8w" target="_blank">View</a></td>
-            </tr>
-            <tr>
-            <td>Presistent Segment tree</td>
-            <td><a href="../../community/coaches/#abdelrhman-sersawy">Abdelrhman Sersawy</a></td>
-            <td><a href="https://www.youtube.com/watch?v=Lzj8Vm0GnR0&list=PLAw15AnTPFl-XiybIMqTcOiE_WBQa0aVi&index=22" target="_blank">View</a></td>
-            </tr>
-        </tbody>
-    </table>
+            <td>Centroid Decomposition</td>
+            <td><a href="#" data-link="coach:abdelrhman_sersawy">Abdelrhman Sersawy</a></td>
+            <td>
+                <a href="https://www.youtube.com/watch?v=Mb36v_j0ne0" target="_blank">View</a>
+            </td>
+        </tr>
+        <tr>
+            <td>Segment Tree and Binary Indexed Tree (BIT)</td>
+            <td><a href="#" data-link="coach:khaled_labeb">Khaled Labeb</a></td>
+            <td>
+                <a href="https://www.youtube.com/watch?v=2-9h6w0lYrI" target="_blank">View</a>
+            </td>
+        </tr>
+        <tr>
+            <td>Mo's Algorithm</td>
+            <td><a href="#" data-link="coach:abdelrhman_sersawy">Abdelrhman Sersawy</a></td>
+            <td>
+                <a href="https://www.youtube.com/watch?v=BJhzd_VG3jE" target="_blank">View</a>
+            </td>
+        </tr>
+    </tbody>
+  </table>
 
   <h3>Upsolve Sessions</h3>
   <table class="sessions-table">
@@ -69,12 +77,13 @@ This page archives all recorded sessions for our Senior Training program.
         </tr>
     </thead>
     <tbody>
-        <!-- <tr>
-            <td>Div1 Contest #800</td>
-            <td><a href="../../community/coaches/#coach-senior">Senior Coach</a></td>
-            <td><a href="https://example.com/senior-upsolve-1" target="_blank">View</a></td>
-        </tr> -->
-        <!-- Add more Senior upsolve sessions here -->
+        <tr>
+            <td>Senior Practice Problems</td>
+            <td><a href="#" data-link="coach:senior_coach">Senior Coach</a></td>
+            <td>
+                <a href="#" target="_blank">Coming Soon</a>
+            </td>
+        </tr>
     </tbody>
   </table>
-</div> 
+</div>

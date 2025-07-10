@@ -62,7 +62,8 @@ Then navigate to `http://127.0.0.1:8000/` in your browser. The site supports aut
   * `training/`: Training plans and related material
   * `resources/`: FAQs, session archives, and helpful links
   * `news/`: Announcements and events
-  * `assets/`: Images and custom CSS
+  * `assets/`: Images, custom CSS, and JavaScript utilities
+    * `js/universal-link-router.js`: Centralized link management system ([see docs](docs/assets/js/README.md))
 * `requirements.txt`: Python dependencies
 
 ---

@@ -1,4 +1,5 @@
 site_name: ICPC Menofia
+site_url: https://icpcmenofia.com/
 
 copyright: Copyright &copy; 2025 ICPC Menofia Community
 
@@ -59,9 +60,14 @@ extra:
     - icon: fontawesome/solid/code
       link: https://codeforces.com/profile/ICPC_Menofia
       name: Codeforces Profile
+    - icon: fontawesome/brands/telegram
+      link: https://t.me/+invC37P-pkA0NTY0
 
 extra_css:
   - assets/css/custom.css
+
+extra_javascript:
+  - assets/js/universal-link-router.js
 
 nav:
   - Home: index.md
@@ -69,6 +75,7 @@ nav:
       - Overview: community/index.md
       - About Us: community/about_us.md
       - Our Coaches: community/coaches.md
+      - Community Contributions: community/contributions.md
       - Join Our Community: community/join_us.md
   - Training:
       - Overview: training/index.md
@@ -76,11 +83,13 @@ nav:
       - Level 1 Training: training/plan/Level1_training.md
       - Level 2 Training: training/plan/Level2_training.md
       - Senior Training: training/plan/Senior_training.md
+      - 2025 Archive:
+        - Overview: training/2025/index.md
+        - Level 1 Training: training/2025/level1_training.md
+        - Level 2 Training: training/2025/level2_training.md
+        - Seniors Training: training/2025/seniors.md
       - 2024 Archive:
-          - Overview: training/2024/index.md
-          - Level 1 Training: training/2024/level1_training.md
-          - Level 2 Training: training/2024/level2_training.md
-          - Seniors Training: training/2024/seniors.md
+        - Overview: training/2024/index.md
       - 2023 Archive:
           - Overview: training/2023/index.md
           - Newcomers Training: training/2023/Newcommers.md

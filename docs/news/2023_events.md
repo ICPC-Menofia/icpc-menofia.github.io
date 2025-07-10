@@ -2,61 +2,53 @@
 
 ## 🏆 ECPC 2023 Participation
 
-In 2023, our community showcased its talent and dedication at the Egyptian Collegiate Programming Contest (ECPC). We proudly participated in the qualification rounds and were represented by an impressive **6 teams** in the final regional contest.
+The 2023 Egyptian Collegiate Programming Contest (ECPC) witnessed outstanding participation from our community,
+with multiple teams representing Menofia University with excellence and determination.
 
-<div class="image-item" style="max-width: 90%; margin: 1rem auto;">
-  <img src="../../assets/images/events/2023/MenofiaCPC2023.jpg" alt="MenofiaCPC 2023" loading="lazy">
-</div>
-
-Here are some of the memorable moments from the event.
-
-<div class="image-grid">
+<div class="image-grid competition-gallery">
   <div class="image-item">
-    <img src="../../assets/images/events/2023/MenofiaCPC2023.jpg" alt="Menofia CPC Team Group Photo 2023">
+    <img src="/assets/images/events/2023/ECPC23-picture-with-coach.jpg" alt="ECPC 2023 with Coach">
   </div>
   <div class="image-item">
-    <img src="../../assets/images/events/2023/MenofiaCPC23-Coaches.jpg" alt="Menofia CPC Coaches 2023">
+    <img src="/assets/images/events/2023/ECPC23-picture-with-coach-2.jpg" alt="ECPC 2023 with Coach 2">
   </div>
   <div class="image-item">
-    <img src="../../assets/images/events/2023/ECPC23-picture-with-coach.jpg" alt="Team with coach at ECPC 2023">
+    <img src="/assets/images/events/2023/ECPC23-team1.jpg" alt="ECPC 2023 Team 1">
   </div>
   <div class="image-item">
-    <img src="../../assets/images/events/2023/ECPC23-picture-with-coach-2.jpg" alt="Another team with coach at ECPC 2023">
-  </div>
-</div>
-
-### Our Regional Contest Teams
-
-Here are the 6 teams who represented Menofia University at the ECPC 2023 finals:
-
-<div class="image-grid">
-  <div class="image-item">
-    <img src="../../assets/images/events/2023/ECPC23-team1.jpg" alt="ECPC 2023 Team 1">
+    <img src="/assets/images/events/2023/ECPC23-team2.jpg" alt="ECPC 2023 Team 2">
   </div>
   <div class="image-item">
-    <img src="../../assets/images/events/2023/ECPC23-team2.jpg" alt="ECPC 2023 Team 2">
+    <img src="/assets/images/events/2023/ECPC23-team3.jpg" alt="ECPC 2023 Team 3">
   </div>
   <div class="image-item">
-    <img src="../../assets/images/events/2023/ECPC23-team3.jpg" alt="ECPC 2023 Team 3">
+    <img src="/assets/images/events/2023/ECPC23-team4.jpg" alt="ECPC 2023 Team 4">
   </div>
   <div class="image-item">
-    <img src="../../assets/images/events/2023/ECPC23-team4.jpg" alt="ECPC 2023 Team 4">
+    <img src="/assets/images/events/2023/ECPC23-team5.jpg" alt="ECPC 2023 Team 5">
   </div>
   <div class="image-item">
-    <img src="../../assets/images/events/2023/ECPC23-team5.jpg" alt="ECPC 2023 Team 5">
-  </div>
-  <div class="image-item">
-    <img src="../../assets/images/events/2023/ECPC23-team6.jpg" alt="ECPC 2023 Team 6">
+    <img src="/assets/images/events/2023/ECPC23-team6.jpg" alt="ECPC 2023 Team 6">
   </div>
 </div>
 
-## 🏅 ACPC 2023 – Luxor
+## 🏅 Menofia CPC 2023
 
-We also took part in **ACPC 2023**, held in **Luxor**, with **two qualified teams**:
+Our local Menofia Collegiate Programming Contest brought together talented programmers from across the university,
+creating an engaging environment for skill development and healthy competition.
 
-- **X coders**
-- **Ultimate Alines**
-
-<div class="image-item" style="max-width: 90%; margin: 1rem auto;">
-  <img src="../../assets/images/events/2023/ACPC23.jpg" alt="ACPC 2023" loading="lazy">
+<div class="image-grid competition-gallery">
+  <div class="image-item">
+    <img src="/assets/images/events/2023/MenofiaCPC2023.jpg" alt="Menofia CPC 2023">
+  </div>
+  <div class="image-item">
+    <img src="/assets/images/events/2023/MenofiaCPC23-Coaches.jpg" alt="Menofia CPC 2023 Coaches">
+  </div>
 </div>
+
+## 🎖️ ACPC 2023 Participation
+
+The 2023 Africa and Arab Collegiate Programming Championship featured our university teams competing at the
+regional level, showcasing their programming skills and problem-solving abilities.
+
+![ACPC 2023](/assets/images/events/2023/ACPC23.jpg)

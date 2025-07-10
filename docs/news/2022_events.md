@@ -1,27 +1,30 @@
 # ACPC 2022 Highlights
 
-2022 was a landmark year for the ICPC Menofia Community, marked by strong performances and multiple teams representing us at the Africa and Arab Collegiate Programming Championship (ACPC). Our members demonstrated exceptional skill, dedication, and teamwork throughout the competition.
-
-![ACPC 2022 Banner](/assets/images/events/2022/ACPC22-banner.jpg)
+2022 marked a breakthrough year for our community, as we achieved our first-ever **Bronze Medals** at the Egyptian
+Collegiate Programming Contest (ECPC) and secured qualification for 4 teams to the Africa and Arab Collegiate
+Programming Championship (ACPC).
 
 ## Our Teams in Action
 
-Here are some moments from the event, showcasing our talented teams who competed with passion and sportsmanship.
+Here are some memorable moments from ACPC 2022, featuring our teams competing at the highest level:
 
 <div class="image-grid">
   <div class="image-item">
-    <img src="/assets/images/events/2022/ACPC-team1.jpg" alt="ACPC 2022 Team 1">
+    <img src="/assets/images/events/2022/ACPC22-banner.jpg" alt="ACPC 2022 Banner">
   </div>
   <div class="image-item">
-    <img src="/assets/images/events/2022/ACPC-team2.jpg" alt="ACPC 2022 Team 2">
+    <img src="/assets/images/events/2022/ACPC-team1.jpg" alt="Team 1 at ACPC 2022">
   </div>
   <div class="image-item">
-    <img src="/assets/images/events/2022/ACPC-team3.jpg" alt="ACPC 2022 Team 3">
+    <img src="/assets/images/events/2022/ACPC-team2.jpg" alt="Team 2 at ACPC 2022">
   </div>
   <div class="image-item">
-    <img src="/assets/images/events/2022/APCP-team4.jpg" alt="ACPC 2022 Team 4">
+    <img src="/assets/images/events/2022/ACPC-team3.jpg" alt="Team 3 at ACPC 2022">
   </div>
   <div class="image-item">
-    <img src="/assets/images/events/2022/ACPC-coaches.jpg" alt="ACPC 2022 Coaches">
+    <img src="/assets/images/events/2022/APCP-team4.jpg" alt="Team 4 at ACPC 2022">
   </div>
-</div> 
+  <div class="image-item">
+    <img src="/assets/images/events/2022/ACPC-coaches.jpg" alt="Coaches at ACPC 2022">
+  </div>
+</div>

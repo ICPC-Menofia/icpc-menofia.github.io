@@ -9,23 +9,24 @@ Welcome to the central hub for all our community session recordings. Whether you
 
 <div class="card-grid">
   <div class="card">
-    <h3><a href="./general">General Sessions</a></h3>
+    <h3><a href="#" data-link="page:general_sessions">General Sessions</a></h3>
     <p>Tips, strategies, and discussions to help you on your competitive programming journey.</p>
   </div>
   <div class="card">
-    <h3><a href="./newcomer">Newcomer Sessions</a></h3>
+    <h3><a href="#" data-link="page:newcomer_sessions">Newcomer Sessions</a></h3>
     <p>Discussions and problem-solving sessions tailored for beginners.</p>
   </div>
   <div class="card">
-    <h3><a href="./level1">Level 1 Sessions</a></h3>
+    <h3><a href="#" data-link="page:level1_sessions">Level 1 Sessions</a></h3>
     <p>Core data structures, algorithms, and number theory fundamentals.</p>
   </div>
   <div class="card">
-    <h3><a href="./level2">Level 2 Sessions</a></h3>
+    <h3><a href="#" data-link="page:level2_sessions">Level 2 Sessions</a></h3>
     <p>Advanced topics including DP, graphs, and complex data structures.</p>
   </div>
   <div class="card">
-    <h3><a href="./senior">Senior Sessions</a></h3>
+    <h3><a href="#" data-link="page:senior_sessions">Senior Sessions</a></h3>
     <p>Specialized topics and advanced problem-solving for experienced members.</p>
   </div>
 </div>
+
