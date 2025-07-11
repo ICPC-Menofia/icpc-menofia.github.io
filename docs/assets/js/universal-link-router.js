@@ -279,3 +279,6 @@ document.addEventListener('DOMContentLoaded', () => {
 window.getLink = getLink;
 
 console.log('🚀 Universal link router loaded with instant navigation support!'); 
+
+
+
