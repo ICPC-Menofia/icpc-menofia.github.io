@@ -955,17 +955,17 @@
 
 
 .blue-triangle{
-    border-bottom: 3.5rem solid  hsl(212.54deg 48.36% 52.16%);
+    border-bottom: 3.7rem solid  hsl(212.54deg 48.36% 52.16%);
 }
 
 .yellow-triangle
 {
-  border-top: 3.5rem solid hsl(48.89deg 96.43% 56.08%);
+  border-top: 3.7rem solid hsl(48.89deg 96.43% 56.08%);
 }
 
 .red-triangle
 {
-  border-bottom: 3.5rem solid hsl(3.09deg 63.55% 41.96%);
+  border-bottom: 3.7rem solid hsl(3.09deg 63.55% 41.96%);
 }
 
 [class*="triangle"]
