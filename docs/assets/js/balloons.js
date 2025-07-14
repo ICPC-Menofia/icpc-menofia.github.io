@@ -1,8 +1,12 @@
 const canvas = document.getElementById("balloonCanvas");
-  const ctx = canvas.getContext("2d");
+if (!canvas) {
+  console.error("Canvas element with ID 'balloonCanvas' not found.");
+  return;
+}
+const ctx = canvas.getContext("2d");
 
-  canvas.width = window.innerWidth;
-  canvas.height = window.innerHeight;
+canvas.width = window.innerWidth;
+canvas.height = window.innerHeight;
 
   // Handle resize
   window.addEventListener("resize", () => {
