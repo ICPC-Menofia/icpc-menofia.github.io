@@ -978,3 +978,18 @@
   border-right: 3rem solid transparent;
 }
 
+#balloonCanvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;
+  z-index: 9999;
+  display: block;
+}
+
+body
+{
+  overflow-x: hidden;
+}
