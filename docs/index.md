@@ -3,6 +3,10 @@ hide:
   - navigation
   - toc
 ---
+
+<canvas id="balloonCanvas"></canvas>
+<script src="assets/js/balloons.js"></script>
+
 <div class="triangles">
   <div class="blue-triangle"></div>
   <div class="yellow-triangle"></div>
@@ -43,3 +47,4 @@ hide:
   </div>
 </div>
 
+</body>
