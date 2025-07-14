@@ -127,7 +127,7 @@
 }
 
 .card a {
-  color: #007acc;
+  color: hwb(204 0% 20%);
   text-decoration: none;
 }
 
@@ -613,16 +613,20 @@
   }
 }
 
-[data-md-color-scheme="slate"] @keyframes pulse {
+@keyframes pulse {
   0% {
-    box-shadow: 0 2px 8px rgba(255, 193, 7, 0.3);
+    box-shadow: 0 2px 8px rgba(51, 102, 153, 0.3);
   }
   50% {
-    box-shadow: 0 2px 8px rgba(255, 193, 7, 0.6), 0 0 0 4px rgba(255, 193, 7, 0.1);
+    box-shadow: 0 2px 8px rgba(51, 102, 153, 0.6), 0 0 0 4px rgba(51, 102, 153, 0.1);
   }
   100% {
-    box-shadow: 0 2px 8px rgba(255, 193, 7, 0.3);
+    box-shadow: 0 2px 8px rgba(51, 102, 153, 0.3);
   }
+}
+
+[data-md-color-scheme="slate"] .some-element {
+  animation-name: pulse;
 }
 
 .topic-list {
@@ -944,4 +948,48 @@
 
 .coaches-section-integrated .level1-coaches {
   margin: 1.5rem 0 0 0;
+}
+
+.triangles {
+  
+  display: flex;
+  justify-content: center;  
+ 
+}
+
+
+.blue-triangle{
+    border-bottom: 3.7rem solid  hsl(212.54deg 48.36% 52.16%);
+}
+
+.yellow-triangle
+{
+  border-top: 3.7rem solid hsl(48.89deg 96.43% 56.08%);
+}
+
+.red-triangle
+{
+  border-bottom: 3.7rem solid hsl(3.09deg 63.55% 41.96%);
+}
+
+[class*="triangle"]
+{
+  border-left: 3rem solid transparent;
+  border-right: 3rem solid transparent;
+}
+
+#balloonCanvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;
+  z-index: var(--z-index-overlay);
+  display: block;
+}
+
+body
+{
+  overflow-x: hidden;
 }

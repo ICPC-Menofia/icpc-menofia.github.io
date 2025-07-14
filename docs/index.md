@@ -3,11 +3,18 @@ hide:
   - navigation
   - toc
 ---
+<canvas id="balloonCanvas"></canvas>
+<script src="assets/js/balloons.js"></script>
+
+<div class="triangles">
+  <div class="blue-triangle"></div>
+  <div class="yellow-triangle"></div>
+  <div class="red-triangle"></div>
+</div>
 
 <div class="hero-section">
   <h1>Welcome to the ICPC Menofia Community</h1>
   <p class="md-typeset hero-subtitle">Your hub for competitive programming at Menofia University. We provide the training, resources, and support you need to excel.</p>
-  <img src="assets/images/community_banner.jpg" alt="ICPC Menofia Community Banner" loading="lazy">
   <div class="hero-buttons">
     <a href="#" data-link="external:discord" target="_blank" class="md-button md-button--primary md-button--large">Join Our Discord</a>
 <a href="#" data-link="page:about" class="md-button md-button--large">Learn More</a>
@@ -39,3 +46,4 @@ hide:
   </div>
 </div>
 
+</body>
