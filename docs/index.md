@@ -3,7 +3,6 @@ hide:
   - navigation
   - toc
 ---
-<body>
 <canvas id="balloonCanvas"></canvas>
 <script src="assets/js/balloons.js"></script>
 
