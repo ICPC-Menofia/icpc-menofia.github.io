@@ -43,12 +43,13 @@ make a real difference.</p>
   <div class="card contributor-card">
     <img src="https://github.com/Abdelrhmansersawy.png" alt="Abdelrhmansersawy's avatar" class="contributor-avatar">
     <h3>Abdelrhmansersawy</h3>
-    <span class="admin-tag">Site Maintainer</span>
+    <span class="admin-tag">Site Admin</span>
     <a href="https://github.com/Abdelrhmansersawy" target="_blank" class="md-button">View Profile</a>
   </div>
   <div class="card contributor-card">
     <img src="https://github.com/Abo-Omar-74.png" alt="Abo-Omar-74's avatar" class="contributor-avatar">
     <h3>Abo-Omar-74</h3>
+    <span class="admin-tag">Site Maintainer</span>
     <a href="https://github.com/Abo-Omar-74" target="_blank" class="md-button">View Profile</a>
   </div>
   <div class="card contributor-card">
@@ -80,5 +81,10 @@ make a real difference.</p>
     <img src="https://github.com/Ameensakr.png" alt="Ameensakr's avatar" class="contributor-avatar">
     <h3>Ameen-sakr</h3>
     <a href="https://github.com/Ameensakr" target="_blank" class="md-button">View Profile</a>
+  </div>
+  <div class="card contributor-card">
+    <img src="https://github.com/RokayaOthman.png" alt="RokayaOthman's avatar" class="contributor-avatar">
+    <h3>RokayaOthman</h3>
+    <a href="https://github.com/RokayaOthman" target="_blank" class="md-button">View Profile</a>
   </div>
 </div>
