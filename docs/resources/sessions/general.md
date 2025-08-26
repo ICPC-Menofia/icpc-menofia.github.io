@@ -22,6 +22,13 @@ This page archives all general sessions, tips, and strategies to help you in you
     </thead>
     <tbody>
         <tr>
+            <td>ICPC Team Contest Team Strategy</td>
+            <td>
+               <a data-link="coach:amr_hassen">Amr Hassen</a>
+            </td>
+            <td><a href="https://www.youtube.com/watch?v=KVRqLD8oO78" target="_blank">View</a></td>
+        </tr>
+        <tr>
             <td>Contest Team Strategy</td>
             <td>
                <a data-link="coach:abdelrhman_sersawy">Abdelrhman Sersawy</a>
