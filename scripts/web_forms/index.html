@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ICPC Menofia - Content Management</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Roboto', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #2c3e50 0%, #3498db 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        
+        .header p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+        
+        .quick-access {
+            margin-top: 20px;
+            padding: 15px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 8px;
+            font-size: 0.9rem;
+        }
+        
+        .quick-access code {
+            background: rgba(255, 255, 255, 0.2);
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-family: 'Courier New', monospace;
+        }
+        
+        .site-link {
+            color: #fff;
+            text-decoration: underline;
+            font-family: 'Courier New', monospace;
+            background: rgba(255, 255, 255, 0.2);
+            padding: 2px 6px;
+            border-radius: 4px;
+            transition: background-color 0.3s ease;
+        }
+        
+        .site-link:hover {
+            background: rgba(255, 255, 255, 0.3);
+            text-decoration: none;
+        }
+        
+        .form-section {
+            padding: 40px;
+        }
+        
+        .tab-buttons {
+            display: flex;
+            margin-bottom: 30px;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        
+        .tab-button {
+            flex: 1;
+            padding: 15px 20px;
+            background: #f8f9fa;
+            border: none;
+            cursor: pointer;
+            font-size: 1rem;
+            font-weight: 500;
+            transition: all 0.3s ease;
+        }
+        
+        .tab-button.active {
+            background: #3498db;
+            color: white;
+        }
+        
+        .tab-button:hover {
+            background: #e9ecef;
+        }
+        
+        .tab-button.active:hover {
+            background: #2980b9;
+        }
+        
+        .form-content {
+            display: none;
+        }
+        
+        .form-content.active {
+            display: block;
+        }
+        
+        .form-group {
+            margin-bottom: 25px;
+        }
+        
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 500;
+            color: #2c3e50;
+        }
+        
+        .form-group input,
+        .form-group textarea,
+        .form-group select {
+            width: 100%;
+            padding: 12px 15px;
+            border: 2px solid #e9ecef;
+            border-radius: 8px;
+            font-size: 1rem;
+            transition: border-color 0.3s ease;
+        }
+        
+        .form-group input:focus,
+        .form-group textarea:focus,
+        .form-group select:focus {
+            outline: none;
+            border-color: #3498db;
+        }
+        
+        .form-group textarea {
+            resize: vertical;
+            min-height: 100px;
+        }
+        
+        .form-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+        
+        .submit-btn {
+            background: linear-gradient(135deg, #27ae60 0%, #2ecc71 100%);
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 8px;
+            font-size: 1.1rem;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            width: 100%;
+        }
+        
+        .submit-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(39, 174, 96, 0.3);
+        }
+        
+        .required {
+            color: #e74c3c;
+        }
+        
+        .help-text {
+            font-size: 0.9rem;
+            color: #666;
+            margin-top: 5px;
+        }
+        
+        .topics-input {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            align-items: center;
+        }
+        
+        .topic-tag {
+            background: #3498db;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+        
+        .topic-remove {
+            cursor: pointer;
+            background: rgba(255,255,255,0.3);
+            border-radius: 50%;
+            width: 18px;
+            height: 18px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 12px;
+        }
+        
+        .status-message {
+            margin-top: 20px;
+            padding: 15px;
+            border-radius: 8px;
+            display: none;
+        }
+        
+        .status-message.success {
+            background: #d4edda;
+            color: #155724;
+            border: 1px solid #c3e6cb;
+        }
+        
+        .status-message.error {
+            background: #f8d7da;
+            color: #721c24;
+            border: 1px solid #f5c6cb;
+        }
+        
+        @media (max-width: 768px) {
+            .form-row {
+                grid-template-columns: 1fr;
+            }
+            
+            .header h1 {
+                font-size: 2rem;
+            }
+            
+            .form-section {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Content Management</h1>
+            <p>Add new coaches and session resources to the ICPC Menofia website</p>
+            <div class="quick-access">
+                <p><strong>Content Management:</strong> <code>http://localhost:5000</code></p>
+                <p><strong>Live Site Preview:</strong> <a href="http://localhost:8000" target="_blank" class="site-link">http://localhost:8000</a></p>
+                <p><small>Start form server: <code>cd scripts && python3 process_form_submission.py</code></small></p>
+                <p><small>Start site server: <code>mkdocs serve</code></small></p>
+            </div>
+        </div>
+        
+        <div class="form-section">
+            <div class="tab-buttons">
+                <button class="tab-button active" onclick="switchTab('coach')">Add Coach</button>
+                <button class="tab-button" onclick="switchTab('session')">Add Session</button>
+            </div>
+            
+            <!-- Coach Form -->
+            <div id="coach-form" class="form-content active">
+                <h2>Add New Coach</h2>
+                <form id="coachForm">
+                    <div class="form-group">
+                        <label for="coach-name">Full Name <span class="required">*</span></label>
+                        <input type="text" id="coach-name" name="name" required>
+                    </div>
+                    
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="coach-title">Job Title</label>
+                            <input type="text" id="coach-title" name="title" placeholder="e.g., Software Engineer">
+                        </div>
+                        <div class="form-group">
+                            <label for="coach-company">Company</label>
+                            <input type="text" id="coach-company" name="company" placeholder="e.g., Microsoft">
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="coach-achievements">Achievements</label>
+                        <input type="text" id="coach-achievements" name="achievements" placeholder="e.g., ECPC Bronze Medialist | 3x ACPC finalist">
+                        <div class="help-text">Competitive programming achievements and notable accomplishments</div>
+                    </div>
+                    
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="coach-linkedin">LinkedIn URL</label>
+                            <input type="url" id="coach-linkedin" name="linkedin" placeholder="https://linkedin.com/in/username">
+                        </div>
+                        <div class="form-group">
+                            <label for="coach-github">GitHub URL</label>
+                            <input type="url" id="coach-github" name="github" placeholder="https://github.com/username">
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="coach-codeforces">Codeforces URL</label>
+                        <input type="url" id="coach-codeforces" name="codeforces" placeholder="https://codeforces.com/profile/username">
+                    </div>
+                    
+                    <button type="submit" class="submit-btn">Add Coach</button>
+                </form>
+            </div>
+            
+            <!-- Session Form -->
+            <div id="session-form" class="form-content">
+                <h2>Add New Session</h2>
+                <form id="sessionForm">
+                    <div class="form-group">
+                        <label for="session-title">Session Title <span class="required">*</span></label>
+                        <input type="text" id="session-title" name="title" required>
+                    </div>
+                    
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="session-level">Level <span class="required">*</span></label>
+                            <select id="session-level" name="level" required>
+                                <option value="">Select Level</option>
+                                <option value="general">General</option>
+                                <option value="newcomer">Newcomer</option>
+                                <option value="level1">Level 1</option>
+                                <option value="level2">Level 2</option>
+                                <option value="senior">Senior</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="session-date">Session Date</label>
+                            <input type="date" id="session-date" name="date">
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="session-instructor">Instructor</label>
+                        <input type="text" id="session-instructor" name="instructor" placeholder="Instructor name">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="session-description">Description</label>
+                        <textarea id="session-description" name="description" placeholder="Brief description of the session content"></textarea>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="session-topics">Topics Covered</label>
+                        <div class="topics-input" id="topics-container">
+                            <input type="text" id="topic-input" placeholder="Enter a topic and press Enter">
+                        </div>
+                        <div class="help-text">Press Enter to add each topic</div>
+                    </div>
+                    
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="session-recording">Recording URL</label>
+                            <input type="url" id="session-recording" name="recording_url" placeholder="https://youtube.com/watch?v=...">
+                        </div>
+                        <div class="form-group">
+                            <label for="session-slides">Slides URL</label>
+                            <input type="url" id="session-slides" name="slides_url" placeholder="https://docs.google.com/presentation/...">
+                        </div>
+                    </div>
+                    
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="session-problems">Problems URL</label>
+                            <input type="url" id="session-problems" name="problems_url" placeholder="https://codeforces.com/group/...">
+                        </div>
+                        <div class="form-group">
+                            <label for="session-code">Code URL</label>
+                            <input type="url" id="session-code" name="code_url" placeholder="https://github.com/...">
+                        </div>
+                    </div>
+                    
+                    <button type="submit" class="submit-btn">Add Session</button>
+                </form>
+            </div>
+            
+            <div id="status-message" class="status-message"></div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html> 

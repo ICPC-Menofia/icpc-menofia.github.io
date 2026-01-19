@@ -1,2 +1,4 @@
 mkdocs
-mkdocs-material 
+mkdocs-material
+flask
+flask-cors 
